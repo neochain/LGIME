@@ -1,0 +1,634 @@
+/* 
+ * A2 Lab, Mobile Communication Company, LG ELECTRONICS INC., SEOUL, KOREA 
+ * Copyright(c) 2011 by LG Electronics Inc. 
+ * 
+ * All rights reserved. No part of this work may be reproduced, stored in a 
+ * retrieval system, or transmitted by any means without prior written 
+ * Permission of LG Electronics Inc. 
+ */
+
+package com.lge.ime.util;
+
+import android.content.*;
+import android.content.res.*;
+import android.os.*;
+import android.util.*;
+
+public class Debug {
+    private static final String NULL = "null";
+
+    private static final String TAG = "Debug";
+
+    public static final boolean LOG_ENABLED_DEFAULT = true;
+    public static final int LOG_LEVEL_V = 1;
+    public static final int LOG_LEVEL_D = 2;
+    public static final int LOG_LEVEL_I = 4;
+    public static final int LOG_LEVEL_W = 8;
+    public static final int LOG_LEVEL_E = 16;
+    public static final int LOG_LEVEL_ALL = 0x1F;
+    public static final int LOG_LEVEL_DEFAULT = LOG_LEVEL_D | LOG_LEVEL_I | LOG_LEVEL_W | LOG_LEVEL_E;
+
+    private static final String FORMAT = "[%s:%d:%s.%s()] %s";
+    private static final String INTENT_DEBUG_ON = "com.lge.ime.INTENT_DEBUG_ON";
+    private static final String INTENT_DEBUG_OFF = "com.lge.ime.INTENT_DEBUG_OFF";
+    private static final String INTENT_DEBUG_LEVEL = "com.lge.ime.INTENT_DEBUG_LEVEL";
+    private static final String INTENT_DEBUG_LEVEL_REQUEST = "com.lge.ime.INTENT_DEBUG_LEVEL_REQUEST";
+    private static final String INTENT_DEBUG_LEVEL_REPLY = "com.lge.ime.INTENT_DEBUG_LEVEL_REPLY";
+    private static final String INTENT_DEBUG_SET_MCC_MNC = "com.lge.ime.INTENT_DEBUG_MCC_MNC";
+    private static final String INTENT_DEBUG_ENG_REQUEST = "com.lge.ime.INTENT_DEBUG_ENG_REQUEST";
+    private static final String INTENT_DEBUG_ENG_REPLY = "com.lge.ime.INTENT_DEBUG_ENG_REPLY";
+    private static final String INTENT_DEBUG_ENG_ON = "com.lge.ime.INTENT_DEBUG_ENG_ON";
+    private static final String INTENT_DEBUG_ENG_OFF = "com.lge.ime.INTENT_DEBUG_ENG_OFF";
+    
+    // 20130205 jerry.kang@lge.com Debug option load/save
+    private static final String DEBUG_OPTION_FILE = "debug-option";
+    private static final String KEY_DEBUG = "debug";
+    private static final String KEY_LOG_LEVEL = "log-level";
+
+    private static boolean sDebug = LOG_ENABLED_DEFAULT;
+    // 20110920 jerry.kang@lge.com Remove the verbose flag from the default
+    // debug flag.
+    private static int sLogLevel = LOG_LEVEL_DEFAULT;
+    private static DebugBroadcastReceiver sReceiver;
+    private static Object[] sArrayForGetMessage;
+    private static boolean sEngineering = false;
+    // 20121220 jerry.kang@lge.com To prevent to exceptions for Multi-threading
+    private static LogHandler sLogHandler;
+    // 20130205 jerry.kang@lge.com Debug option load/save
+    private static SharedPreferences sSharedPreference;
+
+    private static final class DebugBroadcastReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (intent == null)
+                return;
+
+            String action = intent.getAction();
+            if (action == null)
+                return;
+
+            /* log on */
+            if (action.equals(INTENT_DEBUG_ON)) {
+                if (!sDebug) {
+                    sDebug = true;
+                    if (sSharedPreference != null) {
+                        PreferenceUtil.storeBoolean(sSharedPreference, KEY_DEBUG, true);
+                    }
+                    Log.i(TAG, "Debugging Log ON!!");
+                }
+            }
+            /* log off */
+            else if (action.equals(INTENT_DEBUG_OFF)) {
+                if (sDebug) {
+                    sDebug = false;
+                    if (sSharedPreference != null) {
+                        PreferenceUtil.storeBoolean(sSharedPreference, KEY_DEBUG, false);
+                    }
+                    Log.i(TAG, "Debugging Log OFF!!");
+                }
+            }
+            /* log level */
+            else if (action.equals(INTENT_DEBUG_LEVEL)) {
+                int level = intent.getIntExtra("level", LOG_LEVEL_ALL);
+                if (level != sLogLevel) {
+                    sLogLevel = level;
+                    if (sSharedPreference != null) {
+                        PreferenceUtil.storeInteger(sSharedPreference, KEY_LOG_LEVEL, level);
+                    }
+                    Log.i(TAG, String.format("Log Level is CHANGED into '0x%X'", level));
+                }
+            }
+            /* log level request */
+            else if (action.equals(INTENT_DEBUG_LEVEL_REQUEST)) {
+                int level = sLogLevel;
+                Intent newIntent = new Intent(INTENT_DEBUG_LEVEL_REPLY);
+                newIntent.putExtra("level", level);
+                context.sendBroadcast(newIntent);
+            }
+            /* 20101101 dongseok.lee : change MCC MNC */
+            else if (action.equals(INTENT_DEBUG_SET_MCC_MNC)) {
+                String strMCC = (String) intent.getCharSequenceExtra("mcc");
+                String strMNC = (String) intent.getCharSequenceExtra("mnc");
+
+                // SystemProperties.set(TelephonyProperties.PROPERTY_ICC_OPERATOR_NUMERIC,
+                // strMCC + strMNC);
+
+                Resources orig = context.getResources();
+                Configuration conf = orig.getConfiguration();
+
+                try {
+                    conf.mcc = Integer.parseInt(strMCC);
+                    conf.mnc = Integer.parseInt(strMNC);
+                    orig.updateConfiguration(conf, orig.getDisplayMetrics());
+
+                    Log.i(TAG, String.format("Change Config(mcc:%s,mnc:%s)", strMCC, strMNC));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            /* 20111129 jerry.kang@lge.com add engineering mode*/
+            else if (action.equals(INTENT_DEBUG_ENG_REQUEST)) {
+                Intent newIntent = new Intent(INTENT_DEBUG_ENG_REPLY);
+                newIntent.putExtra("eng", isEngineeringMode());
+                context.sendBroadcast(newIntent);
+            } else if (action.equals(INTENT_DEBUG_ENG_ON)) {
+                sEngineering = true;
+            } else if (action.equals(INTENT_DEBUG_ENG_OFF)) {
+                sEngineering = false;
+            }
+        }
+    }
+    
+    // 20121220 jerry.kang@lge.com To prevent to exceptions for Multi-threading
+    private static final class LogHandler extends android.os.Handler {
+        static final int MSG_LOG = 0;
+
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case MSG_LOG: {
+                    if (msg.obj != null && msg.obj instanceof LogData) {
+                        LogData data = (LogData)msg.obj;
+                        Log.println(data.level, data.tag, data.message);
+                    }
+                    break;
+                }
+
+                default: {
+                    break;
+                }
+            }
+        }
+    }
+    
+    private static final class LogData {
+        int level;
+        String tag;
+        String message;
+    }
+
+    /**
+     * Initialize Debug class.
+     * 
+     * @param context (in) Context instance
+     */
+    public static void initialize(Context context) {
+        if (sReceiver == null) {
+            IntentFilter filter = new IntentFilter();
+            filter.addAction(INTENT_DEBUG_ON);
+            filter.addAction(INTENT_DEBUG_OFF);
+            filter.addAction(INTENT_DEBUG_LEVEL);
+            filter.addAction(INTENT_DEBUG_LEVEL_REQUEST);
+            /* 20111101 dongseok.lee : change MCC MNC */
+            filter.addAction(INTENT_DEBUG_SET_MCC_MNC);
+            /* 20111129 jerry.kang@lge.com add engineering mode*/
+            filter.addAction(INTENT_DEBUG_ENG_REQUEST);
+            filter.addAction(INTENT_DEBUG_ENG_ON);
+            filter.addAction(INTENT_DEBUG_ENG_OFF);
+
+            sReceiver = new DebugBroadcastReceiver();
+            context.registerReceiver(sReceiver, filter);
+        }
+        
+        // 20121220 jerry.kang@lge.com To prevent to exceptions for Multi-threading
+        if (sLogHandler == null) {
+            sLogHandler = new LogHandler();
+        }
+        
+        // 20130205 jerry.kang@lge.com Debug option load/save
+        sSharedPreference = context.getSharedPreferences(DEBUG_OPTION_FILE, Context.MODE_PRIVATE);
+        if (sSharedPreference != null) {
+            sDebug = PreferenceUtil.loadBoolean(sSharedPreference, KEY_DEBUG, sDebug);
+            sLogLevel = PreferenceUtil.loadInteger(sSharedPreference, KEY_LOG_LEVEL, sLogLevel);
+        }
+    }
+
+    /**
+     * Clear useless resources.
+     * 
+     * @param context (in) Context instance
+     */
+    public static void clear(Context context) {
+        if (sReceiver != null)
+            context.unregisterReceiver(sReceiver);
+        sReceiver = null;
+
+        sArrayForGetMessage = null;
+        
+        // 20121220 jerry.kang@lge.com To prevent to exceptions for Multi-threading
+        if (sLogHandler != null) {
+            sLogHandler.removeMessages(LogHandler.MSG_LOG);
+            sLogHandler = null;
+        }
+        
+        // 20130205 jerry.kang@lge.com Debug option load/save
+        sSharedPreference = null;
+    }
+
+    /**
+     * Return if the debugging log is enabled or not.
+     * 
+     * @return true when enabled
+     */
+    public static final boolean enabled() {
+        return sDebug;
+    }
+
+    /**
+     * Return if the debugging log is enabled or not.
+     * 
+     * @param logLevel (in) logging level to confirm
+     * @return true when enabled
+     */
+    public static final boolean enabled(int logLevel) {
+        return sDebug && (sLogLevel & logLevel) != 0;
+    }
+    
+    /**
+     * Return if the current mode is the engineering mode
+     * 
+     * @return true on engineering mode
+     */
+    public static final boolean isEngineeringMode() {
+        return sEngineering;
+    }
+
+    private static StackTraceElement getCaller() {
+        StackTraceElement[] elems = Thread.currentThread().getStackTrace();
+        return elems[4];
+    }
+
+    private static String getMessage(StackTraceElement caller, String message) {
+        String className = caller.getClassName();
+        String methodName = caller.getMethodName();
+        String fileName = caller.getFileName();
+        int lineNumber = caller.getLineNumber();
+
+        int length = className.length();
+        for (int index = 0; index < length; ++index) {
+            char c = className.charAt(index);
+            if (Character.isUpperCase(c)) {
+                className = className.substring(index);
+                break;
+            }
+        }
+
+        Object[] array = getArray();
+        array[0] = fileName;
+        array[1] = lineNumber;
+        array[2] = className;
+        array[3] = methodName;
+        array[4] = message;
+        return String.format(FORMAT, array);
+    }
+
+    private static final Object[] getArray() {
+        if (sArrayForGetMessage == null)
+            sArrayForGetMessage = new Object[5];
+        Object[] array = sArrayForGetMessage;
+        return array;
+    }
+
+    private static void checkNull(Object[] args) {
+        if (args == null)
+            return;
+
+        for (int i = 0; i < args.length; ++i) {
+            if (args[i] == null)
+                args[i] = NULL;
+        }
+    }
+
+    private static final void println(int level, String tag, String message) {
+        LogData data = new LogData();
+        data.level = level;
+        data.tag = tag;
+        data.message = message;
+        
+        if (sLogHandler != null) {
+            Message msg = sLogHandler.obtainMessage(LogHandler.MSG_LOG, data);
+            sLogHandler.sendMessage(msg);
+        }
+    }
+
+    private static final void println(int level, String tag, StackTraceElement caller,
+            String message) {
+        if (sLogHandler != null) {
+            synchronized (sLogHandler) {
+                message = getMessage(caller, message);
+                println(level, tag, message);
+            }
+        }
+    }
+
+    private static final void println(int level, String tag, StackTraceElement caller, String fmt,
+            Object arg0) {
+        if (arg0 == null)
+            arg0 = NULL;
+
+        if (sLogHandler != null) {
+            synchronized (sLogHandler) {
+                Object[] args = getArray();
+                args[0] = arg0;
+        
+                String message = String.format(fmt, args);
+                message = getMessage(caller, message);
+                println(level, tag, message);
+            }
+        }
+    }
+
+    private static final void println(int level, String tag, StackTraceElement caller, String fmt,
+            Object arg0, Object arg1) {
+        if (arg0 == null)
+            arg0 = NULL;
+        if (arg1 == null)
+            arg1 = NULL;
+
+        if (sLogHandler != null) {
+            synchronized (sLogHandler) {
+                Object[] args = getArray();
+                args[0] = arg0;
+                args[1] = arg1;
+        
+                String message = String.format(fmt, args);
+                message = getMessage(caller, message);
+                println(level, tag, message);
+            }
+        }
+    }
+
+    private static final void println(int level, String tag, StackTraceElement caller, String fmt,
+            Object... args) {
+        checkNull(args);
+        
+        if (sLogHandler != null) {
+            synchronized (sLogHandler) {
+                String message = String.format(fmt, args);
+                message = getMessage(caller, message);
+                println(level, tag, message);
+            }
+        }
+    }
+
+    /**
+     * Log verbose message.
+     * 
+     * @param tag (in) tag
+     * @param message (in) Java format string
+     */
+    public static final void v(String tag, String message) {
+        if (enabled(LOG_LEVEL_V)) {
+            println(Log.VERBOSE, tag, getCaller(), message);
+        }
+    }
+
+    /**
+     * Log verbose message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     */
+    public static final void v(String tag, String fmt, Object arg0) {
+        if (enabled(LOG_LEVEL_V)) {
+            println(Log.VERBOSE, tag, getCaller(), fmt, arg0);
+        }
+    }
+
+    /**
+     * Log verbose message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     * @param arg1 (in) format arguments
+     */
+    public static final void v(String tag, String fmt, Object arg0, Object arg1) {
+        if (enabled(LOG_LEVEL_V)) {
+            println(Log.VERBOSE, tag, getCaller(), fmt, arg0, arg1);
+        }
+    }
+
+    /**
+     * Log verbose message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param args (in) format arguments
+     */
+    public static final void v(String tag, String fmt, Object... args) {
+        if (enabled(LOG_LEVEL_V)) {
+            println(Log.VERBOSE, tag, getCaller(), fmt, args);
+        }
+    }
+
+    /**
+     * Log debug message.
+     * 
+     * @param tag (in) tag
+     * @param message (in) Java format string
+     */
+    public static final void d(String tag, String message) {
+        if (enabled(LOG_LEVEL_D)) {
+            println(Log.DEBUG, tag, getCaller(), message);
+        }
+    }
+
+    /**
+     * Log debug message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     */
+    public static final void d(String tag, String fmt, Object arg0) {
+        if (enabled(LOG_LEVEL_D)) {
+            println(Log.DEBUG, tag, getCaller(), fmt, arg0);
+        }
+    }
+
+    /**
+     * Log debug message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     * @param arg1 (in) format arguments
+     */
+    public static final void d(String tag, String fmt, Object arg0, Object arg1) {
+        if (enabled(LOG_LEVEL_D)) {
+            println(Log.DEBUG, tag, getCaller(), fmt, arg0, arg1);
+        }
+    }
+
+    /**
+     * Log debug message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param args (in) format arguments
+     */
+    public static final void d(String tag, String fmt, Object... args) {
+        if (enabled(LOG_LEVEL_D)) {
+            println(Log.DEBUG, tag, getCaller(), fmt, args);
+        }
+    }
+
+    /**
+     * Log information message.
+     * 
+     * @param tag (in) tag
+     * @param message (in) Java format string
+     */
+    public static final void i(String tag, String message) {
+        if (enabled(LOG_LEVEL_I)) {
+            println(Log.INFO, tag, getCaller(), message);
+        }
+    }
+
+    /**
+     * Log information message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     */
+    public static final void i(String tag, String fmt, Object arg0) {
+        if (enabled(LOG_LEVEL_I)) {
+            println(Log.INFO, tag, getCaller(), fmt, arg0);
+        }
+    }
+
+    /**
+     * Log information message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     * @param arg1 (in) format arguments
+     */
+    public static final void i(String tag, String fmt, Object arg0, Object arg1) {
+        if (enabled(LOG_LEVEL_I)) {
+            println(Log.INFO, tag, getCaller(), fmt, arg0, arg1);
+        }
+    }
+
+    /**
+     * Log information message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param args (in) format arguments
+     */
+    public static final void i(String tag, String fmt, Object... args) {
+        if (enabled(LOG_LEVEL_I)) {
+            println(Log.INFO, tag, getCaller(), fmt, args);
+        }
+    }
+
+    /**
+     * Log warning message.
+     * 
+     * @param tag (in) tag
+     * @param message (in) Java format string
+     */
+    public static final void w(String tag, String message) {
+        if (enabled(LOG_LEVEL_W)) {
+            println(Log.WARN, tag, getCaller(), message);
+        }
+    }
+
+    /**
+     * Log warning message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     */
+    public static final void w(String tag, String fmt, Object arg0) {
+        if (enabled(LOG_LEVEL_W)) {
+            println(Log.WARN, tag, getCaller(), fmt, arg0);
+        }
+    }
+
+    /**
+     * Log warning message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     * @param arg1 (in) format arguments
+     */
+    public static final void w(String tag, String fmt, Object arg0, Object arg1) {
+        if (enabled(LOG_LEVEL_W)) {
+            println(Log.WARN, tag, getCaller(), fmt, arg0, arg1);
+        }
+    }
+
+    /**
+     * Log warning message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param args (in) format arguments
+     */
+    public static final void w(String tag, String fmt, Object... args) {
+        if (enabled(LOG_LEVEL_W)) {
+            println(Log.WARN, tag, getCaller(), fmt, args);
+        }
+    }
+
+    /**
+     * Log error message.
+     * 
+     * @param tag (in) tag
+     * @param message (in) Java format string
+     */
+    public static final void e(String tag, String message) {
+        if (enabled(LOG_LEVEL_E)) {
+            println(Log.ERROR, tag, getCaller(), message);
+        }
+    }
+
+    /**
+     * Log error message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     */
+    public static final void e(String tag, String fmt, Object arg0) {
+        if (enabled(LOG_LEVEL_E)) {
+            println(Log.ERROR, tag, getCaller(), fmt, arg0);
+        }
+    }
+
+    /**
+     * Log error message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param arg0 (in) format arguments
+     * @param arg1 (in) format arguments
+     */
+    public static final void e(String tag, String fmt, Object arg0, Object arg1) {
+        if (enabled(LOG_LEVEL_E)) {
+            println(Log.ERROR, tag, getCaller(), fmt, arg0, arg1);
+        }
+    }
+
+    /**
+     * Log error message.
+     * 
+     * @param tag (in) tag
+     * @param fmt (in) Java format string
+     * @param args (in) format arguments
+     */
+    public static final void e(String tag, String fmt, Object... args) {
+        if (enabled(LOG_LEVEL_E)) {
+            println(Log.ERROR, tag, getCaller(), fmt, args);
+        }
+    }
+
+}
