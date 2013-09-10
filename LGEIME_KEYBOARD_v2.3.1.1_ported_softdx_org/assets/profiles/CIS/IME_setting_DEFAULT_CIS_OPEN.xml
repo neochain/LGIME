@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+
+    LGEIME Auto Profile Database File
+
+        CIS Open CA
+    
+    Last update : 2012. 1. 20.
+    Updater     : HyungSik Kim (hyungsik1.kim@lge.com)
+
+    ***************************************************
+                   Generation Rule
+    ***************************************************
+       1. XML must include one <commomprofile> item.
+
+       2. If the value of item is same with that of
+          <commonprofile> item, it don't need to be
+          described.
+
+       3. The name of country should never follow 
+          the name of language, basically.
+
+       4. CAUTION : *For some special cases*, the name 
+          of country must follow the name of 
+          language.
+
+              A. en & QWERTZ ==> en_AT
+              B. en & AZERTY ==> en_FR
+              C. sr          ==> sr_RS
+              D. fr & QWERTY ==> fr_CA
+              E. fr & QWERTZ ==> fr_CH
+              F. it & QWERTZ ==> it_CH
+              G. nl & AZERTY ==> nl_BE
+			  H. S Chinese   ==> zh_CN
+			  I. T Chinese(HK)=> zh_HK
+			  J. T Chinese(TW)=> zh_TW
+-->
+
+
+
+<!-- 
+Atomatically generated with EURD PCMS XML generator for Android
+For More information, please contact Thomas Berger <thomas.berger@lge.com>
+
+Content : Provider settings Data
+
+!!!!!  WARNING !!!!! 
+This file should be currently used only for test only.
+Please continue to use Exported Excel files as trusted source of information
+
+-->
+<profiles>
+	<commonprofile>
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>en</item>
+		<item name='ALTERNATIVE_LANGUAGE'>-</item>
+	</commonprofile>
+	<profile>
+		<siminfo operator="MTS" country="RU" mcc="250" mnc="01" />
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Beeline" country="RU" mcc="250" mnc="99" />
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Megafon" country="RU" mcc="250" mnc="02" />
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Tele2" country="RU" mcc="250" mnc="20" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Beeline" country="KZ" mcc="401" mnc="01" />
+		<item name='DEFAULT_LANGUAGE'>kk</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Kcell" country="KZ" mcc="401" mnc="02" />
+		<item name='DEFAULT_LANGUAGE'>kk</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="NEO" country="KZ" mcc="401" mnc="77" />
+		<item name='DEFAULT_LANGUAGE'>kk</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Orange" country="MD" mcc="259" mnc="01" />
+		<item name='DEFAULT_LANGUAGE'>ro</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Moldcell" country="MD" mcc="259" mnc="02" />
+		<item name='DEFAULT_LANGUAGE'>ro</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="MTS" country="UA" mcc="255" mnc="01" />
+		<item name='DEFAULT_LANGUAGE'>uk</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="BeeLine" country="UA" mcc="255" mnc="02" />
+		<item name='DEFAULT_LANGUAGE'>uk</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Life" country="UA" mcc="255" mnc="06" />
+		<item name='DEFAULT_LANGUAGE'>uk</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Kyivstar" country="UA" mcc="255" mnc="03" />
+		<item name='DEFAULT_LANGUAGE'>uk</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="Utel" country="UA" mcc="255" mnc="07" />
+		<item name='DEFAULT_LANGUAGE'>uk</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="MTS" country="UZ" mcc="434" mnc="07" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="BeeLine" country="UZ" mcc="434" mnc="04" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	<profile>
+		<siminfo operator="UCELL" country="UZ" mcc="434" mnc="05" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>ru</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+    <profile>
+        <siminfo operator="EMT" country="EE" mcc="248" mnc="01" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>et</item>
+    </profile>
+    <profile>
+        <siminfo operator="TL2" country="EE" mcc="248" mnc="03" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>et</item>
+    </profile>
+    <profile>
+        <siminfo operator="ELS" country="EE" mcc="248" mnc="02" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>et</item>
+    </profile>
+    <profile>
+        <siminfo operator="ONT" country="LT" mcc="246" mnc="01" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lt</item>
+    </profile>
+    <profile>
+        <siminfo operator="TL2" country="LT" mcc="246" mnc="03" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lt</item>
+    </profile>
+    <profile>
+        <siminfo operator="BIT" country="LT" mcc="246" mnc="02" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lt</item>
+    </profile>
+    <profile>
+        <siminfo operator="BIT" country="LV" mcc="247" mnc="05" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lv</item>
+    </profile>
+    <profile>
+        <siminfo operator="LMT" country="LV" mcc="247" mnc="01" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lv</item>
+    </profile>
+    <profile>
+        <siminfo operator="TL2" country="LV" mcc="247" mnc="02" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='DEFAULT_LANGUAGE'>lv</item>
+    </profile>
+</profiles>

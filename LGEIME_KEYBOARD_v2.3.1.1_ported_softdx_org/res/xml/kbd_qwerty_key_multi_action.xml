@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtraMultiKey
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <MultiKey ime:keyIconName="ime_keypad_icon_mic_s" ime:keyIconBgName="ime_keypad_btn_more" ime:codes="@integer/keycode_voice" ime:keyLabel="Voice" ime:condition="voice_enabled" ime:keyMultiActionIconName="ime_keypad_icon_mic_normal" ime:keyMultiActionPressedIconName="ime_keypad_icon_mic_pressed" />
+    <MultiKey ime:keyIconName="ime_keypad_icon_handwriting_l" ime:keyIconBgName="ime_keypad_btn_more" ime:codes="@integer/keycode_handwriting_button" ime:keyLabel="Handwriting" ime:condition="handwriting_enabled" ime:keyMultiActionIconName="ime_keypad_icon_handwriting_normal" ime:keyMultiActionPressedIconName="ime_keypad_icon_handwriting_pressed" />
+    <MultiKey ime:keyIconName="editor_btn_effect_setting_icon" ime:keyIconBgName="ime_keypad_btn_more" ime:codes="@integer/keycode_setting" ime:keyLabel="Setting" ime:condition="always" ime:keyMultiActionIconName="editor_btn_effect_setting_icon_normal" ime:keyMultiActionPressedIconName="editor_btn_effect_setting_icon_pressed" />
+</ExtraMultiKey>

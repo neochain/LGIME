@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyBackground="@drawable/btn_keyboard_key_phone_shift" ime:codes="@string/star_shifted_codes" ime:isSticky="true" ime:keyLabel="@string/star_shifted_label" ime:keyIcon="@drawable/star_shifted_icon" ime:longKeyAction="@integer/star_shifted_long_key_action" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

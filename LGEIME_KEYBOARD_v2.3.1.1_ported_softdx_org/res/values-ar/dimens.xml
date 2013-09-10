@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="phone_key_text_size">@dimen/phone_arabic_key_text_size</item>
+</resources>

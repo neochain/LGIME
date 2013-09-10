@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:rowEdgeFlags="bottom">
+        <Key ime:keyTextSize="@dimen/qwerty_key_settings_text_size" ime:keyWidth="@dimen/qwerty_setting_key_width" ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyWidthRelative="@fraction/relative_qwerty_123_key_width" ime:codes="-11" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="@string/btn_str_abc" ime:hitBox="@string/define_qwerty_key_left_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/qwerty_key_language_text_size" ime:keyWidth="@dimen/qwerty_language_change_key_width" ime:keyWidthRelative="@fraction/relative_qwerty_language_key_width" ime:codes="-10" ime:isModifier="true" ime:keyLabel="@string/label_current_language" ime:longKeyAction="@integer/long_press_change_language" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" />
+        <FunctionKey ime:codes="@integer/keycode_qwerty_multi_key" ime:isModifier="true" ime:keyLabel="Voice" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:multiActionType="@string/funckey_multi_action_type" ime:FunctionKey="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_qwerty_key_multi_action" />
+        </FunctionKey>
+    </Row>
+</LgeKeyboard>

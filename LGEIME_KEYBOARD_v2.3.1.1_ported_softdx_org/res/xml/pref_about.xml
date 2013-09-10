@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sp_about_NORMAL">
+        <Preference android:title="@string/sp_software_version_NORMAL" android:selectable="false" android:key="ime_version" />
+        <Preference android:title="@string/sp_softdx_NORMAL" android:selectable="false" android:key="sp_softdx" android:summary="http://blog.naver.com/softdx" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="candidate_layout_wordlist_view_height">32.0dip</dimen>
+    <dimen name="candidate_view_height">44.0dip</dimen>
+    <dimen name="define_qwerty_key_text_size">20.0sp</dimen>
+    <dimen name="define_qwerty_key_secondary_label_size">10.0dip</dimen>
+    <item type="dimen" name="define_qwerty_key_third_label_size">@dimen/define_qwerty_key_secondary_label_size</item>
+    <dimen name="define_key_preview_width">52.0dip</dimen>
+    <dimen name="define_key_preview_height">78.0dip</dimen>
+    <dimen name="define_key_preview_text_size">12.0dip</dimen>
+    <dimen name="define_changjie_key_text_size">20.0dip</dimen>
+    <dimen name="define_bopomofo_key_text_size">14.0dip</dimen>
+</resources>

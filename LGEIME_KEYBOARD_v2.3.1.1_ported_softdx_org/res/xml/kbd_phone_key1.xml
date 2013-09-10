@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:codes="@string/number1_unshifted_codes" ime:popupCharacters="@string/number1_unshifted_popup_character" ime:keyLabel="@string/number1_unshifted_label" ime:multitabSequence="@string/number1_unshifted_multitap_sequence" ime:secondaryLabel="@string/number1_unshifted_secondary_label" />
+    </Row>
+</LgeKeyboard>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="trace_long_press_key_timeout_ms">800</integer>
+</resources>

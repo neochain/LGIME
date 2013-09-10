@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_qwerty_key_position_x">50</integer>
+    <integer name="row1_col1_alt_codes">0x17e1</integer>
+    <item type="integer" name="row1_col1_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col2_alt_codes">0x17e2</integer>
+    <item type="integer" name="row1_col2_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col3_alt_codes">0x17e3</integer>
+    <item type="integer" name="row1_col3_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col4_alt_codes">0x17e4</integer>
+    <item type="integer" name="row1_col4_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col5_alt_codes">0x17e5</integer>
+    <item type="integer" name="row1_col5_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col6_alt_codes">0x17e6</integer>
+    <item type="integer" name="row1_col6_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col7_alt_codes">0x17e7</integer>
+    <item type="integer" name="row1_col7_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col8_alt_codes">0x17e8</integer>
+    <item type="integer" name="row1_col8_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col9_alt_codes">0x17e9</integer>
+    <item type="integer" name="row1_col9_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col10_alt_codes">0x17e0</integer>
+    <item type="integer" name="row1_col10_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col1_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col2_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col3_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col4_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col5_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col6_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col7_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col8_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col9_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col10_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col1_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col2_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col3_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col4_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col5_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col6_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col7_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col8_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col9_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col1_alt_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+</resources>

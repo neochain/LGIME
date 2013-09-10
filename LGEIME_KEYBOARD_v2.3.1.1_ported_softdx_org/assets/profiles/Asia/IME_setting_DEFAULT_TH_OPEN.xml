@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+
+    LGEIME Auto Profile Database File
+
+        Thailand OPEN CA
+    
+    Last update : 2012. 4. 02.
+    Updater     : Kamalesh Pandey (kamalesh.pandev@lge.com)
+
+    ***************************************************
+                   Generation Rule
+    ***************************************************
+       1. XML must include one <commomprofile> item.
+
+       2. If the value of item is same with that of
+          <commonprofile> item, it don't need to be
+          described.
+
+       3. The name of country should never follow 
+          the name of language, basically.
+
+       4. CAUTION : *For some special cases*, the name 
+          of country must follow the name of 
+          language.
+
+              A. en & QWERTZ ==> en_AT
+              B. en & AZERTY ==> en_FR
+              C. sr          ==> sr_RS
+              D. fr & QWERTY ==> fr_CA
+              E. fr & QWERTZ ==> fr_CH
+              F. it & QWERTZ ==> it_CH
+              G. nl & AZERTY ==> nl_BE
+              H. S Chinese   ==> zh_CN
+              I. T Chinese(HK)=> zh_HK
+              J. T Chinese(TW)=> zh_TW
+-->
+
+
+
+<!-- 
+Atomatically generated with EURD PCMS XML generator for Android
+For More information, please contact Thomas Berger <thomas.berger@lge.com>
+
+Content : Provider settings Data
+
+!!!!!  WARNING !!!!! 
+This file should be currently used only for test only.
+Please continue to use Exported Excel files as trusted source of information
+
+-->
+
+<profiles>
+	<commonprofile>
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>en</item>
+		<item name='ALTERNATIVE_LANGUAGE'>-</item>
+	</commonprofile>
+    <profile>
+		<siminfo operator="AIS" country="TH" mcc="520" mnc="01"/>
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+
+	<profile>
+		<siminfo operator="CAT" country="TH" mcc="520" mnc="00" gid="02FF"/>
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+
+	<profile>
+		<siminfo operator="DTAC" country="TH" mcc="520" mnc="18"/>
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+
+	<profile>
+		<siminfo operator="GSM 1800" country="TH" mcc="520" mnc="23"/>
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+
+	<profile>
+		<siminfo operator="TOT 3G" country="TH" mcc="520" mnc="15"/>
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+
+	<profile>
+		<siminfo operator="TrueMove" country="TH" mcc="520" mnc="00" gid="01FF" />
+		<item name='T9_DEFAULT'>No</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</profile>
+	
+    <profile>
+        <siminfo operator="True" country="TH" mcc="520" mnc="99" />
+        <item name='T9_DEFAULT'>No</item>
+        <item name='KEYBOARD_LAYOUT'>QWERTY</item>
+        <item name='DEFAULT_LANGUAGE'>th</item>
+        <item name='ALTERNATIVE_LANGUAGE'>en</item>
+    </profile>
+	
+</profiles>

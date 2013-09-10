@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number2_unshifted_label">абвг</string>
+    <string name="number2_unshifted_popup_character">а|б|в|г|2|a|b|c</string>
+    <string name="number3_unshifted_label">дѓеж</string>
+    <string name="number3_unshifted_popup_character">д|ѓ|е|ж|3|d|e|f</string>
+    <string name="number4_unshifted_label">зѕиј</string>
+    <string name="number4_unshifted_popup_character">з|ѕ|и|ј|4|g|h|i</string>
+    <string name="number5_unshifted_label">клљм</string>
+    <string name="number5_unshifted_popup_character">к|л|љ|м|5|j|k|l</string>
+    <string name="number6_unshifted_label">нњоп</string>
+    <string name="number6_unshifted_popup_character">н|њ|о|п|6|m|n|o</string>
+    <string name="number7_unshifted_label">рстќ</string>
+    <string name="number7_unshifted_popup_character">р|с|т|ќ|7|p|q|r|s</string>
+    <string name="number8_unshifted_label">уфхц</string>
+    <string name="number8_unshifted_popup_character">у|ф|х|ц|8|t|u|v</string>
+    <string name="number9_unshifted_label">чџш</string>
+    <string name="number9_unshifted_popup_character">ч|џ|ш|9|w|x|y|z</string>
+    <string name="number2_shifted_label">АБВГ</string>
+    <string name="number2_shifted_popup_character">А|Б|В|Г|2|A|B|C</string>
+    <string name="number3_shifted_label">ДЃЕЖ</string>
+    <string name="number3_shifted_popup_character">Д|Ѓ|Е|Ж|3|D|E|F</string>
+    <string name="number4_shifted_label">ЗЅИЈ</string>
+    <string name="number4_shifted_popup_character">З|Ѕ|И|Ј|4|G|H|I</string>
+    <string name="number5_shifted_label">КЛЉМ</string>
+    <string name="number5_shifted_popup_character">К|Л|Љ|М|5|J|K|L</string>
+    <string name="number6_shifted_label">НЊОП</string>
+    <string name="number6_shifted_popup_character">Н|Њ|О|П|6|M|N|O</string>
+    <string name="number7_shifted_label">РСТЌ</string>
+    <string name="number7_shifted_popup_character">Р|С|Т|Ќ|7|P|Q|R|S</string>
+    <string name="number8_shifted_label">УФХЦ</string>
+    <string name="number8_shifted_popup_character">У|Ф|Х|Ц|8|T|U|V</string>
+    <string name="number9_shifted_label">ЧЏШ</string>
+    <string name="number9_shifted_popup_character">Ч|Џ|Ш|9|W|X|Y|Z</string>
+    <string name="row1_col1_unshifted_codes">љ</string>
+    <string name="row1_col1_unshifted_popup_character">љ|q</string>
+    <string name="row1_col2_unshifted_codes">њ</string>
+    <string name="row1_col2_unshifted_popup_character">њ|w|ч</string>
+    <string name="row1_col3_unshifted_codes">е</string>
+    <string name="row1_col3_unshifted_popup_character">е|€</string>
+    <string name="row1_col4_unshifted_codes">ρ</string>
+    <string name="row1_col4_unshifted_popup_character">р|r</string>
+    <string name="row1_col5_unshifted_codes">т</string>
+    <string name="row1_col5_unshifted_popup_character">т|t</string>
+    <string name="row1_col6_unshifted_codes">ѕ</string>
+    <string name="row1_col6_unshifted_popup_character">ѕ|z</string>
+    <string name="row1_col7_unshifted_codes">у</string>
+    <string name="row1_col7_unshifted_popup_character">у|u</string>
+    <string name="row1_col8_unshifted_codes">и</string>
+    <string name="row1_col8_unshifted_popup_character">и|i</string>
+    <string name="row1_col9_unshifted_codes">о</string>
+    <string name="row1_col9_unshifted_popup_character">o</string>
+    <string name="row1_col10_unshifted_codes">п</string>
+    <string name="row1_col10_unshifted_popup_character">п|p</string>
+    <string name="row2_col1_unshifted_codes">а</string>
+    <string name="row2_col1_unshifted_popup_character">a</string>
+    <string name="row2_col2_unshifted_codes">с</string>
+    <string name="row2_col2_unshifted_popup_character">с|s|$</string>
+    <string name="row2_col3_unshifted_codes">д</string>
+    <string name="row2_col3_unshifted_popup_character">д|d</string>
+    <string name="row2_col4_unshifted_codes">ф</string>
+    <string name="row2_col4_unshifted_popup_character">ф|f</string>
+    <string name="row2_col5_unshifted_codes">г</string>
+    <string name="row2_col5_unshifted_popup_character">г|g</string>
+    <string name="row2_col6_unshifted_codes">х</string>
+    <string name="row2_col6_unshifted_popup_character">х|h</string>
+    <string name="row2_col7_unshifted_codes">ј</string>
+    <string name="row2_col7_unshifted_popup_character">ј</string>
+    <string name="row2_col8_unshifted_codes">κ</string>
+    <string name="row2_col8_unshifted_popup_character">κ</string>
+    <string name="row2_col9_unshifted_codes">л</string>
+    <string name="row2_col9_unshifted_popup_character">л|l|£</string>
+    <string name="row3_col1_unshifted_codes">з</string>
+    <string name="row3_col1_unshifted_popup_character">з|y</string>
+    <string name="row3_col2_unshifted_codes">џ</string>
+    <string name="row3_col2_unshifted_popup_character">џ|x</string>
+    <string name="row3_col3_unshifted_codes">ц</string>
+    <string name="row3_col3_unshifted_popup_character">ц|c</string>
+    <string name="row3_col4_unshifted_codes">в</string>
+    <string name="row3_col4_unshifted_popup_character">в|v</string>
+    <string name="row3_col5_unshifted_codes">б</string>
+    <string name="row3_col5_unshifted_popup_character">б|b</string>
+    <string name="row3_col6_unshifted_codes">н</string>
+    <string name="row3_col6_unshifted_popup_character">н|n</string>
+    <string name="row3_col7_unshifted_codes">м</string>
+    <string name="row3_col7_unshifted_popup_character">м|m</string>
+    <string name="row3_col8_unshifted_codes">ш</string>
+    <string name="row3_col8_unshifted_popup_character">ш</string>
+    <string name="row4_col1_unshifted_codes">ѓ</string>
+    <string name="row4_col1_unshifted_popup_character">ѓ</string>
+    <string name="row4_col2_unshifted_codes">ж</string>
+    <string name="row4_col2_unshifted_popup_character">ж</string>
+    <string name="row4_col3_unshifted_codes">ќ</string>
+    <string name="row4_col3_unshifted_popup_character">ќ</string>
+    <string name="row1_col1_shifted_codes">Љ</string>
+    <string name="row1_col1_shifted_popup_character">Љ|Q</string>
+    <string name="row1_col2_shifted_codes">Њ</string>
+    <string name="row1_col2_shifted_popup_character">Њ|W|Ч</string>
+    <string name="row1_col3_shifted_codes">Е</string>
+    <string name="row1_col3_shifted_popup_character">Е|€</string>
+    <string name="row1_col4_shifted_codes">Ρ</string>
+    <string name="row1_col4_shifted_popup_character">Р|R</string>
+    <string name="row1_col5_shifted_codes">Т</string>
+    <string name="row1_col5_shifted_popup_character">Т|T</string>
+    <string name="row1_col6_shifted_codes">Ѕ</string>
+    <string name="row1_col6_shifted_popup_character">Ѕ|Z</string>
+    <string name="row1_col7_shifted_codes">У</string>
+    <string name="row1_col7_shifted_popup_character">У|U</string>
+    <string name="row1_col8_shifted_codes">И</string>
+    <string name="row1_col8_shifted_popup_character">И|I</string>
+    <string name="row1_col9_shifted_codes">О</string>
+    <string name="row1_col9_shifted_popup_character">O</string>
+    <string name="row1_col10_shifted_codes">П</string>
+    <string name="row1_col10_shifted_popup_character">П|P</string>
+    <string name="row2_col1_shifted_codes">А</string>
+    <string name="row2_col1_shifted_popup_character">А</string>
+    <string name="row2_col2_shifted_codes">С</string>
+    <string name="row2_col2_shifted_popup_character">С|S|$</string>
+    <string name="row2_col3_shifted_codes">Д</string>
+    <string name="row2_col3_shifted_popup_character">Д|D</string>
+    <string name="row2_col4_shifted_codes">Ф</string>
+    <string name="row2_col4_shifted_popup_character">Ф|F</string>
+    <string name="row2_col5_shifted_codes">Г</string>
+    <string name="row2_col5_shifted_popup_character">Г|G</string>
+    <string name="row2_col6_shifted_codes">Х</string>
+    <string name="row2_col6_shifted_popup_character">Х|H</string>
+    <string name="row2_col7_shifted_codes">Ј</string>
+    <string name="row2_col7_shifted_popup_character">Ј</string>
+    <string name="row2_col8_shifted_codes">Κ</string>
+    <string name="row2_col8_shifted_popup_character">Κ</string>
+    <string name="row2_col9_shifted_codes">Л</string>
+    <string name="row2_col9_shifted_popup_character">Л|L|£</string>
+    <string name="row3_col1_shifted_codes">З</string>
+    <string name="row3_col1_shifted_popup_character">З|Y</string>
+    <string name="row3_col2_shifted_codes">Џ</string>
+    <string name="row3_col2_shifted_popup_character">Џ|X</string>
+    <string name="row3_col3_shifted_codes">Ц</string>
+    <string name="row3_col3_shifted_popup_character">Ц|C</string>
+    <string name="row3_col4_shifted_codes">В</string>
+    <string name="row3_col4_shifted_popup_character">В|V</string>
+    <string name="row3_col5_shifted_codes">Б</string>
+    <string name="row3_col5_shifted_popup_character">Б|B</string>
+    <string name="row3_col6_shifted_codes">Н</string>
+    <string name="row3_col6_shifted_popup_character">Н|N</string>
+    <string name="row3_col7_shifted_codes">М</string>
+    <string name="row3_col7_shifted_popup_character">М|M</string>
+    <string name="row3_col8_shifted_codes">Ш</string>
+    <string name="row3_col8_shifted_popup_character">Ш</string>
+    <string name="row4_col1_shifted_codes">Ѓ</string>
+    <string name="row4_col1_shifted_popup_character">Ѓ</string>
+    <string name="row4_col2_shifted_codes">Ж</string>
+    <string name="row4_col2_shifted_popup_character">Ж</string>
+    <string name="row4_col3_shifted_codes">Ќ</string>
+    <string name="row4_col3_shifted_popup_character">Ќ</string>
+    <string name="row1_col1_third_label">\#symbols_sequence[0]</string>
+    <string name="row1_col2_third_label">\#symbols_sequence[1]</string>
+    <string name="row1_col3_third_label">\#symbols_sequence[2]</string>
+    <string name="row1_col4_third_label">\#symbols_sequence[3]</string>
+    <string name="row1_col5_third_label">\#symbols_sequence[4]</string>
+    <string name="row1_col6_third_label">\#symbols_sequence[5]</string>
+    <string name="row1_col7_third_label">\#symbols_sequence[6]</string>
+    <string name="row1_col8_third_label">\#symbols_sequence[7]</string>
+    <string name="row1_col9_third_label">\#symbols_sequence[8]</string>
+    <string name="row1_col10_third_label">\#symbols_sequence[9]</string>
+    <string name="row2_col1_third_label">\#symbols_sequence[10]</string>
+    <string name="row2_col2_third_label">\#symbols_sequence[11]</string>
+    <string name="row2_col3_third_label">\#symbols_sequence[12]</string>
+    <string name="row2_col4_third_label">\#symbols_sequence[13]</string>
+    <string name="row2_col5_third_label">\#symbols_sequence[14]</string>
+    <string name="row2_col6_third_label">\#symbols_sequence[15]</string>
+    <string name="row2_col7_third_label">\#symbols_sequence[16]</string>
+    <string name="row2_col8_third_label">\#symbols_sequence[17]</string>
+    <string name="row2_col9_third_label">\#symbols_sequence[18]</string>
+    <string name="row3_col1_third_label">\#symbols_sequence[19]</string>
+    <string name="row3_col2_third_label">\#symbols_sequence[20]</string>
+    <string name="row3_col3_third_label">\#symbols_sequence[21]</string>
+    <string name="row3_col4_third_label">\#symbols_sequence[22]</string>
+    <string name="row3_col5_third_label">\#symbols_sequence[23]</string>
+    <string name="row3_col6_third_label">\#symbols_sequence[24]</string>
+    <string name="row3_col7_third_label">\#symbols_sequence[25]</string>
+    <string name="row3_col8_third_label">\#symbols_sequence[26]</string>
+    <string name="row4_col1_third_label">\#symbols_sequence[27]</string>
+    <string name="row4_col2_third_label">\#symbols_sequence[28]</string>
+    <string name="row4_col3_third_label">\#symbols_sequence[29]</string>
+    <string name="third_label_global">@string/third_label_global_for_fyrom</string>
+    <string name="third_label_america">@string/third_label_global_for_fyrom</string>
+    <string name="third_label_america_tmus">@string/third_label_global_for_fyrom</string>
+    <string name="third_label_america_vzw_and_canada">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+$
+@
+#
+%
+(
+)
+-
+_
+:
+~
+\"
+'
+!
+?
+/
+\\
+;
+,
+^
+."</string>
+    <string name="third_label_eu">@string/third_label_global_for_fyrom</string>
+    <string name="third_label_korea">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+~
+\"
+'
+!
+,
+/
+\\
+;
+,
+^
+."</string>
+    <string name="label_current_language">MK</string>
+    <string name="btn_str_abc">aбвг</string>
+    <string name="ime_name">Тастатура на LG</string>
+    <string name="sp_handwriting_input_NORMAL">Ракопис</string>
+    <string name="sp_pref_keyboard_layout_names_handwriting_NORMAL">Поставки за ракопис</string>
+    <string name="sp_pref_keyboard_layout_names_handwriting_f_NORMAL">Целосно ракописно</string>
+    <string name="sp_auto_correction_NORMAL">Автоматска корекција</string>
+    <string name="sp_auto_spell_correct_NORMAL">Автоматско поправање на правописот кога прискате на копчето за празно место</string>
+    <string name="sp_go_NORMAL">Оди</string>
+    <string name="sp_next_NORMAL">Друго</string>
+    <string name="sp_done_NORMAL">Завр.</string>
+    <string name="sp_send_NORMAL">Испрати</string>
+    <string name="sp_about_NORMAL">За</string>
+    <string name="sp_software_version_NORMAL">Софтверска верзија на тастатурата</string>
+    <string name="voice_audio_error">Аудио проблем</string>
+    <string name="pref_auto_punctuation">Автоматска интерпукција</string>
+    <string name="cancel">Откажи</string>
+    <string name="voice_network_error">Не е можно поврзување</string>
+    <string name="voice_too_much_speech">Грешка, премногу говор.</string>
+    <string name="voice_error">Грешка. Обидете се повторно.</string>
+    <string name="pref_keyboard_layout">Изгледи на тастатури</string>
+    <string name="option_item_settings">Тастатура на LG</string>
+    <string name="voice_no_match">Нема најдени совпаѓања</string>
+    <string name="voice_speech_timeout">Не е слушнат говор</string>
+    <string name="voice_server_error">Грешка на серверот</string>
+    <string name="pref_sound_on_keypress">Повратна информациjа со звук</string>
+    <string name="voice_listening">Зборувајте сега</string>
+    <string name="pref_category_title_touch_feedback">контакт повратни информации</string>
+    <string name="pref_vibrate_on_keypress">Повратна информаци?а со вибрации</string>
+    <string name="voice_not_installed">Пребарувањето на говор не е инсталирано</string>
+    <string name="pref_word_suggestion">Предлози на зборови</string>
+    <string name="voice_working">Работи</string>
+    <string name="voice_hint_dialog_message">За користење гласовен внес, притиснете тастер на микрофон.</string>
+    <string name="voice_warning_how_to_turn_off">За исклучување на говорниот влез, одете на поставките за тастатура.</string>
+    <string name="voice_warning_title">Говорен влез</string>
+    <string name="voice_warning_may_not_understand">Говорниот влез е експериментална функција која го користи мрежното препознавање на говор од Google.</string>
+    <string name="voice_warning_locale_not_supported">Во моментов нема поддршка за говорен влез за вашиот јазик, но тој функционира за англиски јазик.</string>
+    <string name="sp_pref_suggestion_summary_NORMAL">Прикажување на предложените зборови при внесување</string>
+    <string name="option_item_inputMethods">Смени влезен режим</string>
+    <string name="sp_prediction_NORMAL">Прогноза</string>
+    <string name="sp_prediction_script_NORMAL">Naragul, Chunjiin, VEGA од корејски не нуди предлози за зборови.</string>
+    <string name="sp_key_preview_NORMAL">Клучни преглед</string>
+    <string name="sp_pref_key_preview_summary_NORMAL">Прикажи скок порака за копче кога се притискаат копчиња</string>
+    <string name="sp_pref_voice_typing_key_summary_NORMAL">Гласовното копче е прикажано на тастатурата</string>
+    <string name="sp_pref_handwriting_summary_NORMAL">Постави стил на ракопис</string>
+    <string name="sp_pref_auto_punctuation_summary_NORMAL">Внеси точка при двојно допирање на копчето за празно место</string>
+    <string name="sp_pref_word_suggestion_setting_title_NORMAL">Поставки за предлози на зборови</string>
+    <string name="sp_pref_touch_feedback_setting_title_NORMAL">Поставки за повратен ефект при допир</string>
+    <string name="sp_pref_voice_input_NORMAL">Гласовното копче</string>
+    <string name="sp_pen_width_NORMAL">Широчина на пенкало</string>
+    <string name="sp_handwriting_pen_color_NORMAL">Боја на пенкало</string>
+    <string name="sp_handwriting_delay_time_NORMAL">Време на одложување</string>
+    <string name="sp_handwriting_area_transparency_NORMAL">Прозрачност на зона</string>
+    <string name="sp_handwriting_transparency_summary_NORMAL">Постави провидност на екранот за ракописно пишување</string>
+    <string name="sp_input_language_and_keyboard_layout_NORMAL">Внесете јазик и изглед на тастатура</string>
+    <string name="sp_auto_capitalize_NORMAL">Автоматско пишување на прва голема буква</string>
+    <string name="sp_setlayout_NORMAL">Постави</string>
+    <string name="sp_input_language_NORMAL">Јазици при внес</string>
+    <string name="sp_input_language_and_type_NORMAL">Јазици за внес &amp; Вид</string>
+    <string name="sp_common_settings_SHORT">Вообичаени подесувања</string>
+    <string name="sp_input_lauguage_and_type_description_NORMAL">Поставете јазик на внесување и тип на LG тастатура</string>
+    <string name="sp_word_suggestion_description_NORMAL">Лесно внесете текст со употреба на предвидување текст</string>
+    <string name="sp_auto_capitalize_summary_NORMAL">Првата буква од зборот автоматски ќе биде внесена како голема буква</string>
+    <string name="sp_touch_feedback_summary_NORMAL">Поставете преглед на звук, вибрации и копче</string>
+    <string name="sp_touch_feedback_summary_novibraction_NORMAL">Поставете преглед на звук и клуч</string>
+    <string name="sp_hide_keyboard_NORMAL">Скриј тастатура</string>
+    <string name="sp_hide_keyboard_summary_NORMAL">Подудрете ја доле тастатурата за да ја скриете.</string>
+    <string name="sp_pref_extend_keyboard_NORMAL">Извади тастатура</string>
+    <string name="sp_pref_extend_keyboard_summary_NORMAL">Додади ред од копчиња со броеви на врвот од QWERTY-тастатурата</string>
+    <string name="sp_advanced_settings_SHORT">Напредни поставки</string>
+    <string name="sp_touch_again_to_save_NORMAL">Допрете уште еднаш за да зачувате</string>
+    <string name="sp_saved_NORMAL">Зачувано</string>
+    <string name="sp_swipe_guide_NORMAL">Функцијата Подудри за да скриеш не работи во режим на ракопис.</string>
+    <string name="sp_keyboard_swipe_SHORT">Криење/појавување на тастатурата</string>
+    <string name="sp_chinese_option_category_NORMAL">Еврејски</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_NORMAL">Кинески испревртен пинјин</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_summary_NORMAL">Автоматски поправај чести пинјин-грешки.</string>
+    <string name="sp_storage_full_NORMAL">Меморијата е полна</string>
+    <string name="sp_storage_full_ime_NORMAL">Нема доволно простор на системската меморија. Некои дејства се ограничени. Избришете некористени датотеки за да ракувате нормално.. Избрешете некористени датотеки за да ослободите простор.</string>
+    <string name="sp_pref_keyboard_names_phone_keyboard_NORMAL">Тастатура на телефон</string>
+    <string name="sp_pref_keyboard_names_qwerty_keyboard_NORMAL">QWERTY Тастатура</string>
+    <string name="sp_pref_one_hand_keyboard_NORMAL">Тастатура за една рака</string>
+    <string name="sp_pref_one_hand_keyboard_summary_NORMAL">Подудрете ја тастатурата или притиснете ја стрелката за да ја поставите позицијата на LG тастатурата лево или десно</string>
+    <string name="sp_pref_split_keyboard_NORMAL">Подели Тастатура</string>
+    <string name="sp_pref_split_keyboard_summary_NORMAL">Разделување на тастатурата на страните од екранот при хоризонтален приказ</string>
+    <string name="ime_guide_desc_hide_keyboard2">За да ја скриете тастатурата, замавнете од горе до доле или допрете го копчето за назад.</string>
+    <string name="ime_guide_desc_shape_writer">За да пристапите до зборот, нацртајте патека низ сите сите букви на зборот. По секој збор автоматкси се внесува празно место.</string>
+    <string name="keyboard_type">Тип на тастатура</string>
+    <string name="sp_clear_predictoin_prediction_title_NORMAL">Избриши претходни претпоставки</string>
+    <string name="sp_clear_prediction_summary_NORMAL">Ресетирајте ги претходните кориснички внесувања</string>
+    <string name="clear_prediction_history_dialog_title">Исчисти</string>
+    <string name="sp_clear_prediction_dialog_title_NORMAL">Сите информации за претходни претпоставки се избришани. Продолжи?</string>
+    <string name="sp_pref_keyboard_layout_names_path_keyboard_NORMAL">Path-тастатура</string>
+    <string name="sp_pref_keyboard_layout_names_path_keyboard_summary_NORMAL">Внесете збор со тоа што ќе нацртате патека низ сите букви од зборот</string>
+    <string name="onehand_keyboard_popup_string01">Можете да користите тастатура за една рака за лесно да пишувате кога го држите телефонот со една рака.</string>
+    <string name="onehand_keyboard_popup_string02">Подудрете на страна или допрете ја стрелката за следно за да одите лево десно.</string>
+    <string name="sp_do_not_show_this_again_NORMAL">Ова веќе не го прикажувај</string>
+    <string name="sp_handwriting_pen_type_NORMAL">Тип на пенкало</string>
+    <string name="pref_keyboard_skin">Маки за тастатура</string>
+    <string name="pref_keyboard_theme">Тема на тастатура</string>
+    <string name="sp_next_word_prediction_title_NORMAL">Предложи следен збор</string>
+    <string name="sp_next_word_prediction_summary_NORMAL">Предложи следен збор при пишување</string>
+    <string name="sp_grave_accent">Гравис</string>
+    <string name="sp_at">Ет</string>
+    <string name="sp_pound">книга</string>
+    <string name="sp_percent">Процент</string>
+    <string name="sp_left_paren">Лева голема заграда</string>
+    <string name="sp_right_paren">Десна голема заграда</string>
+    <string name="sp_dash">Црта</string>
+    <string name="sp_underscore">Подвлечено</string>
+    <string name="sp_colon">Две точки</string>
+    <string name="sp_semi_colon">Точка-запирка</string>
+    <string name="sp_single_quote">Наводник</string>
+    <string name="sp_quote">Наводник</string>
+    <string name="sp_exclamation_mark">Извичник</string>
+    <string name="sp_question_mark">Прашалник</string>
+    <string name="sp_slash">Коса црта</string>
+    <string name="sp_back_slash">Лева коса црта</string>
+    <string name="sp_caret">Карет</string>
+    <string name="sp_ampersand">Амперсанд</string>
+    <string name="sp_asterisk">Ѕвездичка</string>
+    <string name="sp_left_square_bracket">Лева средна заграда</string>
+    <string name="sp_right_square_bracket">Десна средна заграда</string>
+    <string name="sp_left_angle_bracket">Лева аглеста заграда</string>
+    <string name="sp_right_angle_bracket">Десна аглеста заграда</string>
+    <string name="sp_dollar_sign">Знак за долар</string>
+    <string name="sp_pound_sterling">Фунта стерлинг</string>
+    <string name="sp_left_curly_bracket">Лева голема заграда</string>
+    <string name="sp_right_curly_bracket">Десна голема заграда</string>
+    <string name="sp_degree">Степени</string>
+    <string name="sp_capital">Голема</string>
+    <string name="sp_copy_right">Авторско право</string>
+    <string name="sp_vertical_bar">Вертикална лента</string>
+    <string name="sp_period">Точка</string>
+    <string name="sp_comma">Запирка</string>
+    <string name="sp_tilde">Бранче</string>
+    <string name="sp_setting">Поставување</string>
+    <string name="sp_black_heart">Црно срце</string>
+    <string name="sp_white_heart">Бело срце</string>
+    <string name="sp_horizontal_ellipsis">Хоризонтални три точки</string>
+    <string name="sp_left_corner_bracket">Лева аглеста заграда</string>
+    <string name="sp_right_corner_bracket">Десна аглеста заграда</string>
+    <string name="sp_black_star">Црна ѕвезда</string>
+    <string name="sp_reference_mark">Референтен знак</string>
+    <string name="sp_black_telephone">Црн телефон</string>
+    <string name="sp_white_circle">Бел круг</string>
+    <string name="sp_black_circle">Црн круг</string>
+    <string name="sp_bulls_eye">Центар</string>
+    <string name="sp_left_pointing_index">Индекс за покажување лево</string>
+    <string name="sp_right_pointing_index">Индекс за покажување десно</string>
+    <string name="sp_solar_symbol">Сончев симбол</string>
+    <string name="sp_circle_with_left_half_black">Круг со лева црна половина</string>
+    <string name="sp_circle_with_right_half_black">Круг со десна црна половина</string>
+    <string name="sp_white_square">Бел квадрат</string>
+    <string name="sp_black_square">Црн квадрат</string>
+    <string name="sp_up_pointing_triangle">Триаголник свртен нагоре</string>
+    <string name="sp_down_pointing_triangle">Триаголник свртен надолу</string>
+    <string name="sp_left_pointing_triangle">Триаголник свртен на лево</string>
+    <string name="sp_right_pointing_triangle">Триаголник свртен на десно</string>
+    <string name="sp_white_diamond">Бела баклава</string>
+    <string name="sp_black_diamond">Црна баклава</string>
+    <string name="sp_white_spade_suit">Бел лист</string>
+    <string name="sp_black_spade_suit">Црн лист</string>
+    <string name="sp_white_club_suit">Бела детелина</string>
+    <string name="sp_black_club_suit">Црна детелина</string>
+    <string name="sp_quarter_note">Четвртина нота.</string>
+    <string name="sp_eighth_note">Осмина нота</string>
+    <string name="sp_beamed_sixteenth_notes">Поврзани шеснаестински ноти</string>
+    <string name="sp_music_flat_sign">Знак за снижувалка</string>
+    <string name="sp_cent">Цент</string>
+    <string name="sp_hot_springs">Врели извори</string>
+    <string name="sp_female_sign">Знакот на Венера</string>
+    <string name="sp_male_sign">Знакот на Марс</string>
+    <string name="sp_rightwards_arrow">Стрелка на десно</string>
+    <string name="sp_leftward_arrow">Стрелка на лево</string>
+    <string name="sp_upward_arrow">Стрелка нагоре</string>
+    <string name="sp_downward_arrow">Надолна стрелка</string>
+    <string name="sp_left_right_arrow">Стрелка лево-десно</string>
+    <string name="sp_plus_minus_sign">Знак за плус-минус</string>
+    <string name="sp_no_equal_to">Нееднакво на</string>
+    <string name="sp_approximately_equal_to">Приближно еднакво на</string>
+    <string name="sp_integral">Интеграл</string>
+    <string name="sp_liter">Литар</string>
+    <string name="sp_celsius">Целзиус</string>
+    <string name="sp_fahrenheit">Фаренхајт</string>
+    <string name="sp_left_black_lenticular_bracket">Лева лентикуларна заграда</string>
+    <string name="sp_right_black_lenticular_bracket">Десна црна лентикуларна заграда</string>
+    <string name="sp_left_white_corner_bracket">Лева бела аглеста заграда</string>
+    <string name="sp_right_white_corner_bracket">Десна бела аглеста заграда</string>
+    <string name="sp_white_star">Бела ѕвезда</string>
+    <string name="sp_handwriting_guide_title">Пишувајте овде</string>
+    <string name="sp_regional_correction">Напредно предложување зборови</string>
+    <string name="sp_regional_correction_summary">Земи ги предвид соседните копчиња при предложување збор.</string>
+    <string name="ime_guide_description_input_language_and_keyboard_type">Поставете го влезниот јазик во ’Влезен јазик и тип на тастатура’. Изберете го типот на тастатура (QWERTY, QWERTZ, AZERTY и телефонска тастатура) со помош на копчето од десната страна на секој список со јазици.</string>
+    <string name="ime_guide_description_open_close">Допрете на било кое поле за текст за да ја погледнете тастатурата. За да ја скриете тастатурата, лизгајте надоле или притиснете го копчето за назад.</string>
+    <string name="ime_guide_description_touch_and_hold">Допрете и држете го копчето за текст и со прстите повлечете и изберете други карактери, броеви или симболи.</string>
+    <string name="ime_guide_description_path_keyboard">За да внесете збор, нацртајте патека низ буквите. Празно место автоматски се вметнува после секој збор.</string>
+    <string name="ime_guide_description_onehand_keyboard">За да користите тастатура за една рака, Лизгајте ја тастатурата на лево/десно или допрете ја стрелката.</string>
+    <string name="ime_guide_description_split_keyboard">Поделете ја тастатурата на два дела со помош на прстите при хоризонтален режим. Секоја половина се повлекува на левата и десната страна од екранот.</string>
+    <string name="ime_guide_description_type_mode01">Допрете %s за големи букви. За да го задржите режимот на големи букви, допрете два пати на копчето или допрете и држете го.</string>
+    <string name="ime_guide_description_type_mode02">Допрете %s за да внесте бројки или симболи.</string>
+    <string name="ime_guide_title_keyboard_type">Внесете јазик и тип на тастатура</string>
+    <string name="ime_guide_title_type_mode">Режим на пишување</string>
+    <string name="ime_guide_title_open_close_keyboard">"Гестикулација натастатура
+- Прикажи/Скриј тастатура"</string>
+    <string name="ime_guide_title_touch_and_hold">Допрете и држите</string>
+    <string name="ime_guide_title_path_keyboard">Внесување патека</string>
+    <string name="ime_guide_title_onahand_keyboard">"Гестикулација натастатура
+- Тастатура за една рака"</string>
+    <string name="ime_guide_title_split_keyboard">"Гестикулација натастатура
+- Раздели тастатура"</string>
+    <string name="ime_guide_previous_NOMAL">Претходно</string>
+    <string name="ime_guide_next_NOMAL">Друго</string>
+    <string name="lg_keyboard_guide">Прирачник за LG тастатура</string>
+    <string name="help">Помош</string>
+    <string name="ime_lg_keyboard_guide_init_title">Прирачник за LG тастатура</string>
+    <string name="ime_hide_keyboard_title">Скриј тастатура</string>
+    <string name="ime_path_keyboard_title">Внесување патека</string>
+    <string name="ime_guide_desc_hide_keyboard_init">За да ја скриете тастатурата, лизгајте надоле или притиснете го копчето за назад.</string>
+    <string name="ime_guide_desc_shape_writer_init">Внесете збор со цртање патека низ буквите. Празно место автоматски се вметнува после секој збор. Одете во поставки за LG-тастатура за да вклучите или исклучите.</string>
+    <string name="ime_lge_keyboard_settings">Поставки за тастатура на LG</string>
+    <string name="sp_same_as_home_theme">Исто како темата за почетен екран</string>
+    <string name="sp_back">Дел</string>
+    <string name="sp_add_vowel">Vowel stroke add</string>
+    <string name="sp_one_stroke_add">One stroke add</string>
+    <string name="sp_two_stroke_add">Two stroke add</string>
+    <string name="third_label_global_for_fyrom">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+~
+\"
+'
+!
+?
+/
+\\
+;
+,
+^
+."</string>
+</resources>

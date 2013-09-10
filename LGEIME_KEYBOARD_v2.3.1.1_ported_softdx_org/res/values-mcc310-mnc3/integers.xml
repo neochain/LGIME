@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="pref_defval_one_hand_keyboard_bias">@integer/pref_defval_one_hand_keyboard_bias_NORMAL</item>
+</resources>

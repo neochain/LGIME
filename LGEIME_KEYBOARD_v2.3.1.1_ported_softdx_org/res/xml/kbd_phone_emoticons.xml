@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_emoticons_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyboardType="@string/keyboard_type_emoticon_phonepad" ime:supplementaryGap="@dimen/phone_symbol_small_key_gap_size" ime:keyWidthRelative="@fraction/relative_phone_emoticons_key_width" ime:keyHeightRelative="@fraction/relative_phone_emoticons_key_height" ime:horizontalGapRelative="@fraction/relative_phone_emoticons_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_emoticons_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_1" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row1_col1_phonepad_emoticons_character" ime:multitabSequence="@string/row1_col1_phonepad_emoticons_multitabSequence" />
+        <Key ime:horizontalGap="@dimen/phone_symbol_small_key_gap_size" ime:codes="-14" ime:keyLabel="@string/row1_col2_phonepad_emoticons_character" ime:multitabSequence="@string/row1_col2_phonepad_emoticons_multitabSequence" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row2_col1_phonepad_emoticons_character" ime:multitabSequence="@string/row2_col1_phonepad_emoticons_multitabSequence" />
+        <Key ime:horizontalGap="@dimen/phone_symbol_small_key_gap_size" ime:codes="-14" ime:keyLabel="@string/row2_col2_phonepad_emoticons_character" ime:multitabSequence="@string/row2_col2_phonepad_emoticons_multitabSequence" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_2_space_white" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3_sym" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row3_col1_phonepad_emoticons_character" ime:multitabSequence="@string/row3_col1_phonepad_emoticons_multitabSequence" />
+        <Key ime:horizontalGap="@dimen/phone_symbol_small_key_gap_size" ime:codes="-14" ime:keyLabel="@string/row3_col2_phonepad_emoticons_character" ime:multitabSequence="@string/row3_col2_phonepad_emoticons_multitabSequence" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyWidthRelative="@fraction/relative_phone_emoticons_bottom_key_width" ime:horizontalGapRelative="@fraction/relative_phone_emoticons_bottom_horizontal_gap" ime:rowEdgeFlags="bottom">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4" />
+        <Key ime:codes="-11" ime:isModifier="true" ime:keyLabel="\@#" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="-41" ime:isModifier="true" ime:keyIcon="@drawable/ime_keypad_icon_back_normal" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:secondaryLabelColor="@color/lgekeyboard_key_function_color" ime:horizontalGap="@dimen/phone_symbol_small_key_gap_size" ime:secondaryLabelPositionX="50" ime:secondaryLabelPositionY="50" ime:secondaryLabelSize="@dimen/phone_key_text_size" ime:codes="0" ime:isModifier="true" ime:keyLabel=" " ime:secondaryLabel="@string/keyboard_symbol_page_numbers" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="-42" ime:isModifier="true" ime:keyIcon="@drawable/ime_keypad_icon_next_normal" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

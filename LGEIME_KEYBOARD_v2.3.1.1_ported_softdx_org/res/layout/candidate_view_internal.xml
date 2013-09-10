@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/key_preview_backing" android:layout_width="fill_parent" android:layout_height="@dimen/key_preview_backing_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/spell_layout_window" android:tag="NO_R2L" android:background="@drawable/ime_keypad_suggestion_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_view_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/spell_candidate_left" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/candidate_layout_button_width" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_scroll_left" />
+            <ImageView android:id="@id/spell_suggestion_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/suggestion_left" />
+        </LinearLayout>
+        <com.lgx.ime.wordlist.internal.OrdinarySpellCandidate android:id="@id/spell_list_view" android:background="@drawable/suggestion_center_normal2" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_layout_wordlist_view_height" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/spell_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/spell_suggestion_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/suggestion_right" />
+            <ImageButton android:id="@id/spell_candidate_right" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/candidate_layout_button_width" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_scroll_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/phrase_layout_window" android:tag="NO_R2L" android:background="@drawable/ime_keypad_suggestion_bg" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_view_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_left_parent" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/phrase_candidate_left" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/candidate_layout_button_width" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_scroll_left" />
+            <ImageView android:id="@id/phrase_suggestion_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/suggestion_left" />
+        </LinearLayout>
+        <com.lgx.ime.wordlist.internal.OrdinaryCandidate android:id="@id/word_list_view" android:background="@drawable/suggestion_center_normal2" android:layout_width="wrap_content" android:layout_height="@dimen/candidate_layout_wordlist_view_height" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/phrase_candidate_right_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/phrase_suggestion_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/suggestion_right" />
+            <ImageButton android:id="@id/phrase_candidate_right" android:background="@android:color/transparent" android:clickable="true" android:layout_width="@dimen/candidate_layout_button_width" android:layout_height="fill_parent" android:src="@drawable/ic_suggest_scroll_right" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

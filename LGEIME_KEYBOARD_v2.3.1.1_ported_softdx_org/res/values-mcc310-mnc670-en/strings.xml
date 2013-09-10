@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_guide_desc_shape_writer">Enter a word by drawing a path through all the letters. A space is inserted automatically after each word.</string>
+</resources>

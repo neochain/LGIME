@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:rowEdgeFlags="bottom">
+        <Key ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters=".|," ime:keyLabel=".," ime:multitabSequence=".|," ime:hitBox="@string/define_handwriting_key_bottom_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/qwerty_setting_key_width" ime:keyWidthRelative="@fraction/relative_handwriting_enter_key_width" ime:codes="-7" ime:isModifier="true" ime:keyLabel="@string/label_enter_key" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_handwriting_key_bottom_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/qwerty_language_change_key_width" ime:keyWidthRelative="@fraction/relative_handwriting_backspace_key_width" ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_handwriting_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

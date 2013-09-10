@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ime_keypad_wht_btn_num">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff696464</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_small_number">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff696464</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_btn_num_pressed">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff696464</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_btn_pressed">
+        <item name="android:textSize">21.329987dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff312d2d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_btn_effect_character_normal">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_btn_mid_pressed">
+        <item name="android:textSize">18.659973dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff312d2d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_gray_btn">
+        <item name="android:textSize">21.329987dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_wht_btn_mid">
+        <item name="android:textSize">18.659973dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff312d2d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_btn_effect">
+        <item name="android:textSize">30.659973dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_small_pressed">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff696464</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_btn_effect_character_pressed">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ime_keypad_wht_btn">
+        <item name="android:textSize">21.329987dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff312d2d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="voice_initializing_style">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>

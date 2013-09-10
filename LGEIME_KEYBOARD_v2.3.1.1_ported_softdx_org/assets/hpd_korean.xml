@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- english HPD -->
+
+<keyboard
+  primaryId="0x12"
+  secondaryId="0x04"
+  keyWidth="22%"
+  keyHeight="22%"
+  borderGap="2%"
+  verticalGap="2%"
+  horizontalGap="2%"
+  defaultLayoutWidth="320"
+  defaultLayoutHeight="200"
+  addAltChars="false"
+ >
+  <row>
+    <key keyType="nonRegional" keyLabel="ᅵ" keyMultitapChars="ᅵ"/>
+    <key keyType="nonRegional" keyLabel="ᆞ" keyMultitapChars="ᆞ" />
+    <key keyType="nonRegional" keyLabel="ᅳ" keyMultitapChars="ᅳ" />
+  </row>
+  <row>
+    <key keyType="nonRegional" keyLabel="ᄀᄏ" keyMultitapChars="ᄀᄏᄁ"/>
+    <key keyType="nonRegional" keyLabel="ᄂᄅ" keyMultitapChars="ᄂᄅ" />
+    <key keyType="nonRegional" keyLabel="ᄃᄐ" keyMultitapChars="ᄃᄐᄄ" />
+  </row>
+  <row>
+    <key keyType="nonRegional" keyLabel="ᄇᄑ" keyMultitapChars="ᄇᄑᄈ" />
+    <key keyType="nonRegional" keyLabel="ᄉᄒ"  keyMultitapChars="ᄉᄒᄊ" />
+    <key keyType="nonRegional" keyLabel="ᄌᄎ" keyMultitapChars="ᄌᄎᄍ" />
+</row>
+  <row>
+    <key keyType="nonRegional" keyLabel="ᄋᄆ"   keyMultitapChars="ᄋᄆ"/>
+  </row>
+</keyboard >

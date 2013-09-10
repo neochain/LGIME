@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number1_unshifted_label">್~ ಃ</string>
+    <string name="number1_unshifted_popup_character">್|ಂ|ಃ|1|೧|.|,|?|!</string>
+    <string name="number2_unshifted_label">ಅ ~ಋ</string>
+    <string name="number2_unshifted_popup_character">ಾ|ಿ|ೀ|ು|ೂ|ೃ|ಅ|ಆ|ಇ|ಈ|ಉ|ಊ|ಋ|2|೨</string>
+    <string name="number3_unshifted_label">ಎ ~ಔ</string>
+    <string name="number3_unshifted_popup_character">ೆ|ೇ|ೈ|ೊ|ೋ|ೌ|ಎ|ಏ|ಐ|ಒ|ಓ|ಔ|3|೩</string>
+    <string name="number4_unshifted_label">ಕ~ಙ</string>
+    <string name="number4_unshifted_popup_character">ಕ|ಖ|ಗ| ಘ|ಙ|4|೪</string>
+    <string name="number5_unshifted_label">ಚ~ಞ</string>
+    <string name="number5_unshifted_popup_character">ಚ|ಛ|ಜ|ಝ|ಞ|5|೫</string>
+    <string name="number6_unshifted_label">ಟ~ಣ</string>
+    <string name="number6_unshifted_popup_character">ಟ|ಠ|ಡ|ಢ|ಣ|6|೬</string>
+    <string name="number7_unshifted_label">ತ~ನ</string>
+    <string name="number7_unshifted_popup_character">ತ|ಥ|ದ|ಧ|ನ|7|೭</string>
+    <string name="number8_unshifted_label">ಪ~ಮ</string>
+    <string name="number8_unshifted_popup_character">ಪ|ಫ|ಬ|ಭ|ಮ|8|೮</string>
+    <string name="number9_unshifted_label">ಯ~ಳ</string>
+    <string name="number9_unshifted_popup_character">ಯ|ರ|ಲ|ವ|ಶ|ಷ|ಸ|ಹ|ಳ|9|೯</string>
+    <string name="number0_unshifted_popup_character">␣|0|०</string>
+    <string name="number0_unshifted_multitap_sequence">" |0|०"</string>
+    <string name="star_unshifted_codes">0</string>
+    <string name="label_current_language">KN</string>
+</resources>

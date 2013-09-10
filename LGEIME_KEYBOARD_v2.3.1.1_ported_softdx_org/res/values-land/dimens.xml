@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="key_height">@dimen/qwerty_key_height_size</item>
+    <item type="dimen" name="qwerty_vertical_gap">@dimen/qwerty_vertical_gap_size</item>
+    <item type="dimen" name="qwerty_horizontal_gap">@dimen/qwerty_horizontal_gap_size</item>
+    <item type="dimen" name="qwerty_side_gap">@dimen/qwerty_side_gap_size</item>
+    <item type="dimen" name="qwerty_top_gap">@dimen/qwerty_top_gap_size</item>
+    <item type="dimen" name="qwerty_bottom_gap">@dimen/qwerty_bottom_gap_size</item>
+    <dimen name="key_height_short">38.399994dip</dimen>
+    <dimen name="popup_key_height">33.329987dip</dimen>
+    <dimen name="popup_key_width">36.0dip</dimen>
+    <dimen name="mini_adjust_position_y">88.0dip</dimen>
+    <dimen name="key_preview_backing_height">50.0dip</dimen>
+    <dimen name="voice_input_height">142.0dip</dimen>
+    <dimen name="shape_writer_line_width">4.0dip</dimen>
+    <dimen name="define_key_preview_width">47.0dip</dimen>
+    <dimen name="define_key_preview_height">70.0dip</dimen>
+    <item type="dimen" name="define_key_preview_text_size">@dimen/define_qwerty_key_text_size</item>
+    <dimen name="qwerty_key_height_size">42.19998dip</dimen>
+    <dimen name="qwerty_vertical_gap_size">2.6599731dip</dimen>
+    <dimen name="qwerty_horizontal_gap_size">1.3299866dip</dimen>
+    <dimen name="qwerty_side_gap_size">0.6600001dip</dimen>
+    <dimen name="qwerty_top_gap_size">6.659973dip</dimen>
+    <dimen name="qwerty_bottom_gap_size">2.6599731dip</dimen>
+    <dimen name="qwerty_2nd_row_gap_size">27.829987dip</dimen>
+    <item type="dimen" name="qwerty_domain_popup_width_size">@dimen/qwerty_domain_key_width</item>
+    <dimen name="key_punctuation_key_width">24.659973dip</dimen>
+</resources>

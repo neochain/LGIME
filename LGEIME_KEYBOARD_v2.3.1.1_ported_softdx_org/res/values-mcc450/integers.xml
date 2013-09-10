@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="qwerty_symbol1_code">@integer/qwerty_symbol1_code_for_korean</item>
+    <integer name="long_press_for_sending_number_keycode">10</integer>
+</resources>

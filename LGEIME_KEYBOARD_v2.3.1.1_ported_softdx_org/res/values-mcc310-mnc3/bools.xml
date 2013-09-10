@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ime_feature_reselection_after_clear_key">true</bool>
+    <bool name="ime_feature_show_one_hand_keyboard_vzw_popup">true</bool>
+    <bool name="pref_defval_trace_enabled">true</bool>
+    <bool name="pref_defval_one_hand_keyboard">false</bool>
+</resources>

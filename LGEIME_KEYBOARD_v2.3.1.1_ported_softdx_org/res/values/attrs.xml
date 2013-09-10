@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="scriptName" format="string" />
+    <attr name="scriptValue" format="string" />
+    <attr name="scriptFilter" format="string" />
+    <attr name="driverClass" format="string" />
+    <attr name="layoutFilter" format="string" />
+    <attr name="languageFilter" format="string" />
+    <attr name="optionFilter" format="string" />
+    <attr name="keyboardViewStyle" format="reference" />
+    <attr name="keyBackground" format="reference" />
+    <attr name="FunctionKeyBackground" format="reference" />
+    <attr name="keyTextSize" format="dimension" />
+    <attr name="phoneKeyTextSize" format="dimension" />
+    <attr name="functionTextSize" format="dimension" />
+    <attr name="phoneFunctionTextSize" format="dimension" />
+    <attr name="keyTextColor" format="color" />
+    <attr name="keyTextPressedColor" format="color" />
+    <attr name="secondaryLabelColor" format="color" />
+    <attr name="secondaryLabelPressedColor" format="color" />
+    <attr name="keyFunctionColor" format="color" />
+    <attr name="keyPreviewLayout" format="reference" />
+    <attr name="keyPreviewOffset" format="dimension" />
+    <attr name="keyPreviewHeight" format="dimension" />
+    <attr name="keyPreviewWidth" format="dimension" />
+    <attr name="keyPreviewTextSize" format="dimension" />
+    <attr name="keyPreviewMarginWidth" format="dimension" />
+    <attr name="keyHysteresisDistance" format="dimension" />
+    <attr name="verticalCorrection" format="dimension" />
+    <attr name="popupLayout" format="reference" />
+    <attr name="shadowColor" format="color" />
+    <attr name="FunctionShadowColor" format="color" />
+    <attr name="shadowRadius" format="integer" />
+    <attr name="keyTextStyle">
+        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+    </attr>
+    <attr name="symbolColorScheme">
+        <flag name="white" value="0x00000000" />
+        <flag name="black" value="0x00000001" />
+    </attr>
+    <attr name="state_right" format="boolean" />
+    <attr name="state_left" format="boolean" />
+    <attr name="mini_adjust_position_y" format="dimension" />
+    <attr name="pageIndicatorActive" format="reference" />
+    <attr name="pageIndicatorInactive" format="reference" />
+    <attr name="recentPageIndicatorActive" format="reference" />
+    <attr name="recentPageIndicatorInactive" format="reference" />
+    <attr name="keyIconName" format="string" />
+    <attr name="keyIconBgName" format="string" />
+    <attr name="keyBackgroundName" format="string" />
+    <attr name="wordStemForegroundColor" format="color" />
+    <attr name="wordStemBackgroundColor" format="color" />
+    <attr name="multitapForegroundColor" format="color" />
+    <attr name="multitapBackgroundColor" format="color" />
+    <attr name="selectedForegroundColor" format="color" />
+    <attr name="spellingForegroundColor" format="color" />
+    <attr name="componentForegroundColor" format="color" />
+    <attr name="invalidForegroundColor" format="color" />
+    <attr name="errorFlashBackgroundColor" format="color" />
+    <attr name="isUnderlined" format="boolean" />
+    <attr name="keyWidth" format="dimension|fraction" />
+    <attr name="keyHeight" format="dimension|fraction" />
+    <attr name="horizontalGap" format="dimension|fraction" />
+    <attr name="verticalGap" format="dimension|fraction" />
+    <attr name="kdbId" format="integer" />
+    <attr name="secondaryLabelPositionX" format="integer" />
+    <attr name="secondaryLabelPositionY" format="integer" />
+    <attr name="secondaryLabelSize" format="dimension" />
+    <attr name="labelPositionX" format="integer" />
+    <attr name="labelPositionY" format="integer" />
+    <attr name="showPopupPreview" format="boolean" />
+    <attr name="sideGap" format="dimension" />
+    <attr name="topGap" format="dimension" />
+    <attr name="bottomGap" format="dimension" />
+    <attr name="thirdLabelPositionX" format="integer" />
+    <attr name="thirdLabelPositionY" format="integer" />
+    <attr name="thirdLabelSize" format="dimension" />
+    <attr name="keyboardType" format="string" />
+    <attr name="supplementaryGap" format="dimension" />
+    <attr name="keyWidthRelative" format="fraction" />
+    <attr name="keyHeightRelative" format="fraction" />
+    <attr name="horizontalGapRelative" format="fraction" />
+    <attr name="verticalGapRelative" format="fraction" />
+    <attr name="marginLeft" format="fraction" />
+    <attr name="marginRight" format="fraction" />
+    <attr name="marginTop" format="fraction" />
+    <attr name="marginBottom" format="fraction" />
+    <attr name="alignment">
+        <flag name="vertical_top" value="0x00000001" />
+        <flag name="vertical_center" value="0x00000002" />
+        <flag name="vertical_bottom" value="0x00000003" />
+        <flag name="vertical_fit" value="0x00000004" />
+        <flag name="horizontal_top" value="0x00000008" />
+        <flag name="horizontal_center" value="0x00000010" />
+        <flag name="horizontal_bottom" value="0x00000018" />
+        <flag name="horizontal_fit" value="0x00000020" />
+    </attr>
+    <attr name="flickablePage" format="boolean" />
+    <attr name="rowEdgeFlags">
+        <flag name="top" value="0x00000004" />
+        <flag name="bottom" value="0x00000008" />
+    </attr>
+    <attr name="keyboardMode" format="reference" />
+    <attr name="marginal">
+        <enum name="none" value="0" />
+        <enum name="north" value="1" />
+        <enum name="south" value="2" />
+    </attr>
+    <attr name="flickable" format="boolean" />
+    <attr name="extraXml" format="reference" />
+    <attr name="codes" format="string|integer" />
+    <attr name="popupKeyboard" format="reference" />
+    <attr name="popupCharacters" format="string" />
+    <attr name="keyEdgeFlags">
+        <flag name="left" value="0x00000001" />
+        <flag name="right" value="0x00000002" />
+    </attr>
+    <attr name="isModifier" format="boolean" />
+    <attr name="isSticky" format="boolean" />
+    <attr name="isRepeatable" format="boolean" />
+    <attr name="iconPreview" format="reference" />
+    <attr name="keyOutputText" format="string" />
+    <attr name="keyLabel" format="string" />
+    <attr name="keyIcon" format="reference" />
+    <attr name="popupLabel" format="string" />
+    <attr name="multitabSequence" format="string" />
+    <attr name="secondaryLabel" format="string" />
+    <attr name="toggleIcon" format="reference" />
+    <attr name="disabledIcon" format="reference" />
+    <attr name="labelPreview" format="string" />
+    <attr name="downKeyAction" format="integer" />
+    <attr name="upKeyAction" format="integer" />
+    <attr name="longKeyAction" format="integer" />
+    <attr name="multiTouchSupport" format="boolean" />
+    <attr name="caseInsensitive" format="boolean" />
+    <attr name="thirdLabel" format="string" />
+    <attr name="keyXRelative" format="fraction" />
+    <attr name="keyYRelative" format="fraction" />
+    <attr name="hitBox" format="string" />
+    <attr name="shrinkable" format="boolean" />
+    <attr name="shrinkableSecondaryLabel" format="boolean" />
+    <attr name="multiActionType">
+        <enum name="PRESS_AND_HOLD" value="0" />
+        <enum name="DOUBLE_TAP" value="1" />
+    </attr>
+    <attr name="FunctionKey" format="boolean" />
+    <attr name="isPageIndicator" format="boolean" />
+    <attr name="snapToLeft" format="boolean" />
+    <attr name="condition">
+        <flag name="hidden" value="0x00000000" />
+        <flag name="always" value="0x00000001" />
+        <flag name="handwriting_enabled" value="0x00000002" />
+        <flag name="voice_enabled" value="0x00000004" />
+        <flag name="trace_enabled" value="0x00000008" />
+        <flag name="phonepad_only" value="0x00000010" />
+        <flag name="qwerty_only" value="0x00000020" />
+        <flag name="handwriting_disabled" value="0x00000040" />
+        <flag name="voice_disabled" value="0x00000080" />
+        <flag name="symmode_symbol" value="0x00000100" />
+        <flag name="symmode_emoticon" value="0x00000200" />
+        <flag name="symmode_emoji_people" value="0x00000400" />
+        <flag name="symmode_emoji_nature" value="0x00000800" />
+        <flag name="symmode_emoji_object" value="0x00001000" />
+        <flag name="symmode_emoji_place" value="0x00002000" />
+        <flag name="symmode_emoji_symbol" value="0x00004000" />
+        <flag name="no_emoji" value="0x00008000" />
+    </attr>
+    <attr name="keyMultiActionIconName" format="string" />
+    <attr name="keyMultiActionPressedIconName" format="string" />
+    <attr name="visibility">
+        <enum name="active" value="0" />
+        <enum name="inactive" value="1" />
+        <enum name="invisible" value="2" />
+        <enum name="merged_to_space" value="3" />
+        <enum name="untouchable" value="4" />
+    </attr>
+    <attr name="candidateNormal" format="color" />
+    <attr name="candidateRecommended" format="color" />
+    <attr name="candidateOther" format="color" />
+    <attr name="candidateComponent" format="color" />
+    <attr name="candidateBackground" format="color" />
+    <attr name="candidatePressed" format="color" />
+    <attr name="languageName" format="string" />
+    <attr name="keyboardLayout">
+        <enum name="qwerty" value="0" />
+        <enum name="azerty" value="1" />
+        <enum name="qwertz" value="2" />
+    </attr>
+    <attr name="selfRepresentative" format="boolean" />
+    <attr name="shiftSupported" format="integer" />
+    <attr name="handwritingSupported" format="boolean" />
+    <attr name="touchPositionCorrectionData" format="reference" />
+    <attr name="dialogTitle" format="string" />
+    <attr name="negativeButtonText" format="string" />
+    <attr name="dialogLayout" format="reference" />
+    <attr name="title" format="string" />
+    <attr name="positiveBtnText" format="string" />
+    <attr name="negativeBtnText" format="string" />
+    <attr name="layout" format="reference" />
+    <attr name="colorPickerDialogPreferenceStyle" format="reference" />
+    <attr name="code" format="string" />
+    <attr name="shiftedcode" format="string" />
+    <attr name="keycode" format="integer" />
+    <attr name="keyboardRegion" format="reference|string" />
+    <attr name="tableName" format="reference|string" />
+    <attr name="resInfor" format="reference|string" />
+    <attr name="domain" format="reference|string" />
+</resources>

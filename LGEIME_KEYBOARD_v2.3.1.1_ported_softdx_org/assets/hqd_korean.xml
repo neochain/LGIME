@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- portrait korean -->
+
+<keyboard
+  primaryId="0x12"
+  secondaryId="0x01"
+  keyWidth="8%"
+  keyHeight="21.5%"
+  verticalGap="2%"
+  horizontalGap="2%"
+  defaultLayoutWidth="480"
+  defaultLayoutHeight="200"
+  addAltChars="false"
+ >
+  <row>
+    <key keyType="nonRegional" keyLabel="ᄇ" keyLabelShifted="ᄈ"/>
+    <key keyType="nonRegional" keyLabel="ᄌ" keyLabelShifted="ᄍ"/>
+    <key keyType="nonRegional" keyLabel="ᄃ" keyLabelShifted="ᄄ"/>
+    <key keyType="nonRegional" keyLabel="ᄀ" keyLabelShifted="ᄁ"/>
+    <key keyType="nonRegional" keyLabel="ᄉ" keyLabelShifted="ᄊ"/>
+    <key keyType="nonRegional" keyLabel="ᅭ" />
+    <key keyType="nonRegional" keyLabel="ᅧ" />
+    <key keyType="nonRegional" keyLabel="ᅣ" />
+    <key keyType="nonRegional" keyLabel="ᅢ" keyLabelShifted="ᅤ"/>
+    <key keyType="nonRegional" keyLabel="ᅦ" keyLabelShifted="ᅨ"/>
+ </row>
+  <row>
+    <void />
+    <key keyType="nonRegional" keyLabel="ᄆ" />
+    <key keyType="nonRegional" keyLabel="ᄂ" />
+    <key keyType="nonRegional" keyLabel="ᄋ" />
+    <key keyType="nonRegional" keyLabel="ᄅ" />
+    <key keyType="nonRegional" keyLabel="ᄒ" />
+    <key keyType="nonRegional" keyLabel="ᅩ" />
+    <key keyType="nonRegional" keyLabel="ᅥ" />
+    <key keyType="nonRegional" keyLabel="ᅡ" />
+    <key keyType="nonRegional" keyLabel="ᅵ" />
+    <void />
+  </row>
+  <row>
+    <key keyType="function" keyLabel="shft" keyName="ET9KEY_SHIFT" keyWidth="11.2%" />
+    <void />
+    <key keyType="nonRegional" keyLabel="ᄏ"  />
+    <key keyType="nonRegional" keyLabel="ᄐ" />
+    <key keyType="nonRegional" keyLabel="ᄎ" />
+    <key keyType="nonRegional" keyLabel="ᄑ" />
+    <key keyType="nonRegional" keyLabel="ᅲ" />
+    <key keyType="nonRegional" keyLabel="ᅮ" />
+    <key keyType="nonRegional" keyLabel="ᅳ" />
+    <void />
+    <key keyType="function" keyLabel="bck"  keyName="ET9KEY_BACK"  keyWidth="11.2%" />
+  </row>
+  <row>
+    <key
+      keyType="function"
+      keyLabel=".?123"
+      keyName="ET9KEY_DIGITLAYOUT"
+      keyWidth="11.2%"
+      />
+    <key
+      keyType="function"
+      keyLabel="lang"
+      keyName="ET9KEY_LANGUAGE"
+      keyWidth="11.2%"
+      />
+    <key
+      keyType="function"
+      keyLabel="space"
+      keyName="ET9KEY_SPACE"
+      keyWidth="42.80%"
+      />
+    <key
+      keyType="function"
+      keyLabel=".?123"
+      keyName="ET9KEY_DIGITLAYOUT"
+      keyWidth="11.2%"
+      />
+    <key
+      keyType="function"
+      keyLabel="hide"
+      keyName="ET9KEY_HIDE"
+      />
+  </row>
+</keyboard >

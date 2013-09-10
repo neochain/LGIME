@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="qwerty_space_key_large_width">@dimen/qwerty_space_key_large_bopomofo_width_size</item>
+</resources>

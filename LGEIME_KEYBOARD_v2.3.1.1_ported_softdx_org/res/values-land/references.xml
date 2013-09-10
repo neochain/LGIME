@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="reference" name="drawable_extendrow_symbol_emoticons_emoji_key">@drawable/btn_keyboard_key_emoji</item>
+    <item type="reference" name="drawable_symbol_emoticons_emoji_key">@drawable/btn_keyboard_key_emoji</item>
+</resources>

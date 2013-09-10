@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_key_left_edge_hitbox" />
+    <string name="define_key_right_edge_hitbox" />
+    <string name="define_key_bottom_edge_hitbox" />
+    <string name="define_key_left_bottom_edge_hitbox" />
+    <string name="define_key_right_bottom_edge_hitbox" />
+    <string name="define_key_2nd_row_left_edge_hitbox" />
+    <string name="define_key_2nd_row_right_edge_hitbox" />
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_number_text_size" ime:keyWidth="33.299995%p" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="1" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="2" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyEdgeFlags="right" ime:keyLabel="3" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row>
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="4" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="5" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyEdgeFlags="right" ime:keyLabel="6" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row>
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="7" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="8" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyEdgeFlags="right" ime:keyLabel="9" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <Key ime:horizontalGap="33.299995%p" ime:keyEdgeFlags="left" ime:keyLabel="0" ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

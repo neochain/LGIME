@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/writing_language_selection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hapticFeedbackEnabled="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:ellipsize="end" android:id="@id/writing_language_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/writinglang_list_item_text_width" android:text="VirtualLanguage" android:singleLine="true" />
+        <TextView android:textSize="15.0sp" android:id="@id/writing_language_selected_keyboard_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/writinglang_list_item_text_width" android:text="Qwerty" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#ffffffff" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <Button android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/writing_language_show_dialog" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sp_setlayout_NORMAL" />
+    </LinearLayout>
+</LinearLayout>

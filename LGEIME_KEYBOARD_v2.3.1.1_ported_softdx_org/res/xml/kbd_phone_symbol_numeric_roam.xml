@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_numeric_text_size" ime:keyWidth="@dimen/phone_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyWidthRelative="@fraction/relative_phone_ordinary_key_width" ime:keyHeightRelative="@fraction/relative_phone_ordinary_key_height" ime:horizontalGapRelative="@fraction/relative_phone_ordinary_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_ordinary_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_function_key_width_size" ime:labelPositionY="50" ime:keyWidthRelative="@fraction/relative_phone_left_key1_width" ime:horizontalGapRelative="@fraction/relative_phone_left_key1_horizontal_gap" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters=".|,|?|!|'|&quot;|1|-|(|)|@|/|:" ime:keyEdgeFlags="left" ime:keyLabel=". ," ime:multitabSequence=".|,|?|!|'|&quot;|1|-|(|)|@|/|:" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="1" ime:multitabSequence="1" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="2" ime:multitabSequence="2" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="3" ime:multitabSequence="3" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2_num" />
+        <Key ime:keyLabel="4" ime:multitabSequence="4" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="5" ime:multitabSequence="5" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="6" ime:multitabSequence="6" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyWidth="@dimen/phone_function_key_width_size" ime:keyWidthRelative="@fraction/relative_phone_right_key2_width" ime:horizontalGapRelative="@fraction/relative_phone_right_key2_horizontal_gap" ime:codes="32" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="SpaceBar" ime:keyIcon="@drawable/ime_keypad_icon_space_small_pressed" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3_sym" />
+        <Key ime:keyLabel="7" ime:multitabSequence="7" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="8" ime:multitabSequence="8" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="9" ime:multitabSequence="9" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4" />
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:labelPositionY="50" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="*|#" ime:keyLabel="* #" ime:multitabSequence="*|#" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="0" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="-|_" ime:keyLabel="-_" ime:multitabSequence="-|_" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

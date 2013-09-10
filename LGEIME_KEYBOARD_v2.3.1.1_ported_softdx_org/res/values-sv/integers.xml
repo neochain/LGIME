@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="row2_col10_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col10_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col11_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col11_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col11_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col11_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+</resources>

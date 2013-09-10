@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/key_size_korean_keypad" ime:keyWidth="@dimen/phone_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:secondaryLabelPositionX="12" ime:secondaryLabelPositionY="@integer/define_phone_secondary_labal_position_y" ime:secondaryLabelSize="@dimen/phone_key_secondary_label_size" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyWidthRelative="@fraction/relative_phone_ordinary_key_width" ime:keyHeightRelative="@fraction/relative_phone_ordinary_key_height" ime:horizontalGapRelative="@fraction/relative_phone_ordinary_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_ordinary_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_1" />
+        <Key ime:codes="49" ime:keyLabel="ㄱㅋ" ime:multitabSequence="ㄱ|ㅋ|1" ime:secondaryLabel="1" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="50" ime:keyLabel="ㅣㅡ" ime:multitabSequence="ㅣ|ㅡ|2" ime:secondaryLabel="2" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="51" ime:keyLabel="ㅏㅑ" ime:multitabSequence="ㅏ|ㅑ|3" ime:secondaryLabel="3" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2" />
+        <Key ime:codes="52" ime:keyLabel="ㄷㅌ" ime:multitabSequence="ㄷ|ㅌ|4" ime:secondaryLabel="4" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="53" ime:keyLabel="ㄴㄹ" ime:multitabSequence="ㄴ|ㄹ|5" ime:secondaryLabel="5" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="54" ime:keyLabel="ㅓㅕ" ime:multitabSequence="ㅓ|ㅕ|6" ime:secondaryLabel="6" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:keyWidth="@dimen/phone_function_key_width" ime:keyWidthRelative="@fraction/relative_phone_right_key2_width" ime:horizontalGapRelative="@fraction/relative_phone_right_key2_horizontal_gap" ime:codes="@integer/keycode_sky2_space" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="다음" ime:keyIcon="@drawable/ime_keypad_icon_space_small_pressed" ime:hitBox="@string/define_qwerty_key_right_edge_hitbox" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3" />
+        <Key ime:codes="55" ime:keyLabel="ㅁㅅ" ime:multitabSequence="ㅁ|ㅅ|7" ime:secondaryLabel="7" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="56" ime:keyLabel="ㅂㅍ" ime:multitabSequence="ㅂ|ㅍ|8" ime:secondaryLabel="8" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <Key ime:codes="57" ime:keyLabel="ㅗㅛ" ime:multitabSequence="ㅗ|ㅛ|9" ime:secondaryLabel="9" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_normal">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4" />
+        <Key ime:codes="1" ime:keyLabel="ㅈㅊ" ime:multitabSequence="ㅈ|ㅊ" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="48" ime:keyLabel="ㅇㅎ" ime:multitabSequence="ㅇ|ㅎ|0" ime:secondaryLabel="0" ime:longKeyAction="@integer/korean_long_press_for_numberic_input" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="2" ime:keyLabel="ㅜㅠ" ime:multitabSequence="ㅜ|ㅠ" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

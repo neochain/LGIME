@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sp_pref_keyboard_layout_names_handwriting_NORMAL" android:key="handwriting_preference_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <com.lgx.ime.setting.PenTypeDialogPreference android:persistent="true" android:title="@string/sp_handwriting_pen_type_NORMAL" android:key="string_handwriting_pen_type" android:defaultValue="@string/pref_defval_pen_type" ime:title="@string/sp_handwriting_pen_type_NORMAL" ime:positiveBtnText="@string/sp_alert_dialog_ok_NORMAL" ime:negativeBtnText="@string/cancel" ime:layout="@layout/pentype_layout" />
+    <com.lgx.ime.setting.ColorPickerDialogPreference android:persistent="true" android:title="@string/sp_handwriting_pen_color_NORMAL" android:key="string_handwriting_pen_color" android:defaultValue="@string/pref_defval_pen_color" ime:dialogTitle="@string/sp_handwriting_pen_color_NORMAL" ime:negativeButtonText="@string/cancel" ime:dialogLayout="@layout/color_picker_layout" />
+    <ListPreference android:persistent="true" android:entries="@array/handwriting_delay_time_name" android:title="@string/sp_handwriting_delay_time_NORMAL" android:key="integer_handwriting_delaytime" android:defaultValue="@integer/pref_defval_pen_delay" android:entryValues="@array/handwriting_delay_time_value" />
+    <ListPreference android:persistent="true" android:entries="@array/handwriting_transparency_name" android:title="@string/sp_handwriting_area_transparency_NORMAL" android:key="integer_handwriting_transparency" android:summary="@string/sp_handwriting_transparency_summary_NORMAL" android:defaultValue="@integer/pref_defval_screen_transparency" android:entryValues="@array/handwriting_transparency_value" />
+</PreferenceScreen>

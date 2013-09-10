@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="third_label_america">@string/third_label_america_tmus</string>
+    <string name="symbol_qwerty_america">@string/symbol_qwerty_america_tmus</string>
+    <string name="symbol_america">@string/symbol_america_tmus</string>
+    <string name="emoticon_qwerty_america">@string/emoticon_qwerty_america_tmus</string>
+    <string name="emoticon_phonepad_america">@string/emoticon_phonepad_america_tmus</string>
+    <string name="symbol_emoticon_extend_america">@string/symbol_emoticon_extend_america_tmus</string>
+</resources>

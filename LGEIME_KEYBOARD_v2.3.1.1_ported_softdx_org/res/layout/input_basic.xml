@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lgx.ime.inputview.LgeKeyboardViewWrapper android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <com.lgx.ime.inputview.LgeKeyboardViewBase android:id="@id/LgeKeyboardView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" ime:keyBackground="@drawable/btn_keyboard_key" />
+</com.lgx.ime.inputview.LgeKeyboardViewWrapper>

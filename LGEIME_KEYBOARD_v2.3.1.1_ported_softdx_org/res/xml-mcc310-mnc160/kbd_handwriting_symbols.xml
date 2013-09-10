@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyWidth="@dimen/key_width" ime:keyHeight="@dimen/key_height" ime:horizontalGap="@dimen/qwerty_horizontal_gap" ime:verticalGap="@dimen/qwerty_vertical_gap" ime:sideGap="@dimen/qwerty_side_gap" ime:topGap="@dimen/qwerty_top_gap" ime:bottomGap="@dimen/qwerty_bottom_gap" ime:keyboardType="@string/keyboard_type_symbol_handwriting" ime:keyWidthRelative="@fraction/relative_handwriting_ordinary_key_width" ime:keyHeightRelative="@fraction/relative_handwriting_ordinary_key_height" ime:horizontalGapRelative="@fraction/relative_handwriting_ordinary_horizontal_gap" ime:verticalGapRelative="@fraction/relative_handwriting_ordinary_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyEdgeFlags="left" ime:keyLabel="@string/row1_col1_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col2_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col3_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col4_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col5_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col6_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col7_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col8_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row1_col9_handwriting_symbols_character" />
+        <Key ime:keyEdgeFlags="right" ime:keyLabel="@string/row1_col10_handwriting_symbols_character" />
+    </Row>
+    <Row>
+        <Key ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyEdgeFlags="left" ime:keyLabel="@string/row2_col1_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col2_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col3_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col4_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col5_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col6_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col7_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col8_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row2_col9_handwriting_symbols_character" />
+        <Key ime:keyEdgeFlags="right" ime:keyLabel="@string/row2_col10_handwriting_symbols_character" />
+    </Row>
+    <Row>
+        <Key ime:keyWidth="@dimen/qwerty_symbol_key_back_width" ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyWidthRelative="@fraction/relative_handwriting_toggle_arow_key_width_symbol_layout" ime:codes="-42" ime:isModifier="true" ime:keyLabel="@string/keyboard_symbol_page_numbers" />
+        <Key ime:keyLabel="@string/row3_col1_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col2_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col3_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col4_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col5_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col6_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col7_handwriting_symbols_character" />
+        <Key ime:keyLabel="@string/row3_col8_handwriting_symbols_character" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <Key ime:keyTextSize="@dimen/qwerty_key_settings_text_size" ime:keyWidth="@dimen/qwerty_setting_key_width" ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyWidthRelative="@fraction/relative_handwriting_123_key_width" ime:codes="-11" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="@string/btn_str_abc" />
+        <Key ime:keyTextSize="@dimen/qwerty_key_language_text_size" ime:keyWidth="@dimen/qwerty_language_change_key_width" ime:keyWidthRelative="@fraction/relative_handwriting_123_key_width" ime:codes="-10" ime:isModifier="true" ime:keyLabel="@string/label_current_language" ime:longKeyAction="@integer/long_press_change_language" />
+        <FunctionKey ime:codes="@integer/keycode_handwriting_multi_key" ime:isModifier="true" ime:keyLabel="Voice" ime:hitBox="@string/define_handwriting_key_bottom_edge_hitbox" ime:multiActionType="@string/funckey_multi_action_type" ime:FunctionKey="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_handwriting_key_multi_action" />
+        </FunctionKey>
+        <Key ime:keyWidth="@dimen/qwerty_space_key_middle_width" ime:secondaryLabelPositionX="50" ime:secondaryLabelPositionY="25" ime:keyWidthRelative="@fraction/relative_handwriting_space_key_width" ime:codes="32" ime:isRepeatable="true" ime:keyLabel="@string/label_space_key" ime:keyIcon="@drawable/ime_keypad_icon_space_large_normal" ime:secondaryLabel="@string/keyboard_symbol_page_numbers" ime:shrinkableSecondaryLabel="false" />
+        <Key ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters=".|," ime:keyLabel=".," ime:multitabSequence=".|," />
+        <Key ime:keyWidth="@dimen/qwerty_setting_key_width" ime:keyWidthRelative="@fraction/relative_handwriting_enter_key_width" ime:codes="-7" ime:isModifier="true" ime:keyLabel="@string/label_enter_key" ime:keyIcon="@drawable/ime_keypad_icon_enter" />
+        <Key ime:keyWidth="@dimen/qwerty_language_change_key_width" ime:keyWidthRelative="@fraction/relative_handwriting_backspace_key_width" ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" />
+    </Row>
+</LgeKeyboard>

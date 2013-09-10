@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyWidthRelative="@fraction/relative_phone_symbol_key_width" ime:horizontalGapRelative="@fraction/relative_phone_symbol_horizontal_gap" ime:rowEdgeFlags="bottom">
+        <Key ime:codes="-49" ime:isModifier="true" ime:keyLabel="emoticon" ime:keyIcon="@drawable/ime_keypad_icon_emoticon" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="-41" ime:isModifier="true" ime:keyIcon="@drawable/ime_keypad_icon_back_normal" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:secondaryLabelColor="@color/lgekeyboard_key_function_color" ime:horizontalGap="@dimen/phone_symbol_small_key_gap" ime:secondaryLabelPositionX="50" ime:secondaryLabelPositionY="50" ime:secondaryLabelSize="@dimen/phone_key_text_size" ime:codes="0" ime:isModifier="true" ime:keyLabel=" " ime:secondaryLabel="@string/keyboard_symbol_page_numbers" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="-42" ime:isModifier="true" ime:keyIcon="@drawable/ime_keypad_icon_next_normal" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

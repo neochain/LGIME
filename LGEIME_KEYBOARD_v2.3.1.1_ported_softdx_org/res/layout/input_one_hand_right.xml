@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lgx.ime.inputview.LgeOnehandKeyboardWrapper android:background="#ff0000ff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <LinearLayout android:gravity="center" android:id="@id/OneHandButtonArea" android:background="@drawable/editor_mode_swiping_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <Button android:id="@id/OneHandButton" android:background="@drawable/btn_keyboard_bias_to_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/one_hand_keyboard_op_key_margin" />
+    </LinearLayout>
+</com.lgx.ime.inputview.LgeOnehandKeyboardWrapper>

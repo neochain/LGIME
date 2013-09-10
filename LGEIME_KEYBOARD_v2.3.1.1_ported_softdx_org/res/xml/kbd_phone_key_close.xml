@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyBackground="@drawable/btn_keyboard_key_done" ime:keyWidth="16.310001%p" ime:horizontalGap="1.2699962%p" ime:codes="-15" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Done" ime:keyIcon="@drawable/editor_keypad_icon_close" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

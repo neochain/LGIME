@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="@integer/ime_guide_layout_weight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ime_guide_layout_padding_left" android:paddingTop="@dimen/ime_guide_layout_padding_top" android:paddingRight="@dimen/ime_guide_layout_padding_right" android:paddingBottom="@dimen/ime_guide_layout_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/ime_guide_title_text" android:textStyle="bold" android:textColor="@color/ime_lge_guide_text_color" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/txt_View_1" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ime_guide_landscape_layout_margin_top_1" android:layout_marginBottom="@dimen/ime_guide_landscape_layout_margin_bottom_1" android:singleLine="true" />
+        <ImageView android:id="@id/img_View_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ime_guide_list_text" android:textColor="@color/ime_lge_guide_text_color" android:gravity="left|center" android:id="@id/txt_View_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ime_guide_landscape_layout_margin_top_2" />
+        <TextView android:textSize="@dimen/ime_guide_list_text" android:textColor="@color/ime_lge_guide_text_color" android:gravity="left|center" android:id="@id/txt_View_3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

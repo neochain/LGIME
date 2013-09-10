@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="reference" name="row1_col11_unshifted_popup_keyboard">@xml/kbd_popup_template</item>
+    <item type="reference" name="row2_col11_unshifted_popup_keyboard">@xml/kbd_popup_template</item>
+    <item type="reference" name="row1_col11_shifted_popup_keyboard">@xml/kbd_popup_template</item>
+    <item type="reference" name="row2_col11_shifted_popup_keyboard">@xml/kbd_popup_template</item>
+</resources>

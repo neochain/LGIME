@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_numeric_text_size" ime:keyWidth="@dimen/phone_numeric_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyWidthRelative="@fraction/relative_phone_numeric_key_width" ime:keyHeightRelative="@fraction/relative_phone_numeric_key_height" ime:horizontalGapRelative="@fraction/relative_phone_numeric_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_numeric_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="1" ime:multitabSequence="1" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="2" ime:multitabSequence="2" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="3" ime:multitabSequence="3" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_phone">
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="4" ime:multitabSequence="4" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="5" ime:multitabSequence="5" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="6" ime:multitabSequence="6" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-11" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="@string/label_numeric_symbol" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="4" ime:multitabSequence="4" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="5" ime:multitabSequence="5" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="6" ime:multitabSequence="6" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:codes="0" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel=" " />
+    </Row>
+    <Row>
+        <Key ime:keyEdgeFlags="left" ime:keyLabel="7" ime:multitabSequence="7" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="8" ime:multitabSequence="8" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:keyLabel="9" ime:multitabSequence="9" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" />
+        <Key ime:codes="0" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_phone">
+        <Key ime:labelPositionY="50" ime:keyEdgeFlags="left" ime:keyLabel="*" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="@string/domestic_number_zero_label" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="\#" ime:longKeyAction="@integer/long_press_for_sending_number_keycode" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_num_signed_decimal">
+        <Key ime:labelPositionY="50" ime:codes="0" ime:keyEdgeFlags="left" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="0" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_inserting_number" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:codes="@integer/keycode_multitap_toggle" ime:keyLabel=".-" ime:multitabSequence=".|-" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_num_signed">
+        <Key ime:labelPositionY="50" ime:codes="0" ime:keyEdgeFlags="left" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="0" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_inserting_number" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="-" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_num_decimal">
+        <Key ime:labelPositionY="50" ime:codes="0" ime:keyEdgeFlags="left" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="0" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_inserting_number" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="." ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_num">
+        <Key ime:labelPositionY="50" ime:codes="0" ime:keyEdgeFlags="left" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:keyLabel="0" ime:multitabSequence="0" ime:longKeyAction="@integer/long_press_for_inserting_number" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:labelPositionY="50" ime:codes="0" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

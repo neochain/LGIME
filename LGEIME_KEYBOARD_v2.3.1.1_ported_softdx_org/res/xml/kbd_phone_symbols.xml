@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyboardType="@string/keyboard_type_symbol_phonepad" ime:keyWidthRelative="@fraction/relative_phone_symbol_key_width" ime:keyHeightRelative="@fraction/relative_phone_symbol_key_height" ime:horizontalGapRelative="@fraction/relative_phone_symbol_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_symbol_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyTextSize="@dimen/phone_key_numeric_text_size" ime:keyWidth="@dimen/phone_numeric_key_width" ime:horizontalGap="@dimen/phone_numeric_horizontal_gap" ime:keyWidthRelative="@fraction/relative_phone_numeric_key_width" ime:keyHeightRelative="@fraction/relative_phone_numeric_key_height" ime:horizontalGapRelative="@fraction/relative_phone_numeric_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_numeric_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit" ime:keyboardMode="@id/mode_phone">
+        <Key ime:horizontalGap="@dimen/phone_side_gap" ime:keyEdgeFlags="left" ime:keyLabel="(" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyLabel="/" />
+        <Key ime:keyLabel=")" />
+        <Key ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <Key ime:keyWidth="@dimen/phone_function_key_width_size" ime:keyWidthRelative="@fraction/relative_phone_symbol_left_key1_width" ime:horizontalGapRelative="@fraction/relative_phone_symbol_left_key1_horizontal_gap" ime:keyEdgeFlags="left" ime:keyLabel="@string/row1_col1_phonepad_symbols_character" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:keyLabel="@string/row1_col2_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row1_col3_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:horizontalGap="@dimen/phone_symbol_small_key_gap" ime:keyLabel="@string/row1_col4_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row1_col5_phonepad_symbols_character" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row ime:keyTextSize="@dimen/phone_key_numeric_text_size" ime:keyWidth="@dimen/phone_numeric_key_width" ime:horizontalGap="@dimen/phone_numeric_horizontal_gap" ime:keyWidthRelative="@fraction/relative_phone_numeric_key_width" ime:keyHeightRelative="@fraction/relative_phone_numeric_key_height" ime:horizontalGapRelative="@fraction/relative_phone_numeric_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_numeric_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit" ime:keyboardMode="@id/mode_phone">
+        <Key ime:horizontalGap="@dimen/phone_side_gap" ime:keyEdgeFlags="left" ime:keyLabel="-" />
+        <Key ime:keyLabel="," />
+        <Key ime:keyLabel="." />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:codes="-6" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="123" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row2_col1_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row2_col2_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:horizontalGap="@dimen/phone_symbol_small_key_gap" ime:keyLabel="@string/row2_col3_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row2_col4_phonepad_symbols_character" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_2_space_white" />
+    </Row>
+    <Row ime:keyWidth="@dimen/phone_numeric_key_width" ime:horizontalGap="@dimen/phone_numeric_horizontal_gap" ime:keyWidthRelative="@fraction/relative_phone_numeric_key_width" ime:keyHeightRelative="@fraction/relative_phone_numeric_key_height" ime:horizontalGapRelative="@fraction/relative_phone_numeric_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_numeric_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit" ime:keyboardMode="@id/mode_phone">
+        <Key ime:horizontalGap="@dimen/phone_side_gap" ime:keyEdgeFlags="left" ime:keyLabel="N" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+        <Key ime:codes="44" ime:keyLabel="P" />
+        <Key ime:codes="59" ime:keyLabel="W" />
+        <Key ime:codes="0" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3_sym" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row3_col1_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:horizontalGap="@dimen/phone_symbol_small_key_gap" ime:keyLabel="@string/row3_col2_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row3_col3_phonepad_symbols_character" />
+        <Key ime:keyWidth="@dimen/phone_symbol_key_width" ime:keyLabel="@string/row3_col4_phonepad_symbols_character" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:keyTextSize="@dimen/phone_key_numeric_text_size" ime:keyWidth="@dimen/phone_numeric_key_width" ime:horizontalGap="@dimen/phone_numeric_horizontal_gap" ime:keyWidthRelative="@fraction/relative_phone_numeric_key_width" ime:keyHeightRelative="@fraction/relative_phone_numeric_key_height" ime:horizontalGapRelative="@fraction/relative_phone_numeric_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_numeric_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit" ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_phone">
+        <Key ime:horizontalGap="@dimen/phone_side_gap" ime:codes="0" ime:keyEdgeFlags="left" ime:keyLabel=" " ime:hitBox="@string/define_phonepad_key_left_bottom_edge_hitbox" />
+        <Key ime:keyLabel="+" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="32" ime:keyLabel="SpaceBar" ime:keyIcon="@drawable/ime_keypad_icon_space_small_normal" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/phone_key_function_text_size" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom" ime:keyboardMode="@id/mode_normal">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4_sym" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_symbols_bottom" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_autocorrect">true</bool>
+    <bool name="im_is_default">false</bool>
+    <bool name="voice_input_default">false</bool>
+    <bool name="config_swipeDisambiguation">true</bool>
+    <bool name="default_popup_preview">true</bool>
+    <bool name="default_recorrection_enabled">true</bool>
+    <bool name="config_long_press_comma_for_settings_enabled">true</bool>
+    <bool name="config_repeat_operation_of_spacebar">false</bool>
+    <bool name="config_action_spacebar_touchup">true</bool>
+    <bool name="alpha_input_default_auto_correction">true</bool>
+    <bool name="alpha_input_default_spell_correction">false</bool>
+    <item type="bool" name="alpha_input_default_auto_space">@bool/common_input_default_auto_space</item>
+    <bool name="alpha_input_default_regional_correction">false</bool>
+    <bool name="alpha_input_default_multitap_zero_space_enable">false</bool>
+    <bool name="alpha_input_default_multitap_one_space_enable">false</bool>
+    <item type="bool" name="alpha_input_default_punctuation_list">@bool/common_input_default_punctuation_list</item>
+    <bool name="alpha_input_default_next_word_prediction">false</bool>
+    <bool name="chinese_input_default_name_input">false</bool>
+    <bool name="chinese_input_default_common_char">true</bool>
+    <bool name="korean_input_default_join_chunjiin">false</bool>
+    <bool name="korean_input_default_compatibility_jamo">false</bool>
+    <item type="bool" name="korean_input_default_punctuation_list">@bool/common_input_default_punctuation_list</item>
+    <item type="bool" name="korean_input_default_auto_space">@bool/common_input_default_auto_space</item>
+    <bool name="handwriting_input_default_auto_space">false</bool>
+    <bool name="handwriting_input_default_gesture">true</bool>
+    <bool name="common_input_default_prediction">true</bool>
+    <bool name="common_composing_text_underline">true</bool>
+    <bool name="common_input_default_auto_space">true</bool>
+    <bool name="common_input_default_punctuation_list">true</bool>
+    <bool name="pref_keyboard_sweeping">false</bool>
+    <bool name="ime_feature_reselection_after_clear_key">false</bool>
+    <bool name="ime_feature_handwriting_full">false</bool>
+    <bool name="ime_feature_show_guide_popup">true</bool>
+    <bool name="ime_feature_show_one_hand_keyboard_vzw_popup">false</bool>
+    <bool name="ime_feature_trace_transparent">true</bool>
+    <bool name="pref_defval_trace_enabled">false</bool>
+    <bool name="pref_defval_prediction">true</bool>
+    <bool name="pref_defval_spell_correct">true</bool>
+    <bool name="pref_defval_auto_correct">true</bool>
+    <bool name="pref_defval_next_word_prediction">false</bool>
+    <bool name="pref_defval_regional_correction">false</bool>
+    <bool name="pref_defval_sound_feedback">true</bool>
+    <bool name="pref_defval_vibration_feedback">false</bool>
+    <item type="bool" name="pref_defval_qwerty_prediction">@bool/pref_defval_prediction</item>
+    <item type="bool" name="pref_defval_keypad_prediction">@bool/pref_defval_prediction</item>
+    <item type="bool" name="pref_defval_keypad_spell_correct">@bool/pref_defval_spell_correct</item>
+    <item type="bool" name="pref_defval_keypad_auto_correct">@bool/pref_defval_auto_correct</item>
+    <item type="bool" name="pref_defval_qwerty_spell_correct">@bool/pref_defval_spell_correct</item>
+    <item type="bool" name="pref_defval_qwerty_auto_correct">@bool/pref_defval_auto_correct</item>
+    <bool name="pref_auto_punctuation">false</bool>
+    <bool name="pref_auto_cap">true</bool>
+    <bool name="pref_voice_input">false</bool>
+    <item type="bool" name="pref_handwriting_input">@bool/pref_defval_handwriting_option</item>
+    <bool name="pref_defval_bubble_popup_feedback">true</bool>
+    <bool name="pref_defval_use_system_language">false</bool>
+    <bool name="pref_defval_handwriting_option">true</bool>
+    <bool name="pref_defval_fuzzy_pinyin_enabled">false</bool>
+    <bool name="pref_defval_one_hand_keyboard">false</bool>
+    <bool name="pref_defval_split_keyboard">true</bool>
+    <bool name="pref_defval_extend_row_keyboard">true</bool>
+    <bool name="pref_defval_swipe_to_hide_keyboard">true</bool>
+    <bool name="pref_defval_same_as_home_theme">false</bool>
+</resources>

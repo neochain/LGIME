@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyWidth="@dimen/key_width" ime:keyHeight="@dimen/key_height" ime:horizontalGap="@dimen/qwerty_horizontal_gap" ime:verticalGap="@dimen/qwerty_vertical_gap" ime:secondaryLabelPositionX="@integer/config_qwerty_key_position_x" ime:secondaryLabelPositionY="@integer/config_qwerty_key_position_y" ime:secondaryLabelSize="@dimen/qwerty_key_secondary_label_size" ime:showPopupPreview="false" ime:sideGap="@dimen/qwerty_side_gap" ime:topGap="@dimen/full_handwriting_top_gap" ime:bottomGap="@dimen/qwerty_bottom_gap" ime:keyWidthRelative="@fraction/relative_handwriting_ordinary_key_width" ime:keyHeightRelative="100.0%" ime:horizontalGapRelative="@fraction/relative_handwriting_ordinary_horizontal_gap" ime:verticalGapRelative="0.0%" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <ExtraRow ime:extraXml="@xml/kbd_handwriting_full_bottom" />
+</LgeKeyboard>

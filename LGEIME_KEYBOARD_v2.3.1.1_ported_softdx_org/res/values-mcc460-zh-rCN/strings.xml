@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sp_chinese_option_category_NORMAL">中文</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_NORMAL">中文模糊拼音</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_summary_NORMAL">中文模糊拼音设置</string>
+    <string name="phonepad_pinyin_num1_popup_characters">"。|，|'|\"|1|-|(|)|@|/|:"</string>
+</resources>

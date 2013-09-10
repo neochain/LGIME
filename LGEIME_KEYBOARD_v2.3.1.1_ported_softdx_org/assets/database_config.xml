@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+##
+## Keyboard database mapping. Although keyboard database ID can be formated any form as long as the ID
+## matches the ID defined within the keyboard file. However for easy understanding and having a standard, we compose
+## the keyboard ID as follow;
+## YYZZ - two bytes hex digits encoding for keyboard databases
+## YY - one byte defines the keyboard layout
+##	06 - Phonepad (12-keys)
+##	07 - Qwertz (use by View when current locale is German)
+##	08 - Azerty (use by View when current locale is French)
+##	09 - Qwerty
+##	0A - Reduced qwerty 
+##	0B - Reduced azerty
+##	0C - Reduced qwertz
+##
+## ZZ - one byte define language ID
+##	FF - indicates language independent, meaning can be use as a default keyboard database
+## Example:
+##	0x09FF - Language independent qwerty keyboard database 
+##	0x0919 - Russian qwerty keyboard database
+##	0x09FF - French qwerty keyboard
+##	0x08FF - French azerty keyboard
+##  0x07FF - German Qwertz
+##
+-->
+
+<database_config>
+	<!--
+	# Regional qwerty keyboard database that is use by most alphabetic languages. 
+ 	# This is the default qwerty keyboard database use if we could not find a match ID/keyboard database file
+	-->
+	<kdb>
+		<!-- QWERTY KDB list -->
+		<file lang="default"			layout="qwerty"			name="qwerty.default.center.kdb" />
+		<file lang="english"			layout="qwerty"			name="qwerty.english.center.kdb" />
+		<file lang="greek"				layout="qwerty"			name="qwerty.greek.center.kdb" />
+		<file lang="bulgarian"			layout="qwerty"			name="qwerty.bulgarian.center.kdb" />
+		<file lang="macedonian"			layout="qwerty"			name="qwerty.macedonian.center.kdb" />
+		<file lang="russian"			layout="qwerty"			name="qwerty.russian.center.kdb" />
+		<file lang="czech"				layout="qwerty"			name="qwerty.czech.center.kdb" />
+		<file lang="danish"				layout="qwerty"			name="qwerty.danish.center.kdb" />
+		<file lang="dutch"				layout="qwerty"			name="qwerty.dutch.center.kdb" />
+		<file lang="estonian"			layout="qwerty"			name="qwerty.estonian.center.kdb" />
+		<file lang="finnish"			layout="qwerty"			name="qwerty.finnish.center.kdb" />
+		<file lang="icelandic"			layout="qwerty"			name="qwerty.icelandic.center.kdb" />
+		<file lang="italian"			layout="qwerty"			name="qwerty.italian.center.kdb" />
+		<file lang="norwegian"			layout="qwerty"			name="qwerty.norwegian.center.kdb" />
+		<file lang="polish"				layout="qwerty"			name="qwerty.polish.center.kdb" />
+		<file lang="portuguese"			layout="qwerty"			name="qwerty.portuguese.center.kdb" />
+		<file lang="slovak"				layout="qwerty"			name="qwerty.slovak.center.kdb" />
+		<file lang="spanish"			layout="qwerty"			name="qwerty.spanish.center.kdb" />
+		<file lang="swedish"			layout="qwerty"			name="qwerty.swedish.center.kdb" />
+		<file lang="kazakh"				layout="qwerty"			name="qwerty.kazakh.center.kdb" />
+		<file lang="ukrainian"			layout="qwerty"			name="qwerty.ukrainian.center.kdb" />
+		<file lang="latvian"			layout="qwerty"			name="qwerty.latvian.center.kdb" />
+		<file lang="lithuanian"			layout="qwerty"			name="qwerty.lithuanian.center.kdb" />
+		<file lang="hebrew"				layout="qwerty"			name="qwerty.hebrew.center.kdb" />
+		<file lang="turkish"			layout="qwerty"			name="qwerty.turkish.center.kdb" />
+		<file lang="indonesian"			layout="qwerty"			name="qwerty.indonesian.center.kdb" />
+		<file lang="vietnamese"			layout="qwerty"			name="qwerty.vietnam.center.kdb" />
+		<file lang="thai"				layout="qwerty"			name="qwerty.thai.center.kdb" />
+		<file lang="gujarati"			layout="qwerty"			name="qwerty.gujarati.center.kdb" />
+		<file lang="hindi"				layout="qwerty"			name="qwerty.hindi.center.kdb" />
+		<file lang="kannada"			layout="qwerty"			name="qwerty.kannada.center.kdb" />
+		<file lang="punjabi"			layout="qwerty"			name="qwerty.punjabi.center.kdb" />
+		<file lang="tamil"				layout="qwerty"			name="qwerty.tamil.center.kdb" />
+		<file lang="telugu"				layout="qwerty"			name="qwerty.telugu.center.kdb" />
+		<file lang="korean"				layout="qwerty"			name="qwerty.korean.center.kdb" />
+
+		<!-- QWERTZ KDB list -->
+		<file lang="german"				layout="qwertz"			name="qwertz.german.center.kdb" />
+		<file lang="croatian"			layout="qwertz"			name="qwertz.croatian.center.kdb" />
+		<file lang="hungarian"			layout="qwertz"			name="qwertz.hungarian.center.kdb" />
+		<file lang="serbian"			layout="qwertz"			name="qwertz.serbian.center.kdb" />
+		<file lang="slovenian"			layout="qwertz"			name="qwertz.slovenian.center.kdb" />
+		<file lang="english"			layout="qwertz"			name="qwertz.english.center.kdb" />
+		<file lang="french"				layout="qwertz"			name="qwertz.french.center.kdb" />
+
+		<!-- AZERTY KDB list -->
+		<file lang="french"				layout="azerty"			name="azerty.french.center.kdb" />
+		<file lang="tamazight"			layout="azerty"			name="azerty.tamazight.center.kdb" />
+		<file lang="dutch"				layout="azerty"			name="azerty.dutch.center.kdb" />
+
+		<!-- CHINESE KDB list -->
+		<file lang="chinese"			layout="reduced.qwerty"	name="ZHhpd_pinyin_bpmf_stroke_cangjie.kdb" />
+		
+		<!-- PHONEPAD KDB list -->
+		<file lang="default"			layout="phonepad"		name="keypad.default.kdb" />
+		<file lang="english"			layout="phonepad"		name="keypad.english.kdb" />
+		<file lang="greek"				layout="phonepad"		name="keypad.greek.kdb" />
+		<file lang="bulgarian"			layout="phonepad"		name="keypad.bulgarian.kdb" />
+		<file lang="macedonian"			layout="phonepad"		name="keypad.macedonian.kdb" />
+		<file lang="german"				layout="phonepad"		name="keypad.german.kdb" />
+		<file lang="french"				layout="phonepad"		name="keypad.french.kdb" />
+		<file lang="russian"			layout="phonepad"		name="keypad.russian.kdb" />
+		<file lang="croatian"			layout="phonepad"		name="keypad.croatian.kdb" />
+		<file lang="czech"				layout="phonepad"		name="keypad.czech.kdb" />
+		<file lang="danish"				layout="phonepad"		name="keypad.danish.kdb" />
+		<file lang="dutch"				layout="phonepad"		name="keypad.dutch.kdb" />
+		<file lang="estonian"			layout="phonepad"		name="keypad.estonian.kdb" />
+		<file lang="finnish"			layout="phonepad"		name="keypad.finnish.kdb" />
+		<file lang="hungarian"			layout="phonepad"		name="keypad.hungarian.kdb" />
+		<file lang="icelandic"			layout="phonepad"		name="keypad.icelandic.kdb" />
+		<file lang="italian"			layout="phonepad"		name="keypad.italian.kdb" />
+		<file lang="norwegian"			layout="phonepad"		name="keypad.norwegian.kdb" />
+		<file lang="polish"				layout="phonepad"		name="keypad.polish.kdb" />
+		<file lang="portuguese"			layout="phonepad"		name="keypad.portuguese.kdb" />
+		<file lang="serbian"			layout="phonepad"		name="keypad.serbian.kdb" />
+		<file lang="slovak"				layout="phonepad"		name="keypad.slovak.kdb" />
+		<file lang="slovenian"			layout="phonepad"		name="keypad.slovenian.kdb" />
+		<file lang="spanish"			layout="phonepad"		name="keypad.spanish.kdb" />
+		<file lang="swedish"			layout="phonepad"		name="keypad.swedish.kdb" />
+		<file lang="kazakh"				layout="phonepad"		name="keypad.kazakh.kdb" />
+		<file lang="ukrainian"			layout="phonepad"		name="keypad.ukrainian.kdb" />
+		<file lang="latvian"			layout="phonepad"		name="keypad.latvian.kdb" />
+		<file lang="lithuanian"			layout="phonepad"		name="keypad.lithuanian.kdb" />
+		<file lang="arabic"				layout="phonepad"		name="keypad.arabic.kdb" />
+		<file lang="farsi"				layout="phonepad"		name="keypad.farsi.kdb" />
+		<file lang="hebrew"				layout="phonepad"		name="keypad.hebrew.kdb" />
+		<file lang="turkish"			layout="phonepad"		name="keypad.turkish.kdb" />
+		<file lang="indonesian"			layout="phonepad"		name="keypad.indonesian.kdb" />
+		<file lang="vietnamese"			layout="phonepad"		name="keypad.vietnam.kdb" />
+		<file lang="gujarati"			layout="phonepad"		name="keypad.gujarati.kdb" />
+		<file lang="hindi"				layout="phonepad"		name="keypad.hindi.kdb" />
+		<file lang="kannada"			layout="phonepad"		name="keypad.kannada.kdb" />
+		<file lang="punjabi"			layout="phonepad"		name="keypad.punjabi.kdb" />
+		<file lang="tamil"				layout="phonepad"		name="keypad.tamil.kdb" />
+		<file lang="telugu"				layout="phonepad"		name="keypad.telugu.kdb" />
+		<file lang="tamazight"			layout="phonepad"		name="keypad.tamazight.kdb" />
+		<file lang="thai"				layout="phonepad"		name="keypad.thai.kdb" />
+		<file lang="korean"				layout="phonepad"		name="keypad.korean.kdb" />
+	</kdb>
+
+	<!--
+	## Language databases mapping. Two bytes hex digits encoding
+	-->
+	<ldb>
+		<file id="0X05E0"					name="LG_905_r1-11-2-2_ZHTrace_trad_Big5_pinyin_big.ldb" />
+		<file id="0X05E1"					name="LG_905_r1-12-2-1_ZHTrace_simp_GB13000_pinyin_big.ldb"	/>
+		<file id="0X05E2"					name="LG_905_r1-11-2-2_ZHTrace_trad_Big5HKSCS_pinyin_big.ldb"	/>
+		<file id="0X06E0"					name="LG_905_r1-11-2-2_ZHTrace_trad_Big5_BPMF_big.ldb"	/>
+		<file id="0X06E2"					name="LG_905_r1-11-2-2_ZHTrace_trad_Big5HKSCS_BPMF_big.ldb"	/>          
+		<file id="0x0712"					name="LG_902_r1-2_KOusUN_xt9_CJI.ldb"	/>
+		          
+		<file lang="Afrikaans"				name="LG_902_r1-4_AFlsUN_xt9.ldb" />
+		<file lang="Albanian"   			name="LG_902_r1-4_SQlsUN_xt9.ldb" />
+		<file lang="Amharic"    			name="LG_902_r1-1_AMlsUN_xt9.ldb" />
+		<file lang="Arabic"    				name="LG_902_r1-1_ARlsUN_xt9_2.ldb" />
+		<file lang="Armenian"    			name="LG_902_r1-5_HYlsUN_xt9.ldb" />
+		<file lang="Assamese"    			name="LG_902_r1-1-32-2_ASlsUN_xt9.ldb" />
+		<file lang="Azerbaijani"    		name="LG_902_r1-4_AZlsUN_xt9.ldb" />
+		<file lang="Basque"    				name="LG_902_r1-5_EUlsUN_xt9.ldb" />
+		<file lang="Belarusian"    			name="LG_902_r1-3_BElsUN_xt9.ldb" />
+		<file lang="Bengali"    			name="LG_902_r1-1_BNlsUN_xt9.ldb" />
+		<file lang="Bosnian"    			name="LG_902_r1-4_BSlsUN_xt9.ldb" />
+		<file lang="Bulgarian"    			name="LG_902_r1-10_BGlsUN_xt9.ldb" />
+		<file lang="Catalan"    			name="LG_902_r1-5_CAlsUN_xt9.ldb" />
+		<file lang="chinese.simplified" 	name="LG_905_r1-16-2-2_ZHsbUNps_GB18030_xt9_big.ldb" />
+		<file lang="chinese.singapore"   	name="LG_905_r1-16-2-2_ZHsbUNps_GB18030_xt9_big.ldb" />
+		<file lang="chinese.traditional"   	name="LG_905_r1-16-2-2_ZHtbUNps_Big5_bpmf_pinyin_CJ_xt9_big.ldb" />
+		<file lang="chinese.hongkong" 		name="LG_905_r1-16-2-2_ZHtbUNps_Big5HKSCS2004_bpmf_pinyin_CJ_xt9_big.ldb" />
+		<file lang="Croatian"    			name="LG_902_r1-6_HRlsUN_xt9.ldb" />
+		<file lang="Czech"    				name="LG_902_r1-1_CSlsUN_xt9_2.ldb" />
+		<file lang="Danish"    				name="LG_902_r1-3_DAusUN_xt9_2.ldb" />
+		<file lang="Dutch"    				name="LG_902_r1-5_NLusUN_xt9_2.ldb" />
+		<file lang="English"    			name="LG_902_r1-16_ENubUN_xt9_ALM.ldb" />
+		<file lang="Estonian"    			name="LG_902_r1-8_ETlsUN_xt9.ldb" />
+		<file lang="Farsi"    				name="LG_902_r1-6_FAlsUN_xt9.ldb" />
+		<file lang="Finnish"    			name="LG_902_r1-18_FIusUN_xt9_2.ldb" />
+		<file lang="French"    				name="LG_902_r1-27_FRusUN_xt9_2.ldb" />
+		<file lang="Galician"    			name="LG_902_r1-5_GLlsUN_xt9.ldb" />
+		<file lang="Georgian"    			name="LG_902_r1-3_KAlsUN_xt9.ldb" />
+		<file lang="German"    				name="LG_902_r1-18_DEusUN_xt9_2.ldb" />
+		<file lang="Greek"    				name="LG_902_r1-2_ELusUN_xt9.ldb" />
+		<file lang="Gujarati"    			name="LG_902_r1-1-62-2_GUlsUN_xt9.ldb" />
+		<file lang="Hausa"    				name="LG_902_r1-4_HAlsUN_xt9.ldb" />
+		<file lang="Hebrew"    				name="LG_902_r1-3_HElsUN_xt9.ldb" />
+		<file lang="Hindi"    				name="LG_902_r1-5_HIlsUN_xt9.ldb" />
+		<file lang="Hinglish"    			name="LG_902_r1-5_HLlbUN_xt9.ldb" />
+		<file lang="Hungarian"    			name="LG_902_r1-8_HUlsUN_xt9.ldb" />
+		<file lang="Icelandic"    			name="LG_902_r1-5_ISlsUN_xt9.ldb" />
+		<file lang="Igbo"    				name="LG_902_r1-5_IGlsUN_xt9.ldb" />
+		<file lang="Indonesian"    			name="LG_902_r1-6_IDlbUN_xt9.ldb" />
+		<file lang="Irish"    				name="LG_902_r1-4_GAlsUN_xt9.ldb" />
+		<file lang="Italian"    			name="LG_902_r1-22_ITusUN_xt9_2.ldb" />
+		<file lang="Japanese"    			name="LG_902_r1-1-2-3_JAlsUN_xt9_big.ldb" />
+		<file lang="Japanese"    			name="LG_902_r1-8_JAlsUN_xt9.ldb" />
+		<file lang="Javanese"    			name="LG_902_r1-5_JWlsUN_xt9.ldb" />
+		<file lang="Kannada"    			name="LG_902_r1-1-60-2_KNlsUN_xt9.ldb" />
+		<file lang="Kazakh"    				name="LG_902_r1-3_KKlsUN_xt9.ldb" />
+		<file lang="Khmer"    				name="LG_902_r1-4_KMlsUN_xt9.ldb" />
+		<file lang="Kirghiz"    			name="LG_902_r1-3_KYlsUN_xt9.ldb" />
+		<file lang="Korean"    				name="LG_902_r1-6_KOusUN_xt9_2.ldb" />
+		<file lang="Latvian"    			name="LG_902_r1-10_LVlsUN_xt9.ldb" />
+		<file lang="Lingala"    			name="LG_902_r1-4_LNlsUN_xt9.ldb" />
+		<file lang="Lithuanian"    			name="LG_902_r1-10_LTlsUN_xt9.ldb" />
+		<file lang="Macedonian"    			name="LG_902_r1-3_MKlsUN_xt9.ldb" />
+		<file lang="Malay"    				name="LG_902_r1-5_MSlbUN_xt9.ldb" />
+		<file lang="Malayalam"    			name="LG_902_r1-1-34-2_MLlsUNAlternate_xt9.ldb" />
+		<file lang="Marathi"    			name="LG_902_r1-2-60-1_MRlsUN_xt9.ldb" />
+		<file lang="Mongolian"    			name="LG_902_r1-3_MNlsUN_xt9.ldb" />
+		<file lang="Norwegian"    			name="LG_902_r1-3_NOusUN_xt9_2.ldb" />
+		<file lang="Oriya"    				name="LG_902_r1-1-32-2_ORlsUN_xt9.ldb" />
+		<file lang="Pashto"    				name="LG_902_r1-6_PSlsUN_xt9.ldb" />
+		<file lang="Polish"    				name="LG_902_r1-5_PLlsUN_xt9.ldb" />
+		<file lang="Portuguese"    			name="LG_902_r1-6_PTusUN_xt9_2.ldb" />
+		<file lang="Punjabi"    			name="LG_902_r1-3_PAlsUN_xt9.ldb" />
+		<file lang="Romanian"    			name="LG_902_r1-1_ROlsUN_xt9_2.ldb" />
+		<file lang="Russian"    			name="LG_902_r1-1_RUusUN_xt9_2.ldb" />
+		<file lang="Serbian"    			name="LG_902_r1-6_SRlsUN_xt9.ldb" />
+		<file lang="Sesotho"    			name="LG_902_r1-5_STlbUN_xt9.ldb" />
+		<file lang="Sinhala"    			name="LG_902_r1-2-44-2_SIlsUNAlternate_xt9.ldb" />
+		<file lang="Slovak"    				name="LG_902_r1-1_SKlsUN_xt9_2.ldb" />
+		<file lang="Slovenian"    			name="LG_902_r1-6_SLlsUN_xt9.ldb" />
+		<file lang="Spanish"    			name="LG_902_r1-19_ESusUN_xt9_2.ldb" />
+		<file lang="Sundanese"    			name="LG_902_r1-3_SUlsUN_xt9.ldb" />
+		<file lang="Swahili"    			name="LG_902_r1-4_SWlbUN_xt9.ldb" />
+		<file lang="Swedish"    			name="LG_902_r1-6_SVusUN_xt9_2.ldb" />
+		<file lang="Tagalog"    			name="LG_902_r1-6_TLlsUN_xt9.ldb" />
+		<file lang="Tajik"    				name="LG_902_r1-3_TGlsUN_xt9.ldb" />
+		<file lang="Tamil"    				name="LG_902_r1-1_TAlsUN_xt9.ldb" />
+		<file lang="Telugu"    				name="LG_902_r1-2-46-1_TElsUNAlternate_xt9.ldb" />
+		<file lang="Thai"    				name="LG_902_r1-3_THlsUN_xt9.ldb" />
+		<file lang="Turkish"    			name="LG_902_r1-6_TRlsUN_xt9.ldb" />
+		<file lang="Turkmen"    			name="LG_902_r1-4_TKlsUN_xt9.ldb" />
+		<file lang="Ukrainian"    			name="LG_902_r1-3_UKlsUN_xt9.ldb" />
+		<file lang="Urdu"    				name="LG_902_r1-3_URlsUN_xt9.ldb" />
+		<file lang="Uzbek"    				name="LG_902_r1-3_UZlsUN_xt9.ldb" />
+		<file lang="UzbekLatin"    			name="LG_902_r1-4_UZlsUNlatin_xt9.ldb" />
+		<file lang="Vietnamese"    			name="LG_902_r1-4_VIlsUN_xt9.ldb" />
+		<file lang="Welsh"    				name="LG_902_r1-4_CYlsUN_xt9.ldb" />
+		<file lang="Xhosa"    				name="LG_902_r1-4_XHlbUN_xt9.ldb" />
+		<file lang="Yoruba"    				name="LG_902_r1-4_YOlsUN_xt9.ldb" />
+		<file lang="Zulu"    				name="LG_902_r1-4_ZUlbUN_xt9.ldb" />
+	</ldb>
+
+	<!--
+	##
+	## Manufacturer Database - a supplementary word list that may be added by OEMs.
+	## If it exists, xt9 will read and supply the words alongside LDB words in the
+	## selection list.
+	##
+	## Format: UTF8 text, line delimited (*NIX line breaks)
+	-->
+	<!-- mdb>
+		<file lang="english" name="EN.txt" />
+		<file lang="french" name="FR.txt" />
+		<file lang="german" name="DE.txt" />
+		<file lang="spanish" name="ES.txt" />
+		<file lang="italian" name="IT.txt" />
+	</mdb -->
+
+	<!--
+	##
+	## User Dictionary. Words are added user dictionary if they are not in our LDB nor MDB.  
+	## File is created at run time.
+	## 
+	-->
+	<udb>
+		<file lang="default" name="udb.bin" />
+		<file lang="chinese.traditional"	name="chinese_trad_udb.bin" />
+		<file lang="chinese.simplified"	name="chinese_simp_udb.bin" />
+        <file lang="chinese.hongkong" name="chinese_hong_udb.bin" />
+		<file lang="korean" name="korean_udb.bin" />		
+	</udb>
+
+	<!--
+	##
+	## Auto-substitution database.  Create at run time.
+	-->
+	<asdb>
+		<file lang="default" name="asdb.bin" />
+	</asdb>
+
+	
+	<!--
+	##
+	## Cdb
+	-->
+	<cdb>
+		<file lang="default" name="cdb.bin" />
+	</cdb>
+	
+	<!--
+	##
+	## Gdb
+	-->
+	<gdb>
+		<file lang="default" name="gdb.bin" />
+	</gdb>
+
+	<!--
+		T9Write language databases	
+	-->
+	<!-- If hwr dictionary is not specified, we'll use XT9 LDB and convert to T9Write dictionary at runtime -->
+	<!--  slid 필요함 -->
+	<!-- hwr_dic>
+		<file lang="english" name="english_xt9_le.dat" />
+		<file lang="default" name="english_xt9_le.dat" />
+	</hwr_dic -->
+
+	<!--
+		T9Write template databases	
+	-->
+	<!--  slid 필요함 -->
+	<!-- hwr_db_template>
+		<file lang="english" name="database_le.dat" />
+		<file lang="default"  name="database_le.dat" />
+	</hwr_db_template -->
+
+</database_config>
+
+
+

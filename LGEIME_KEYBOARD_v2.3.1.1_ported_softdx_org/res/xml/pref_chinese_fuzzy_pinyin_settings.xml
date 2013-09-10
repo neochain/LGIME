@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_c_ch" android:key="key_chinese_option_fuzzy_pinyin_c_ch" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_s_sh" android:key="key_chinese_option_fuzzy_pinyin_s_sh" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_z_zh" android:key="key_chinese_option_fuzzy_pinyin_z_zh" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_n_l" android:key="key_chinese_option_fuzzy_pinyin_n_l" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_r_l" android:key="key_chinese_option_fuzzy_pinyin_r_l" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_f_h" android:key="key_chinese_option_fuzzy_pinyin_f_h" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_an_ang" android:key="key_chinese_option_fuzzy_pinyin_an_ang" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_en_eng" android:key="key_chinese_option_fuzzy_pinyin_en_eng" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/fuzzy_pinyin_in_ing" android:key="key_chinese_option_fuzzy_pinyin_in_ing" />
+</PreferenceScreen>

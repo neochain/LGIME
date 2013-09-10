@@ -1,0 +1,227 @@
+******************************************************************************
+***                                  README                                ***
+******************************************************************************
+***                                                           2012. 1. 12. ***
+***                                                     jerry.kang@lge.com ***
+***                                                                MC Lab. ***
+******************************************************************************
+
+This text file describes how to write down PRI -Auto profiling- specifications
+for several CA. If you wants to modify any document for customizing it,read
+below instruction very carefully.
+
+- auto-profile-dataset.xls
+    : This file specifies which ".xml" file should be loaded for the country 
+      and the operator.
+
+    * MODEL: specifies the model name. 
+      This field will be matched at runtime with the value returned by
+      SystemProperties.get("ro.product.model").
+      The java regex can be used for describing a matching rule.
+      You can keep this field undefined if the record is for all models. 
+      In this case, you SHOULD fill this field as "undefined" or "-".
+
+    * COUNTRY: specifies the region to be launched.
+      This field will be matched at runtime with the value returned by
+      SystemProperties.get("ro.build.target_country").
+      The java regex can be used for describing a matching rule.
+      You can keep this field undefined if the record is for all regions. 
+      In this case, you SHOULD fill this field as "undefined" or "-".
+
+    * OPERATOR: specifis the operator to be launched.
+      This field will be matched at runtime with the value returned by
+      SystemProperties.get("ro.build.target_operator").
+      The java regex can be used for describing a matching rule.
+      You can keep this field undefined if the record is for all regions. 
+      In this case, you SHOULD fill this field as "undefined" or "-".
+
+      * IF YOU KEEP THE COUNTRY UNDEFINED, THE OPERATOR COLUMN ALSO SHOULD 
+	  BE UNDEFINED. *
+
+    * RESOURCE NAME: specifies a file path to be loaded for configuring profile.
+      This field is mendatory.
+      The file path is case-sensetive.
+      
+    * RESOURCE MCC: specifies MCC code of the launching region.
+      If the record is for a specific region, you can fill this column with
+      the MCC code of the region.
+      If you specify MCC code, IME application will ignore MCC code loaded from
+      the real SIM card and will override MCC code the value which you specify.
+      This operation is effective only for LGEIME application.
+      MCC code is used to configure the default values of any items under "LG 
+      keyboard setting" and to customize keyboard layouts for some specific 
+      regions, such as Korea, China and North America.
+      You SHOULD keep this field undefined if you want to configure different
+      settings according to MCC code loaded from the real SIM card, such as 
+      europe open CA, India open CA and ESA open CA.
+      In this case, you SHOULD fill this field as "undefined" or "-".
+      
+    * RESOURCE MNC: specifies MNC code of the launching operator.
+      If the record is for a specific operator, you can fill this column with
+      the MCC code of the operator.
+      If you specify MNC code, IME application will ignore MNC code loaded from
+      the real SIM card and will override MNC code the value which you specify.
+      This operation is effective only for LGEIME application.
+      MNC code is used to configure the default values of any items under "LG
+      keyboard setting" and to customize keyboard layouts for some specific
+      operators, such as AT&T, Verizon, SKT, KT and U+.
+      You SHOULD keep this field undefined if you want to configure different
+      settings according to MNC code loaded from the real SIM card, such as
+      europe open CA, India open CA and ESA open CA.
+      In this case, you SHOULD fill this field as "undefined" or "-".
+      
+    * REGION CODE: specifies the symbol page.
+      If the record is for a specific symbol page, you can fill this column with
+      the REGION CODE. 
+      Europe open, America, Latin america, China, Korea use particular symbol page.
+      If your specify countries are in these region, you SHOULD fill this column.
+      Others case, you SHOULD fill this field as "undefined" or "-".
+	  
+	  Current supported REGION CODE - Modle released region
+	  CHINA				- 	Model released on China and use symbol table of China scenario.
+	  HONGKONG			-	Model released on Hongkong and use symbol table of HK/TW scenario.
+	  TAIWAN			-	Model released on Taiwan and use symbol table of HK/TW scenario.
+	  KOREA				-	Model released on Korea and use symbol table of Korea scenario.
+	  CIS				-	Model released on CIS and use symbol table of Europe scenario.
+	  EUROPE			-	Model released on Europe and use symbol table of Europe scenario.
+	  NORTH_AMERICA		-	Model released on America and use symbol table of America scenario.
+	  SOUTH_AMERICA		-	Model released on America and use symbol table of America scenario.
+	  AME				-	Model released on Africa & Middle East and use symbol table of Global scenario.
+	  ESA				-	Model released on South & East Asia released on Africa & Middle East and use symbol table of Global scenario.
+	  ESAME				-	Model released on AME & ESA and use symbol table of Global scenario.
+	  ISRAEL			-	Model released on Israel and use symbol table of Global scenario.
+      
+- IME_setting_(MODEL)_(COUNTRY)_(OPERATOR).xml
+    : This file specifies profile configuration for common or a specific
+    operator.
+    The file recommand to be named following below conventions.
+    
+      (MODEL)   : model name which you write down at "auto-profile-dataset.xls"
+                If you didn't define it, this may be "DEFAULT"
+      (COUNTRY) : country which you write down at "auto-profile-dataset.xls"
+                If you didn't define it, this may be "DEFAULT"
+      (OPERATOR): operator which you write down at "auto-profile-dataset.xls"
+                If you didn't define it, this may be "DEFAULT"
+
+  * Example XML
+
+<!--
+
+    LGEIME Auto Profile Database File
+
+        Europe Open CA
+    
+    Last update : 2012. 1. 7.
+    Updater     : jerry.kang@lge.com
+
+    ***************************************************
+                   Generation Rule
+    ***************************************************
+       1. XML must include one <commomprofile> item.
+
+       2. If the value of item is same with that of
+          <commonprofile> item, it don't need to be
+          described.
+
+       3. The name of country should never follow 
+          the name of language, basically.
+
+       4. CAUTION : *For some special cases*, the name 
+          of country must follow the name of 
+          language.
+
+              A. en & QWERTZ ==> en_AU
+              B. en & AZERTY ==> en_FR
+              C. sr          ==> sr_RS
+              D. fr & QWERTY ==> fr_CA
+              E. fr & QWERTZ ==> fr_CH
+              F. it & QWERTZ ==> it_CH
+              G. nl & AZERTY ==> nl_BE
+			  H. S Chinese   ==> zh_CN
+			  I. T Chinese(HK)=> zh_HK
+			  J. T Chinese(TW)=> zh_TW
+-->
+
+<profiles>
+    <!-- The file must include just one <commonprofile> tag.
+         This tag is for common configuration.
+         <commonprofile> tag must four child tags, 'T9_DEFAULT', 
+         'KEYBOARD_LAYOUT', 'DEFAULT_LANGUAGE' and 'ALTERNATIVE_LANGUAGE' -->
+    <commonprofile> 
+        <!-- 'T9_DEFAULT' is used to specify the default value of T9.
+             If this value is 'Yes', T9 will be turned on.
+             Otherwise, T9 will be turned off. -->
+        <item name='T9_DEFAULT'>Yes</item>
+
+        <!-- 'KEYBOARD_LAYOUT' is used to specify the default keyboard layout.
+             This value should be one of "QWERTY", "QWERTZ", "AZERTY" and 
+             "PHONEPAD". -->
+        <item name='KEYBOARD_LAYOUT'>QWERTY</item>
+
+        <!-- 'DEFAULT_LANGUAGE' is used to specify the default writing 
+             language. ISO 639-1 code is used to describe a language.
+             You should use language code only except some special cases.
+             Please refer to above generation rule.
+             
+             *CAUTION* Be careful below cases,
+                Hebrew => iw(0), he(x)
+                Indonesian => in(0), id(x)
+                Yiddish => ji(o), yi(x) -->
+        <item name='DEFAULT_LANGUAGE'>en</item>
+
+        <!-- 'ALTERNATIVE_LANGUAGE' is used to specify the additional languages
+             to be selected by default.
+             This item can be skipped or can be a list of several languages.
+             If you want to make this empty, please use "-".
+             Or if you want to select more languages in addition to the default
+             writing language by default, you can write down a comma-seperating
+             list of languages like "en_AU,de,fr_CH".
+             You can specify just one language, of course. -->
+        <item name='ALTERNATIVE_LANGUAGE'>-</item>
+	</commonprofile>
+
+    <!-- <profile> tag is used to specify different configurations with <commonprofile>
+         for a specific operator using MCC and MNC -->
+    <profile>
+        <!-- <siminfo> tag is used to identify the network operator.
+             mcc and mnc attributes are mendatory. -->
+        <siminfo operator="Albania_Mobile_Com." country="AL" mcc="276" mnc="01"  />
+
+        <!-- You can specify any configuration.
+             Unspecified values here will inherited from <commonprofile>. -->
+        <item name='T9_DEFAULT'>No</item>
+    </profile>
+
+    <profile>
+        <!-- If any operator has two or more (MCC,MNC) pairs,
+             you can use <siminfo> tag many times.-->
+        <!-- If some different operators are using same (MCC,MNC) pair,
+             you can identify them using imsi, gid or spn.
+             In imsi code, 'x' is refered as a wild character, not a real code -->
+        <siminfo operator="Telia" country="DK" mcc="238" mnc="20" imsi="2382010x"/>
+        <siminfo operator="Telia" country="DK" mcc="238" mnc="20" imsi="2382030x"/>
+		
+        <item name='T9_DEFAULT'>Yes</item>
+        <item name='KEYBOARD_LAYOUT'>QWERTY</item>
+        <item name='DEFAULT_LANGUAGE'>da</item>
+	</profile>
+
+	<profile>
+        <siminfo operator="CBB_Mobil" country="DK" mcc="238" mnc="02"  spn="CBB Mobil"  />
+
+        <item name='T9_DEFAULT'>Yes</item>
+        <item name='KEYBOARD_LAYOUT'>QWERTY</item>
+        <item name='DEFAULT_LANGUAGE'>da</item>
+	</profile>
+
+	<profile>
+        <siminfo operator="Coriolis" country="FR" mcc="208" mnc="10"   gid="12" />
+        <siminfo operator="Coriolis" country="FR" mcc="647" mnc="10"    gid="12" />
+
+        <item name='T9_DEFAULT'>No</item>
+        <item name='KEYBOARD_LAYOUT'>AZERTY</item>
+        <item name='DEFAULT_LANGUAGE'>fr</item>
+    </profile>
+
+<profile>
+

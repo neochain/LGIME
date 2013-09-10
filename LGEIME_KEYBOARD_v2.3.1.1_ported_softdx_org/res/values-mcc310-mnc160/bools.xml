@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="common_input_default_punctuation_list">false</bool>
+    <bool name="ime_feature_reselection_after_clear_key">true</bool>
+    <bool name="ime_feature_trace_transparent">true</bool>
+    <bool name="pref_defval_trace_enabled">true</bool>
+    <bool name="pref_defval_auto_correct">true</bool>
+    <bool name="pref_defval_sound_feedback">false</bool>
+</resources>

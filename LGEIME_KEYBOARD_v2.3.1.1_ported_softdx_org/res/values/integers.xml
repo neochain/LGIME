@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="setting_simple_popup_item_goto_settings">0</integer>
+    <integer name="setting_simple_popup_item_goto_setting_keyboard_layout">1</integer>
+    <integer name="setting_simple_popup_item_goto_change_input_method">2</integer>
+    <integer name="setting_simple_popup_item_goto_simple_setting_popup">3</integer>
+    <integer name="optimized_completely_transparent">0</integer>
+    <integer name="optimized_low_opacuty_value">25</integer>
+    <integer name="optimized_middle_opacity_value">50</integer>
+    <integer name="optimized_high_opacity_value">75</integer>
+    <integer name="optimized_completely_opaque">100</integer>
+    <integer name="config_delay_before_preview">0</integer>
+    <integer name="config_delay_after_preview">10</integer>
+    <integer name="config_preview_fadein_anim_time">0</integer>
+    <integer name="config_preview_fadeout_anim_time">70</integer>
+    <integer name="config_mini_keyboard_fadein_anim_time">0</integer>
+    <integer name="config_mini_keyboard_fadeout_anim_time">100</integer>
+    <integer name="config_delay_before_key_repeat_start">400</integer>
+    <integer name="config_key_repeat_interval">50</integer>
+    <integer name="config_long_press_key_timeout">400</integer>
+    <integer name="config_multi_tap_key_timeout">800</integer>
+    <integer name="config_korean_multi_tap_key_timeout">2000</integer>
+    <integer name="config_qwerty_key_position_x">80</integer>
+    <integer name="config_qwerty_key_position_y">17</integer>
+    <integer name="config_qwerty_first_row_key_position_y">50</integer>
+    <item type="integer" name="config_qwerty_third_position_x">@integer/config_qwerty_key_position_x</item>
+    <item type="integer" name="config_qwerty_third_position_y">@integer/config_qwerty_key_position_y</item>
+    <integer name="config_qwerty_default_label_position_x">50</integer>
+    <integer name="config_qwerty_default_label_position_y">50</integer>
+    <item type="integer" name="config_bopomofo_default_label_position_y">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="config_bopomofo_lower_label_position_y">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="config_minikeyboard_max_column_portrait_normal">5</integer>
+    <integer name="config_minikeyboard_max_column_portrait_punctuation">8</integer>
+    <integer name="config_minikeyboard_max_column_landscape_normal">5</integer>
+    <integer name="config_minikeyboard_max_column_landscape_punctuation">8</integer>
+    <integer name="config_handwriting_guide_label_position_x">1</integer>
+    <integer name="config_handwriting_guide_label_position_y">10</integer>
+    <integer name="biasing_keyboard_width_actual_size">50</integer>
+    <integer name="biasing_keyboard_top_margin_actual_size">1</integer>
+    <integer name="chinese_input_default_mohu_pair">0x0</integer>
+    <item type="integer" name="row2_col1_extendrow_unshifted_labelPositionY">@integer/row1_col1_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col2_extendrow_unshifted_labelPositionY">@integer/row1_col2_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col3_extendrow_unshifted_labelPositionY">@integer/row1_col3_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col4_extendrow_unshifted_labelPositionY">@integer/row1_col4_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col5_extendrow_unshifted_labelPositionY">@integer/row1_col5_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col6_extendrow_unshifted_labelPositionY">@integer/row1_col6_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col7_extendrow_unshifted_labelPositionY">@integer/row1_col7_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col8_extendrow_unshifted_labelPositionY">@integer/row1_col8_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col9_extendrow_unshifted_labelPositionY">@integer/row1_col9_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col10_extendrow_unshifted_labelPositionY">@integer/row1_col10_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col11_extendrow_unshifted_labelPositionY">@integer/row2_col11_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col1_extendrow_unshifted_labelPositionY">@integer/row2_col1_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col2_extendrow_unshifted_labelPositionY">@integer/row2_col2_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col3_extendrow_unshifted_labelPositionY">@integer/row2_col3_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col4_extendrow_unshifted_labelPositionY">@integer/row2_col4_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col5_extendrow_unshifted_labelPositionY">@integer/row2_col5_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col6_extendrow_unshifted_labelPositionY">@integer/row2_col6_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col7_extendrow_unshifted_labelPositionY">@integer/row2_col7_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col8_extendrow_unshifted_labelPositionY">@integer/row2_col8_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col9_extendrow_unshifted_labelPositionY">@integer/row2_col9_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col10_extendrow_unshifted_labelPositionY">@integer/row2_col10_unshifted_labelPositionY</item>
+    <item type="integer" name="row3_col11_extendrow_unshifted_labelPositionY">@integer/row2_col11_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col1_extendrow_unshifted_labelPositionY">@integer/row3_col1_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col2_extendrow_unshifted_labelPositionY">@integer/row3_col2_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col3_extendrow_unshifted_labelPositionY">@integer/row3_col3_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col4_extendrow_unshifted_labelPositionY">@integer/row3_col4_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col5_extendrow_unshifted_labelPositionY">@integer/row3_col5_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col6_extendrow_unshifted_labelPositionY">@integer/row3_col6_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col7_extendrow_unshifted_labelPositionY">@integer/row3_col7_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col8_extendrow_unshifted_labelPositionY">@integer/row3_col8_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col9_extendrow_unshifted_labelPositionY">@integer/row3_col9_unshifted_labelPositionY</item>
+    <item type="integer" name="row4_col10_extendrow_unshifted_labelPositionY">@integer/row3_col10_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col1_extendrow_unshifted_labelPositionY">@integer/row4_col1_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col2_extendrow_unshifted_labelPositionY">@integer/row4_col2_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col3_extendrow_unshifted_labelPositionY">@integer/row4_col3_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col4_extendrow_unshifted_labelPositionY">@integer/row4_col4_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col5_extendrow_unshifted_labelPositionY">@integer/row4_col5_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col6_extendrow_unshifted_labelPositionY">@integer/row4_col6_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col7_extendrow_unshifted_labelPositionY">@integer/row4_col7_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col8_extendrow_unshifted_labelPositionY">@integer/row4_col8_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col9_extendrow_unshifted_labelPositionY">@integer/row4_col9_unshifted_labelPositionY</item>
+    <item type="integer" name="row5_col10_extendrow_unshifted_labelPositionY">@integer/row4_col10_unshifted_labelPositionY</item>
+    <item type="integer" name="row2_col1_extendrow_shifted_labelPositionY">@integer/row1_col1_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col2_extendrow_shifted_labelPositionY">@integer/row1_col2_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col3_extendrow_shifted_labelPositionY">@integer/row1_col3_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col4_extendrow_shifted_labelPositionY">@integer/row1_col4_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col5_extendrow_shifted_labelPositionY">@integer/row1_col5_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col6_extendrow_shifted_labelPositionY">@integer/row1_col6_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col7_extendrow_shifted_labelPositionY">@integer/row1_col7_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col8_extendrow_shifted_labelPositionY">@integer/row1_col8_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col9_extendrow_shifted_labelPositionY">@integer/row1_col9_shifted_labelPositionY</item>
+    <item type="integer" name="row2_col10_extendrow_shifted_labelPositionY">@integer/row1_col10_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col1_extendrow_shifted_labelPositionY">@integer/row2_col1_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col2_extendrow_shifted_labelPositionY">@integer/row2_col2_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col3_extendrow_shifted_labelPositionY">@integer/row2_col3_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col4_extendrow_shifted_labelPositionY">@integer/row2_col4_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col5_extendrow_shifted_labelPositionY">@integer/row2_col5_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col6_extendrow_shifted_labelPositionY">@integer/row2_col6_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col7_extendrow_shifted_labelPositionY">@integer/row2_col7_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col8_extendrow_shifted_labelPositionY">@integer/row2_col8_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col9_extendrow_shifted_labelPositionY">@integer/row2_col9_shifted_labelPositionY</item>
+    <item type="integer" name="row3_col10_extendrow_shifted_labelPositionY">@integer/row2_col10_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col1_extendrow_shifted_labelPositionY">@integer/row3_col1_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col2_extendrow_shifted_labelPositionY">@integer/row3_col2_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col3_extendrow_shifted_labelPositionY">@integer/row3_col3_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col4_extendrow_shifted_labelPositionY">@integer/row3_col4_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col5_extendrow_shifted_labelPositionY">@integer/row3_col5_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col6_extendrow_shifted_labelPositionY">@integer/row3_col6_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col7_extendrow_shifted_labelPositionY">@integer/row3_col7_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col8_extendrow_shifted_labelPositionY">@integer/row3_col8_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col9_extendrow_shifted_labelPositionY">@integer/row3_col9_shifted_labelPositionY</item>
+    <item type="integer" name="row4_col10_extendrow_shifted_labelPositionY">@integer/row3_col10_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col1_extendrow_shifted_labelPositionY">@integer/row4_col1_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col2_extendrow_shifted_labelPositionY">@integer/row4_col2_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col3_extendrow_shifted_labelPositionY">@integer/row4_col3_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col4_extendrow_shifted_labelPositionY">@integer/row4_col4_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col5_extendrow_shifted_labelPositionY">@integer/row4_col5_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col6_extendrow_shifted_labelPositionY">@integer/row4_col6_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col7_extendrow_shifted_labelPositionY">@integer/row4_col7_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col8_extendrow_shifted_labelPositionY">@integer/row4_col8_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col9_extendrow_shifted_labelPositionY">@integer/row4_col9_shifted_labelPositionY</item>
+    <item type="integer" name="row5_col10_extendrow_shifted_labelPositionY">@integer/row4_col10_shifted_labelPositionY</item>
+    <item type="integer" name="star_unshifted_long_key_action">@integer/long_press_for_caps_lock</item>
+    <item type="integer" name="star_shifted_long_key_action">@integer/star_unshifted_long_key_action</item>
+    <item type="integer" name="row1_col1_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col2_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col3_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col4_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col5_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col6_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col7_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col8_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col9_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col10_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col1_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col2_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col3_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col4_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col5_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col6_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col7_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col8_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col9_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col10_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col1_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col2_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col3_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col4_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col5_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col6_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col7_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col8_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col9_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col10_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col1_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col2_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col3_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col4_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col5_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col6_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col7_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col8_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col9_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col10_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col1_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col2_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col3_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col4_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col5_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col6_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col7_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col8_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col9_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row1_col10_shifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col1_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col2_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col3_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col4_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col5_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col6_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col7_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col8_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col9_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row2_col10_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col1_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col2_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col3_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col4_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col5_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col6_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col7_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col8_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col9_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row3_col10_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col1_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col2_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col3_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col4_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col5_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col6_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col7_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col8_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col9_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row4_col10_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="qwerty_symbol1_code_for_korean">63</integer>
+    <integer name="qwerty_symbol1_code">-51</integer>
+    <integer name="vibrate_duration_ms">40</integer>
+    <integer name="long_press_key_timeout_ms">400</integer>
+    <integer name="trace_long_press_key_timeout_ms">600</integer>
+    <integer name="fit_learn_diff_duration_ms">200</integer>
+    <integer name="multitouch_pinch_detection_delay_ms">150</integer>
+    <integer name="fling_time_ms">200</integer>
+    <integer name="qwerty_number_to_symbol_primarylabel_location_y">65</integer>
+    <integer name="qwerty_number_to_symbol_secondlabel_location_x">50</integer>
+    <integer name="qwerty_number_to_symbol_secondlabel_location_y">80</integer>
+    <integer name="bopomofo_number_to_symbol_secondlabel_location_y">20</integer>
+    <integer name="bopomofo_number_to_symbol_primarylabe_position_y">70</integer>
+    <integer name="language_choice_mode_single">1</integer>
+    <integer name="language_choice_mode_multiple">2</integer>
+    <item type="integer" name="phone_secondary_labal_position_y">@integer/define_phone_secondary_labal_position_y</item>
+    <item type="integer" name="phone_numeric_secondary_labal_position_y">@integer/define_phone_numeric_secondary_labal_position_y</item>
+    <integer name="handwriting_type_basic">0</integer>
+    <integer name="handwriting_type_fullscreen">1</integer>
+    <integer name="lgekeyboard_key_text_shadow_radius">2</integer>
+    <integer name="pref_defval_one_hand_keyboard_bias_NORMAL">0</integer>
+    <integer name="pref_defval_one_hand_keyboard_bias_LEFT">1</integer>
+    <integer name="pref_defval_one_hand_keyboard_bias_RIGHT">2</integer>
+    <integer name="ime_guide_layout_weight">1</integer>
+    <integer name="theme_version">102</integer>
+    <integer name="define_phone_secondary_labal_position_y">19</integer>
+    <integer name="define_phone_numeric_secondary_labal_position_y">80</integer>
+    <integer name="keycode_shift">-1</integer>
+    <integer name="keycode_symbol">-11</integer>
+    <integer name="keycode_voice">-13</integer>
+    <integer name="keycode_chinese_space">-16</integer>
+    <integer name="keycode_chunjiin_space">-16</integer>
+    <integer name="keycode_sky2_space">-16</integer>
+    <integer name="keycode_t9_toggle">-18</integer>
+    <integer name="keycode_multitap_toggle">-19</integer>
+    <integer name="put_word_via_insert_symbol">-22</integer>
+    <integer name="keycode_chinese_cycle_tone">-31</integer>
+    <integer name="keycode_handwriting">-50</integer>
+    <item type="integer" name="keycode_phonepad_multi_key">@integer/keycode_multi_action</item>
+    <item type="integer" name="keycode_qwerty_multi_key">@integer/keycode_multi_action</item>
+    <item type="integer" name="keycode_handwriting_multi_key">@integer/keycode_multi_action</item>
+    <item type="integer" name="keycode_qwerty_voice">@integer/keycode_setting</item>
+    <integer name="keycode_setting">-48</integer>
+    <integer name="keycode_emoticon">-49</integer>
+    <integer name="keycode_multi_action">-55</integer>
+    <integer name="keycode_handwriting_voice">-56</integer>
+    <integer name="keycode_handwriting_button">-57</integer>
+    <integer name="keycode_handwriting_button_status_on">-58</integer>
+    <integer name="keycode_alt">-60</integer>
+    <integer name="keycode_alt_shift">-61</integer>
+    <integer name="keycode_goto_symbol_page">-62</integer>
+    <integer name="keycode_goto_emoticon_page">-63</integer>
+    <integer name="keycode_goto_emoji_people_page">-64</integer>
+    <integer name="keycode_goto_emoji_nature_page">-65</integer>
+    <integer name="keycode_goto_emoji_object_page">-66</integer>
+    <integer name="keycode_goto_emoji_place_page">-67</integer>
+    <integer name="keycode_goto_emoji_symbol_page">-68</integer>
+    <integer name="keycode_goto_character_page">-69</integer>
+    <integer name="korean_long_press_for_numberic_input">9</integer>
+    <integer name="long_press_for_sending_number_keycode">20</integer>
+    <integer name="long_press_for_caps_lock">11</integer>
+    <integer name="long_press_for_going_to_writing_language_list">12</integer>
+    <integer name="long_press_change_language">13</integer>
+    <item type="integer" name="long_press_for_inserting_number">@integer/korean_long_press_for_numberic_input</item>
+    <integer name="long_press_for_inserting_second_label">14</integer>
+    <integer name="long_press_for_going_to_emoticon_page">18</integer>
+    <integer name="key_action_setting">7</integer>
+    <integer name="key_action_voice">16</integer>
+    <integer name="key_tab">9</integer>
+    <integer name="key_return">10</integer>
+    <integer name="key_space">32</integer>
+    <integer name="key_shift">-1</integer>
+    <integer name="key_symbol">-2</integer>
+    <integer name="key_delete">-5</integer>
+    <integer name="key_settings">-100</integer>
+    <integer name="key_voice">-102</integer>
+    <integer name="key_f1">-103</integer>
+    <integer name="KEYCODE_SHIFT">-1</integer>
+    <integer name="KEYCODE_MODE_CHANGE">-2</integer>
+    <integer name="KEYCODE_CANCEL">-3</integer>
+    <integer name="KEYCODE_DONE">-4</integer>
+    <integer name="KEYCODE_DELETE">-5</integer>
+    <integer name="KEYCODE_ALT">-6</integer>
+    <integer name="KEYCODE_ENTER">-7</integer>
+    <integer name="KEYCODE_BACK">-8</integer>
+    <integer name="KEYCODE_SPACE">-9</integer>
+    <integer name="KEYCODE_LANGUAGE_CHANGE">-10</integer>
+    <integer name="KEYCODE_SYMBOL">-11</integer>
+    <integer name="KEYCODE_NUMBER">-12</integer>
+    <integer name="KEYCODE_VOICE">-13</integer>
+    <integer name="KEYCODE_DOMAIN">-14</integer>
+    <integer name="KEYCODE_XT9">-18</integer>
+    <integer name="KEYCODE_MULTITAP_TOGGLE">-19</integer>
+    <integer name="KEYCODE_XT9_LANGUAGE_CYCLING">-20</integer>
+    <integer name="KEYCODE_MULTITAP_DEADKEY">-21</integer>
+    <integer name="KEYCODE_CHN_DELIMETER">-30</integer>
+    <integer name="KEYCODE_CHN_TONE">-31</integer>
+    <integer name="KEYCODE_CHN_PINYIN_STROKE">-32</integer>
+    <integer name="language_toast_appearing_period">800</integer>
+    <integer name="chinese_delimiter">39</integer>
+    <integer name="chinese_segment_delimiter">32</integer>
+    <integer name="bopomofo_syllable_delimiter">95</integer>
+    <item type="integer" name="writing_lang_choice_mode">@integer/language_choice_mode_multiple</item>
+    <integer name="pref_defval_sound_feedback_level">50</integer>
+    <integer name="pref_defval_pen_width">5</integer>
+    <integer name="pref_defval_pen_delay">500</integer>
+    <integer name="pref_defval_screen_transparency">64</integer>
+    <integer name="pref_defval_max_count_trace_point">70</integer>
+    <item type="integer" name="pref_defval_current_handwriting_type">@integer/handwriting_type_basic</item>
+    <integer name="pref_defval_trace_alpha_transparency">191</integer>
+    <item type="integer" name="pref_defval_one_hand_keyboard_bias">@integer/pref_defval_one_hand_keyboard_bias_NORMAL</item>
+    <item type="integer" name="wordlist_textsize">18.0dip</item>
+</resources>

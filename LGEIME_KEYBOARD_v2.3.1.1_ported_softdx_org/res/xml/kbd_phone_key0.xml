@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:codes="@string/number0_unshifted_codes" ime:popupCharacters="@string/number0_unshifted_popup_character" ime:keyLabel="@string/number0_unshifted_label" ime:keyIcon="@drawable/number0_unshifted_icon" ime:multitabSequence="@string/number0_unshifted_multitap_sequence" ime:secondaryLabel="@string/number0_unshifted_secondary_label" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

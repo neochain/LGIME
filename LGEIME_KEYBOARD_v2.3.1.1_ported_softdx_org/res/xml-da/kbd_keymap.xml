@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Keymap ime:code="@string/key_grave" ime:shiftedcode="@string/key_grave_shifted" ime:keycode="68" />
+    <Keymap ime:code="@string/key_2" ime:shiftedcode="@string/key_2_shifted" ime:keycode="9" />
+    <Keymap ime:code="@string/key_4" ime:shiftedcode="@string/key_4_shifted" ime:keycode="11" />
+    <Keymap ime:code="@string/key_6" ime:shiftedcode="@string/key_6_shifted" ime:keycode="13" />
+    <Keymap ime:code="@string/key_7" ime:shiftedcode="@string/key_7_shifted" ime:keycode="14" />
+    <Keymap ime:code="@string/key_8" ime:shiftedcode="@string/key_8_shifted" ime:keycode="15" />
+    <Keymap ime:code="@string/key_9" ime:shiftedcode="@string/key_9_shifted" ime:keycode="16" />
+    <Keymap ime:code="@string/key_0" ime:shiftedcode="@string/key_0_shifted" ime:keycode="7" />
+    <Keymap ime:code="@string/key_minus" ime:shiftedcode="@string/key_minus_shifted" ime:keycode="69" />
+    <Keymap ime:code="@string/key_equals" ime:shiftedcode="@string/key_equals_shifted" ime:keycode="70" />
+    <Keymap ime:code="@string/key_left_bracket" ime:shiftedcode="@string/key_left_bracket_shifted" ime:keycode="71" />
+    <Keymap ime:code="@string/key_right_bracket" ime:shiftedcode="@string/key_right_bracket_shifted" ime:keycode="72" />
+    <Keymap ime:code="@string/key_backslash" ime:shiftedcode="@string/key_backslash_shifted" ime:keycode="73" />
+    <Keymap ime:code="@string/key_semicolon" ime:shiftedcode="@string/key_semicolon_shifted" ime:keycode="74" />
+- <Keymap ime:code="@string/key_apostrophe" ime:shiftedcode="@string/key_apostrophe_shifted" ime:keycode="75" />
+    <Keymap ime:code="@string/key_comma" ime:shiftedcode="@string/key_comma_shifted" ime:keycode="55" />
+    <Keymap ime:code="@string/key_period" ime:shiftedcode="@string/key_period_shifted" ime:keycode="56" />
+    <Keymap ime:code="@string/key_slash" ime:shiftedcode="@string/key_slash_shifted" ime:keycode="76" />
+</LgeKeyboard>

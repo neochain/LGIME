@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyWidth="@dimen/qwerty_symbol_key_back_width" ime:keyWidthRelative="@fraction/relative_qwerty_backspace_key_width_symbol_layout" ime:horizontalGapRelative="@fraction/relative_qwerty_backspace_key_horizontal_gap_symbol_layout" ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_qwerty_key_symbol_back_hitbox" />
+    </Row>
+</LgeKeyboard>

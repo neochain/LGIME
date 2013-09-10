@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="qwerty_number_to_symbol_secondlabel_location_x">54</integer>
+    <integer name="qwerty_number_to_symbol_secondlabel_location_y">83</integer>
+    <integer name="define_phone_numeric_secondary_labal_position_y">78</integer>
+</resources>

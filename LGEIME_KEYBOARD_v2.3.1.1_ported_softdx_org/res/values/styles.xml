@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LgeKeyboardViewStyle">
+        <item name="android:background">@drawable/ime_keypad_bg</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key</item>
+        <item name="FunctionKeyBackground">@drawable/btn_keyboard_key_function</item>
+        <item name="keyTextSize">@dimen/key_text_size</item>
+        <item name="phoneKeyTextSize">@dimen/phone_key_text_size</item>
+        <item name="functionTextSize">@dimen/key_function_text_size</item>
+        <item name="phoneFunctionTextSize">@dimen/phone_key_function_text_size</item>
+        <item name="keyTextColor">@color/lgekeyboard_key_text_color</item>
+        <item name="keyTextPressedColor">@color/lgekeyboard_key_text_pressed_color</item>
+        <item name="secondaryLabelColor">@color/lgekeyboard_key_text_secondary_label_color</item>
+        <item name="secondaryLabelPressedColor">@color/lgekeyboard_key_text_pressed_secondary_label_color</item>
+        <item name="keyFunctionColor">@color/lgekeyboard_key_function_color</item>
+        <item name="keyPreviewLayout">@layout/key_preview</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset</item>
+        <item name="keyPreviewHeight">@dimen/key_preview_height</item>
+        <item name="keyPreviewWidth">@dimen/key_preview_width</item>
+        <item name="keyPreviewTextSize">@dimen/key_preview_text_size</item>
+        <item name="keyPreviewMarginWidth">@dimen/key_preview_marginWidth</item>
+        <item name="keyHysteresisDistance">@dimen/key_hysteresis_distance</item>
+        <item name="verticalCorrection">@dimen/keyboard_vertical_correction</item>
+        <item name="popupLayout">@layout/keyboard_popup</item>
+        <item name="shadowColor">@color/lgekeyboard_key_text_shadow_color</item>
+        <item name="FunctionShadowColor">@color/lgekeyboard_key_function_shadow_color</item>
+        <item name="shadowRadius">@integer/lgekeyboard_key_text_shadow_radius</item>
+        <item name="symbolColorScheme">white</item>
+        <item name="mini_adjust_position_y">@dimen/mini_adjust_position_y</item>
+        <item name="pageIndicatorActive">@drawable/shape_page_indicator_active</item>
+        <item name="pageIndicatorInactive">@drawable/shape_page_indicator_inactive</item>
+    </style>
+    <style name="KeyPreviewAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="MiniKeyboardAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="CandidateAddToDictionaryPopupAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="InlineStringAlpha">
+        <item name="wordStemForegroundColor">#ffffffff</item>
+        <item name="wordStemBackgroundColor">@color/candidate_recommended</item>
+        <item name="multitapForegroundColor">#ffffffff</item>
+        <item name="multitapBackgroundColor">#ff444444</item>
+    </style>
+    <style name="InlineStringChinese">
+        <item name="invalidForegroundColor">#ffff0000</item>
+        <item name="errorFlashBackgroundColor">#ccff0000</item>
+        <item name="isUnderlined">true</item>
+    </style>
+    <style name="WordListView">
+        <item name="candidateNormal">@color/candidate_normal</item>
+        <item name="candidateRecommended">@color/candidate_recommended</item>
+        <item name="candidateOther">@color/candidate_other</item>
+        <item name="candidateComponent">@color/candidate_component</item>
+        <item name="candidateBackground">@color/candidate_background</item>
+        <item name="candidatePressed">@color/candidate_pressed</item>
+    </style>
+    <style name="TouchParam">
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_ice_cream_sandwich</item>
+    </style>
+    <style name="ColorPickerDialogPreference">
+        <item name="android:dialogTitle">@string/sp_handwriting_pen_color_NORMAL</item>
+        <item name="android:negativeButtonText">@string/cancel</item>
+        <item name="android:dialogLayout">@layout/color_picker_layout</item>
+    </style>
+    <style name="PenTypeDialogPreference">
+        <item name="android:dialogTitle">@string/sp_handwriting_pen_type_NORMAL</item>
+        <item name="android:positiveButtonText">@string/sp_alert_dialog_ok_NORMAL</item>
+        <item name="android:negativeButtonText">@string/cancel</item>
+        <item name="android:dialogLayout">@layout/pentype_layout</item>
+    </style>
+    <style name="Region">
+        <item name="keyboardRegion"></item>
+        <item name="tableName"></item>
+        <item name="resInfor"></item>
+    </style>
+</resources>

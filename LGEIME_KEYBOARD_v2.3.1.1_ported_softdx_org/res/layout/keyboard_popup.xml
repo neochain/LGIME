@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/ime_btn_effect_character" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lgx.ime.inputview.LgeMiniKeyboardView android:id="@id/LgeKeyboardView" android:background="@color/lgekeyboard_transparent" android:paddingLeft="6.0dip" android:paddingTop="5.3299866dip" android:paddingRight="6.659973dip" android:paddingBottom="17.329987dip" android:layout_width="wrap_content" android:layout_height="wrap_content" ime:keyBackground="@drawable/btn_keyboard_key_popup" ime:keyHysteresisDistance="0.0dip" ime:verticalCorrection="@dimen/mini_keyboard_vertical_correction"
+      xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime" />
+</LinearLayout>

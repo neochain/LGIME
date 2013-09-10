@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/linear1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/page_mark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ime_guide_landscape_layout_margin_bottom_2" android:layout_above="@id/linear2" android:alpha="0.4" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/linear1" android:measureWithLargestChild="true" android:alpha="0.5" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/ime_previous_button" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ime_guide_previous_NOMAL" android:layout_weight="@integer/ime_guide_layout_weight" android:alpha="0.5" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/ime_next_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ime_guide_next_NOMAL" android:layout_weight="@integer/ime_guide_layout_weight" android:alpha="0.5" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

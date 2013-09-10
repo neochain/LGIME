@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="16.310001%p" ime:horizontalGap="1.2699962%p" ime:labelPositionY="50" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="Next" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_phonepad_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

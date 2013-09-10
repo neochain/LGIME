@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/option_item_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/help" android:key="help">
+        <PreferenceScreen android:title="@string/lg_keyboard_guide" android:key="guide_help">
+            <intent android:action="com.lgx.ime.setting.LgeKeyboardGuide" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

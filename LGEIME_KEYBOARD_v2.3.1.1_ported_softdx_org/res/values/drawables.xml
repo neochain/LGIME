@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="number0_unshifted_icon">@drawable/ime_keypad_icon_space_large_normal</item>
+    <item type="drawable" name="star_unshifted_icon">@drawable/ime_btn_func_shift</item>
+    <item type="drawable" name="right_func3_icon">@drawable/ime_keypad_icon_setting_large</item>
+    <item type="drawable" name="number0_shifted_icon">@drawable/number0_unshifted_icon</item>
+    <item type="drawable" name="star_shifted_icon">@drawable/star_unshifted_icon</item>
+</resources>

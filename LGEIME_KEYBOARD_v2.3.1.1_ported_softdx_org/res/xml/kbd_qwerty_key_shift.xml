@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:keyWidth="@dimen/qwerty_shift_key_width" ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyWidthRelative="@fraction/relative_qwerty_shift_key_width" ime:codes="@integer/keycode_shift" ime:keyEdgeFlags="left" ime:isModifier="true" ime:isSticky="true" ime:keyLabel="Shift" ime:keyIcon="@drawable/ime_btn_func_shift" ime:longKeyAction="@integer/long_press_for_caps_lock" ime:hitBox="@string/define_qwerty_key_shift_hitbox" />
+    </Row>
+</LgeKeyboard>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="20300015" android:versionName="2.3.1.1-release" android:installLocation="auto" package="com.lgx.ime" coreApp="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <application android:label="@string/ime_name" android:icon="@drawable/keyboard_language" android:debuggable="false" android:killAfterRestore="false" android:hardwareAccelerated="false">
+        <meta-data android:name="com.lge.theme" android:value="Theme_LGE_White" />
+        <meta-data android:name="com.lge.layoutdirection" android:value="Locale" />
+        <service android:label="@string/ime_name" android:name=".LgeImeImpl" android:permission="android.permission.BIND_INPUT_METHOD" android:configChanges="mcc|mnc">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+        <activity android:label="@string/option_item_settings" android:name=".setting.LgeSettings" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_keyboard_theme" android:name=".setting.LgeThemeSettings" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeThemeSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_word_suggestion" android:name=".setting.LgeSuggestionSettings" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeSuggestionSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_word_suggestion" android:name=".setting.LgeSuggestionSettingsKorea" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeSuggestionSettingsKorea" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_category_title_touch_feedback" android:name=".setting.LgeTouchFeedbackSettings" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeTouchFeedbackSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/sp_pref_keyboard_layout_names_handwriting_NORMAL" android:name=".setting.LgeHandWritingSettings" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeHandWritingSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".services.UserDictionaryService" />
+        <service android:name=".services.ProfileAndLanguageServiceImpl" android:configChanges="mcc|mnc" />
+        <service android:name="com.google.android.voiceime.ServiceHelper" />
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.voiceime.ActivityHelper" android:finishOnTaskLaunch="true" android:excludeFromRecents="true" android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:label="@string/sp_input_language_and_keyboard_layout_NORMAL" android:name=".setting.EnterInputLanguageAndKeyboardLayoutSetting" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/lg_keyboard_guide" android:name=".setting.LgeKeyboardGuide">
+            <intent-filter>
+                <action android:name="com.lgx.ime.setting.LgeKeyboardGuide" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:name=".contentprovider.LgeImeContentProvider" android:authorities="com.lgx.ime.option.layout" />
+    </application>
+</manifest>

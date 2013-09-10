@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="row1_col5_unshifted_labelPositionY">@integer/config_bengali_label_position_y</item>
+    <item type="integer" name="row2_col3_unshifted_labelPositionY">@integer/config_bengali_label_position_y</item>
+    <item type="integer" name="row2_col5_unshifted_labelPositionY">@integer/config_bengali_label_position_y</item>
+    <item type="integer" name="row3_col9_unshifted_labelPositionY">@integer/config_bengali_label_position_y</item>
+    <item type="integer" name="row1_col11_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <item type="integer" name="row2_col11_unshifted_labelPositionY">@integer/config_qwerty_first_row_key_position_y</item>
+    <integer name="config_bengali_label_position_y">30</integer>
+</resources>

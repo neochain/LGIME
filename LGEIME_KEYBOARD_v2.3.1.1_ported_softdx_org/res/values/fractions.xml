@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_swipe_vertical_versus_horizontal_fraction">129.99878%</fraction>
+    <fraction name="config_swipe_hide_key_number">150.0%</fraction>
+    <fraction name="one_hand_keyboard_swipe_distance_single_key">299.99695%</fraction>
+    <fraction name="split_keyboard_pinch_distance_single_key">150.0%</fraction>
+    <fraction name="biasing_keyboard_margin_left_right_size">114.99939%</fraction>
+    <fraction name="popup_dialog_background_dim_ammount">60.000004%</fraction>
+    <fraction name="font_scaling_factor_over_one">101.9989%</fraction>
+    <fraction name="font_scaling_factor_under_one">100.0%</fraction>
+    <item type="fraction" name="minikeyboard_offset_y_offset">@fraction/define_minikeyboard_position_y_offset</item>
+    <fraction name="bias_keyboard_line_margin">4.999995%</fraction>
+    <fraction name="bias_keyboard_def_scale_size">85.0%</fraction>
+    <fraction name="bias_keyboard_XGA_scale_size">66.0%</fraction>
+    <fraction name="bias_keyboard_WXGA_scale_size">82.00001%</fraction>
+    <fraction name="bias_keyboard_keysize_def_scale_size">80.00001%</fraction>
+    <fraction name="bias_keyboard_keysize_XGA_scale_size">70.00001%</fraction>
+    <fraction name="bias_keyboard_keysize_WXGA_scale_size">87.0%</fraction>
+    <fraction name="bias_keyboard_keysize_FHD_scale_size">80.00001%</fraction>
+    <fraction name="bias_keyboard_icon_padding_width">0.0%</fraction>
+    <fraction name="split_keyboard_center_margin">29.999996%</fraction>
+    <fraction name="split_keyboard_edge_margin">4.999995%</fraction>
+    <fraction name="bias_keyboard_icon_setting_def_padding_width">8.000004%</fraction>
+    <fraction name="bias_keyboard_icon_setting_FHD_padding_width">1.9999981%</fraction>
+    <fraction name="bias_keyboard_icon_setting_XGA_padding_width">14.999998%</fraction>
+    <fraction name="bias_keyboard_icon_setting_def_padding_height">32.000004%</fraction>
+    <fraction name="bias_keyboard_icon_setting_FHD_padding_height">20.000004%</fraction>
+    <fraction name="bias_keyboard_icon_voice_def_padding_width">32.000004%</fraction>
+    <fraction name="ExtendedMode_Keyboard_AspectRatio_Value">76.0%</fraction>
+    <fraction name="NormalMode_Keyboard_AspectRatio_Value">68.00001%</fraction>
+    <fraction name="define_minikeyboard_position_y_offset">200.0%</fraction>
+    <fraction name="define_keyboard_height_relative">37.600006%</fraction>
+    <fraction name="define_extend_keyboard_height_relative">47.000004%</fraction>
+    <fraction name="relative_margin_left">0.99999905%</fraction>
+    <fraction name="relative_margin_right">0.99999905%</fraction>
+    <fraction name="relative_margin_top">5.4999948%</fraction>
+    <fraction name="relative_margin_bottom">0.99999905%</fraction>
+    <fraction name="relative_qwerty_ordinary_key_width">9.700001%</fraction>
+    <fraction name="relative_qwerty_ordinary_horizontal_gap">0.3000021%</fraction>
+    <fraction name="relative_qwerty_shift_key_width">12.933004%</fraction>
+    <fraction name="relative_qwerty_backspace_key_width">13.499999%</fraction>
+    <fraction name="relative_qwerty_backspace_key_horizontal_gap">1.699996%</fraction>
+    <fraction name="relative_qwerty_123_key_width">12.1729965%</fraction>
+    <fraction name="relative_qwerty_language_key_width">12.1729965%</fraction>
+    <fraction name="relative_qwerty_emoticon_key_width">12.1729965%</fraction>
+    <fraction name="relative_qwerty_space_key_width">29.700005%</fraction>
+    <fraction name="relative_qwerty_space_key_width_for_domain">16.999996%</fraction>
+    <fraction name="relative_qwerty_space_key_width_small_for_domain">16.3%</fraction>
+    <fraction name="relative_qwerty_space_key_width_smaller_for_domain">11.000002%</fraction>
+    <fraction name="relative_qwerty_enter_key_width">14.8%</fraction>
+    <fraction name="relative_qwerty_dotcom_key_width">12.933004%</fraction>
+    <fraction name="relative_qwerty_ordinary_key_height">22.060001%</fraction>
+    <fraction name="relative_qwerty_ordinary_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_qwerty_key_x_2_1">5.2999973%</fraction>
+    <fraction name="relative_qwerty_key_x_3_1">15.299999%</fraction>
+    <fraction name="relative_qwerty_ordinary_key_width_for_alt_bottom">9.487497%</fraction>
+    <fraction name="relative_qwerty_123_key_width_for_alt_bottom">10.860502%</fraction>
+    <fraction name="relative_qwerty_language_key_width_for_alt_bottom">10.860502%</fraction>
+    <fraction name="relative_qwerty_space_key_width_for_alt_bottom">24.487495%</fraction>
+    <fraction name="relative_qwerty_enter_key_width_for_alt_bottom">13.587499%</fraction>
+    <item type="fraction" name="relative_qwerty_dotcom_key_width_for_alt_bottom">@fraction/relative_qwerty_dotcom_key_width</item>
+    <fraction name="relative_qwerty_space_key_width_5keys">49.699997%</fraction>
+    <item type="fraction" name="relative_qwerty_space_key_width_for_hebrew">@fraction/relative_qwerty_space_key_width_5keys</item>
+    <fraction name="relative_qwerty_ordinary_key_width_11keys">8.791006%</fraction>
+    <fraction name="relative_qwerty_ordinary_horizontal_gap_11keys">0.3000021%</fraction>
+    <fraction name="relative_qwerty_shift_key_width_11keys">16.357004%</fraction>
+    <fraction name="relative_qwerty_backspace_key_width_11keys">16.357004%</fraction>
+    <fraction name="relative_qwerty_backspace_key_horizontal_gap_11keys">1.9999981%</fraction>
+    <fraction name="relative_qwerty_key_x_3_1_11keys">18.182003%</fraction>
+    <item type="fraction" name="relative_qwerty_ordinary_key_width_neu_layout">@fraction/relative_qwerty_ordinary_key_width_11keys</item>
+    <item type="fraction" name="relative_qwerty_ordinary_horizontal_gap_neu_layout">@fraction/relative_qwerty_ordinary_horizontal_gap_11keys</item>
+    <item type="fraction" name="relative_qwerty_shift_key_width_neu_layout">@fraction/relative_qwerty_shift_key_width_11keys</item>
+    <item type="fraction" name="relative_qwerty_backspace_key_width_neu_layout">@fraction/relative_qwerty_backspace_key_width_11keys</item>
+    <item type="fraction" name="relative_qwerty_backspace_key_horizontal_gap_new_layout">@fraction/relative_qwerty_backspace_key_horizontal_gap_11keys</item>
+    <item type="fraction" name="relative_qwerty_key_x_3_1_neu_layout">@fraction/relative_qwerty_key_x_3_1_11keys</item>
+    <item type="fraction" name="relative_qwerty_ordinary_key_width_bopomofo_layout">@fraction/relative_qwerty_ordinary_key_width_11keys</item>
+    <item type="fraction" name="relative_qwerty_ordinary_horizontal_gap_bopomofo_layout">@fraction/relative_qwerty_ordinary_horizontal_gap_11keys</item>
+    <fraction name="relative_qwerty_ordinary_vertical_gap_bopomofo_layout">0.0%</fraction>
+    <item type="fraction" name="relative_qwerty_backspace_key_width_bopomofo_layout">@fraction/relative_qwerty_ordinary_key_width_bopomofo_layout</item>
+    <item type="fraction" name="relative_qwerty_backspace_key_horizontal_gap_bopomofo_layout">@fraction/relative_qwerty_ordinary_horizontal_gap_bopomofo_layout</item>
+    <fraction name="relative_qwerty_backspace_key_width_symbol_layout">19.700003%</fraction>
+    <item type="fraction" name="relative_qwerty_backspace_key_horizontal_gap_symbol_layout">@fraction/relative_qwerty_ordinary_horizontal_gap</item>
+    <fraction name="relative_qwerty_toggle_arow_key_width_symbol_layout">19.700003%</fraction>
+    <fraction name="relative_qwerty_ordinary_key_width_emoticon_layout">19.700003%</fraction>
+    <fraction name="relative_qwerty_large_key_width_emoticon_layout">29.700005%</fraction>
+    <fraction name="relative_handwriting_large_key_width_emoticon_layout">39.999996%</fraction>
+    <fraction name="relative_phone_ordinary_key_width">21.903002%</fraction>
+    <fraction name="relative_phone_ordinary_horizontal_gap">0.34999847%</fraction>
+    <fraction name="relative_phone_ordinary_key_height">22.500002%</fraction>
+    <fraction name="relative_phone_ordinary_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_left_key1_width">17.429996%</fraction>
+    <item type="fraction" name="relative_phone_left_key2_width">@fraction/relative_phone_left_key1_width</item>
+    <item type="fraction" name="relative_phone_left_key3_width">@fraction/relative_phone_left_key1_width</item>
+    <item type="fraction" name="relative_phone_left_key4_width">@fraction/relative_phone_left_key1_width</item>
+    <fraction name="relative_phone_left_key1_horizontal_gap">0.3000021%</fraction>
+    <item type="fraction" name="relative_phone_left_key2_horizontal_gap">@fraction/relative_phone_left_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_left_key3_horizontal_gap">@fraction/relative_phone_left_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_left_key4_horizontal_gap">@fraction/relative_phone_left_key1_horizontal_gap</item>
+    <fraction name="relative_phone_right_key1_width">17.429996%</fraction>
+    <item type="fraction" name="relative_phone_right_key2_width">@fraction/relative_phone_right_key1_width</item>
+    <item type="fraction" name="relative_phone_right_key3_width">@fraction/relative_phone_right_key1_width</item>
+    <item type="fraction" name="relative_phone_right_key4_width">@fraction/relative_phone_right_key1_width</item>
+    <fraction name="relative_phone_right_key1_horizontal_gap">0.3000021%</fraction>
+    <item type="fraction" name="relative_phone_right_key2_horizontal_gap">@fraction/relative_phone_right_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_right_key3_horizontal_gap">@fraction/relative_phone_right_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_right_key4_horizontal_gap">@fraction/relative_phone_right_key1_horizontal_gap</item>
+    <fraction name="relative_phone_symbol_key_width">16.427004%</fraction>
+    <fraction name="relative_phone_symbol_horizontal_gap">0.34999847%</fraction>
+    <fraction name="relative_phone_symbol_key_height">22.500002%</fraction>
+    <fraction name="relative_phone_symbol_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_symbol_left_key1_width">17.429996%</fraction>
+    <item type="fraction" name="relative_phone_symbol_left_key2_width">@fraction/relative_phone_symbol_left_key1_width</item>
+    <item type="fraction" name="relative_phone_symbol_left_key3_width">@fraction/relative_phone_symbol_left_key1_width</item>
+    <item type="fraction" name="relative_phone_symbol_left_key4_width">@fraction/relative_phone_symbol_left_key1_width</item>
+    <fraction name="relative_phone_symbol_left_key1_horizontal_gap">0.3000021%</fraction>
+    <item type="fraction" name="relative_phone_symbol_left_key2_horizontal_gap">@fraction/relative_phone_symbol_left_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_symbol_left_key3_horizontal_gap">@fraction/relative_phone_symbol_left_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_symbol_left_key4_horizontal_gap">@fraction/relative_phone_symbol_left_key1_horizontal_gap</item>
+    <fraction name="relative_phone_symbol_right_key1_width">17.429996%</fraction>
+    <item type="fraction" name="relative_phone_symbol_right_key2_width">@fraction/relative_phone_symbol_right_key1_width</item>
+    <item type="fraction" name="relative_phone_symbol_right_key3_width">@fraction/relative_phone_symbol_right_key1_width</item>
+    <item type="fraction" name="relative_phone_symbol_right_key4_width">@fraction/relative_phone_symbol_right_key1_width</item>
+    <fraction name="relative_phone_symbol_right_key1_horizontal_gap">0.3000021%</fraction>
+    <item type="fraction" name="relative_phone_symbol_right_key2_horizontal_gap">@fraction/relative_phone_symbol_right_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_symbol_right_key3_horizontal_gap">@fraction/relative_phone_symbol_right_key1_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_symbol_right_key4_horizontal_gap">@fraction/relative_phone_symbol_right_key1_horizontal_gap</item>
+    <fraction name="relative_phone_numeric_key_width">23.699999%</fraction>
+    <fraction name="relative_phone_numeric_horizontal_gap">0.31000376%</fraction>
+    <fraction name="relative_phone_numeric_key_height">23.699999%</fraction>
+    <fraction name="relative_phone_numeric_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_emoticons_key_width">33.203995%</fraction>
+    <item type="fraction" name="relative_phone_emoticons_horizontal_gap">@fraction/relative_phone_symbol_horizontal_gap</item>
+    <item type="fraction" name="relative_phone_emoticons_key_height">@fraction/relative_phone_symbol_key_height</item>
+    <item type="fraction" name="relative_phone_emoticons_vertical_gap">@fraction/relative_phone_symbol_vertical_gap</item>
+    <item type="fraction" name="relative_phone_emoticons_bottom_key_width">@fraction/relative_phone_symbol_key_width</item>
+    <item type="fraction" name="relative_phone_emoticons_bottom_horizontal_gap">@fraction/relative_phone_symbol_horizontal_gap</item>
+    <fraction name="relative_handwriting_ordinary_key_width">9.722221%</fraction>
+    <fraction name="relative_handwriting_ordinary_horizontal_gap">0.2777815%</fraction>
+    <fraction name="relative_handwriting_ordinary_key_height">22.807014%</fraction>
+    <fraction name="relative_handwriting_ordinary_vertical_gap">2.968967%</fraction>
+    <fraction name="relative_handwriting_123_key_width">12.2222185%</fraction>
+    <fraction name="relative_handwriting_language_key_width">12.31482%</fraction>
+    <fraction name="relative_handwriting_emoticon_key_width">12.31482%</fraction>
+    <fraction name="relative_handwriting_space_key_width">29.814816%</fraction>
+    <fraction name="relative_handwriting_enter_key_width">12.268519%</fraction>
+    <fraction name="relative_handwriting_backspace_key_width">12.268519%</fraction>
+    <fraction name="relative_handwriting_handwriting_area_height">74.22402%</fraction>
+    <fraction name="relative_handwriting_toggle_arow_key_width_symbol_layout">19.722223%</fraction>
+    <fraction name="relative_handwriting_full_ordinary_key_height">21.45642%</fraction>
+    <fraction name="relative_handwriting_extendrow_handwriting_area_height">100.0%</fraction>
+    <fraction name="relative_extendrow_qwerty_ordinary_key_width">33.203995%</fraction>
+    <fraction name="relative_extendrow_handwriting_4row_key_width">26.332998%</fraction>
+    <fraction name="relative_extendrow_qwerty_numeric_key_height">17.203999%</fraction>
+    <fraction name="relative_qwerty_emoji_key_width_symbol_emoticon_layout">13.999998%</fraction>
+    <fraction name="relative_qwerty_emoji_key_horizontal_gap_symbol_emoticon_layout">0.0%</fraction>
+    <fraction name="relative_qwerty_emoji_key_x_1_1_symbol_emoticon_layout">0.99999905%</fraction>
+    <item type="fraction" name="relative_qwerty_emoji_key_x_2_1_symbol_emoticon_layout">@fraction/relative_qwerty_emoji_key_x_1_1_symbol_emoticon_layout</item>
+    <item type="fraction" name="relative_qwerty_emoji_key_x_3_1_symbol_emoticon_layout">@fraction/relative_qwerty_emoji_key_x_1_1_symbol_emoticon_layout</item>
+    <item type="fraction" name="relative_qwerty_emoji_key_x_4_1_symbol_emoticon_layout">@fraction/relative_qwerty_emoji_key_x_1_1_symbol_emoticon_layout</item>
+    <fraction name="relative_qwerty_large_key_width_symbol_emoticon_layout">29.700005%</fraction>
+    <fraction name="relative_qwerty_symbol_category_horizontal_gap_symbol_emoticon_layout">1.4999986%</fraction>
+    <fraction name="relative_qwerty_symbol_category_key_width_symbol_emoticon_layout">9.9121685%</fraction>
+    <item type="fraction" name="relative_qwerty_ordinary_key_width_symbol_emoticon_layout">@fraction/relative_qwerty_ordinary_key_width</item>
+    <item type="fraction" name="relative_qwerty_ordinary_key_height_symbol_emoticon_layout">@fraction/relative_qwerty_ordinary_key_height</item>
+    <item type="fraction" name="relative_qwerty_ordinary_key_horizontal_gap_symbol_emoticon_layout">@fraction/relative_qwerty_ordinary_horizontal_gap</item>
+    <item type="fraction" name="relative_qwerty_ordinary_key_vertical_gap_symbol_emoticon_layout">@fraction/relative_qwerty_ordinary_vertical_gap</item>
+    <item type="fraction" name="relative_margin_left_symbol_emoticon_layout">@fraction/relative_margin_left</item>
+    <item type="fraction" name="relative_margin_top_symbol_emoticon_layout">@fraction/relative_margin_top</item>
+    <item type="fraction" name="relative_margin_right_symbol_emoticon_layout">@fraction/relative_margin_right</item>
+    <item type="fraction" name="relative_margin_bottom_symbol_emoticon_layout">@fraction/relative_margin_bottom</item>
+    <fraction name="language_toast_view_vertical_location">75.0%</fraction>
+    <fraction name="key_hitbox_expansion_fraction">50.0%</fraction>
+</resources>

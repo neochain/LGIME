@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="key_height">@dimen/qwerty_key_height_size</item>
+    <item type="dimen" name="qwerty_vertical_gap">@dimen/qwerty_vertical_gap_size</item>
+    <item type="dimen" name="qwerty_horizontal_gap">@dimen/qwerty_horizontal_gap_size</item>
+    <item type="dimen" name="qwerty_side_gap">@dimen/qwerty_side_gap_size</item>
+    <item type="dimen" name="qwerty_top_gap">@dimen/qwerty_top_gap_size</item>
+    <item type="dimen" name="qwerty_bottom_gap">@dimen/qwerty_bottom_gap_size</item>
+    <item type="dimen" name="qwerty_2nd_row_gap">@dimen/qwerty_2nd_row_gap_size</item>
+    <item type="dimen" name="qwerty_shift_key_width">@dimen/qwerty_shift_key_width_size</item>
+    <item type="dimen" name="qwerty_3rd_row_func_gap">@dimen/qwerty_3rd_row_func_gap_size</item>
+    <item type="dimen" name="qwerty_back_key_width">@dimen/qwerty_back_key_width_size</item>
+    <item type="dimen" name="qwerty_function_key_width">@dimen/qwerty_function_key_width_size</item>
+    <item type="dimen" name="qwerty_setting_key_width">@dimen/qwerty_setting_key_width_size</item>
+    <item type="dimen" name="qwerty_language_change_key_width">@dimen/qwerty_language_change_key_width_size</item>
+    <item type="dimen" name="qwerty_space_key_small_width">@dimen/qwerty_space_key_small_width_size</item>
+    <item type="dimen" name="qwerty_space_key_middle_width">@dimen/qwerty_space_key_middle_width_size</item>
+    <item type="dimen" name="qwerty_space_key_large_width">@dimen/qwerty_space_key_large_width_size</item>
+    <item type="dimen" name="qwerty_symbol_key_back_width">@dimen/qwerty_symbol_key_back_width_size</item>
+    <item type="dimen" name="qwerty_domain_key_width">@dimen/qwerty_domain_key_width_size</item>
+    <dimen name="mini_adjust_position_y">173.0dip</dimen>
+    <dimen name="shape_writer_line_width">11.0dip</dimen>
+    <dimen name="define_qwerty_key_settings_text_size">18.0dip</dimen>
+    <dimen name="define_qwerty_key_space_secondary_label_text_size">15.0dip</dimen>
+    <dimen name="define_key_preview_width">74.0dip</dimen>
+    <dimen name="define_key_preview_height">98.72dip</dimen>
+    <dimen name="define_key_preview_text_size">23.0dip</dimen>
+    <dimen name="qwerty_key_height_size">44.0dip</dimen>
+    <dimen name="qwerty_key_width_size">63.0dip</dimen>
+    <dimen name="qwerty_vertical_gap_size">7.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_size">1.0dip</dimen>
+    <dimen name="qwerty_side_gap_size">0.5dip</dimen>
+    <dimen name="qwerty_top_gap_size">9.5dip</dimen>
+    <dimen name="qwerty_bottom_gap_size">3.0dip</dimen>
+    <dimen name="qwerty_2nd_row_gap_size">31.5dip</dimen>
+    <dimen name="qwerty_shift_key_width_size">84.0dip</dimen>
+    <dimen name="qwerty_function_key_width_size">96.0dip</dimen>
+    <dimen name="qwerty_setting_key_width_size">78.0dip</dimen>
+    <dimen name="qwerty_language_change_key_width_size">79.0dip</dimen>
+    <item type="dimen" name="qwerty_space_key_small_width_size">@dimen/qwerty_key_width_size</item>
+    <dimen name="qwerty_space_key_middle_width_size">191.0dip</dimen>
+    <dimen name="qwerty_space_key_large_width_size">255.0dip</dimen>
+    <dimen name="qwerty_space_key_large_bopomofo_width_size">319.0dip</dimen>
+    <dimen name="qwerty_symbol_key_back_width_size">127.0dip</dimen>
+    <item type="dimen" name="qwerty_domain_key_width_size">@dimen/qwerty_symbol_key_back_width_size</item>
+    <dimen name="bopomofo_key_width_size">57.0dip</dimen>
+    <dimen name="bopomofo_key_height_size">38.0dip</dimen>
+    <dimen name="bopomofo_top_gap_size">4.5dip</dimen>
+    <dimen name="bopomofo_vertical_gap_size">1.0dip</dimen>
+    <dimen name="bopomofo_horizontal_gap_size">1.2999878dip</dimen>
+    <dimen name="bopomofo_key_width_correction_size">57.0dip</dimen>
+    <dimen name="bopomofo_bottom_key_height_size">44.0dip</dimen>
+    <dimen name="phone_numeric_key_width_size">159.0dip</dimen>
+    <dimen name="qwerty_domain_popup_width_size">104.0dip</dimen>
+    <dimen name="qwerty_shift_key_large_width_size">104.0dip</dimen>
+    <dimen name="qwerty_3rd_row_func_gap_size">11.0dip</dimen>
+    <dimen name="qwerty_back_key_width_size">86.0dip</dimen>
+    <dimen name="qwerty_back_key_large_width_size">104.0dip</dimen>
+    <dimen name="qwerty_3rd_row_wide_func_gap_size">12.0dip</dimen>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptMatTable
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <entry ime:scriptName="DIRECT_L2R" ime:scriptValue="0x000100000000" />
+    <entry ime:scriptName="DIRECT_R2L" ime:scriptValue="0x000200000000" />
+    <entry ime:scriptName="REGION_EUROPEAN" ime:scriptValue="L37" />
+    <entry ime:scriptName="REGION_AFRICAN" ime:scriptValue="L38" />
+    <entry ime:scriptName="REGION_MIDDLE_EASTERN" ime:scriptValue="L39" />
+    <entry ime:scriptName="REGION_CENTRAL_ASIAN" ime:scriptValue="L40" />
+    <entry ime:scriptName="REGION_SOUTH_ASIAN" ime:scriptValue="L41" />
+    <entry ime:scriptName="REGION_SOUTHEAST_ASIAN" ime:scriptValue="L42" />
+    <entry ime:scriptName="REGION_PHILIPPINE" ime:scriptValue="L43" />
+    <entry ime:scriptName="REGION_EAST_ASIAN" ime:scriptValue="L44" />
+    <entry ime:scriptName="REGION_AMERICAN" ime:scriptValue="L45" />
+    <entry ime:scriptName="EUROPEAN_ARMENIAN" ime:scriptValue="REGION_EUROPEAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_COPTIC" ime:scriptValue="REGION_EUROPEAN | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_CYPRIOT_SYLLABARY" ime:scriptValue="REGION_EUROPEAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_CYRILLIC" ime:scriptValue="REGION_EUROPEAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_GEORGIAN" ime:scriptValue="REGION_EUROPEAN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_GLAGOLITIC" ime:scriptValue="REGION_EUROPEAN | L6 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_GOTHIC" ime:scriptValue="REGION_EUROPEAN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_GREEK" ime:scriptValue="REGION_EUROPEAN | L8 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_LATIN" ime:scriptValue="REGION_EUROPEAN | L9 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_OGHAM" ime:scriptValue="REGION_EUROPEAN | L10 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_OLD_ITALIC" ime:scriptValue="REGION_EUROPEAN | L11 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_PHAISTOS_DISC" ime:scriptValue="REGION_EUROPEAN | L12 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_RUNIC" ime:scriptValue="REGION_EUROPEAN | L13 | DIRECT_L2R" />
+    <entry ime:scriptName="EUROPEAN_SHAVIAN" ime:scriptValue="REGION_EUROPEAN | L14 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_BAMUM" ime:scriptValue="REGION_AFRICAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_EGYPTION" ime:scriptValue="REGION_AFRICAN | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_ETHIOPIC" ime:scriptValue="REGION_AFRICAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_NKO" ime:scriptValue="REGION_AFRICAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_OSMANYA" ime:scriptValue="REGION_AFRICAN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_TIFINAGH" ime:scriptValue="REGION_AFRICAN | L6 | DIRECT_L2R" />
+    <entry ime:scriptName="AFRICAN_VAI" ime:scriptValue="REGION_AFRICAN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="MIDDLE_EASTERN_ARABIC" ime:scriptValue="REGION_MIDDLE_EASTERN | L1 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_ARAMAIC" ime:scriptValue="REGION_MIDDLE_EASTERN | L2 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_AVESTAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L3 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_CARIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="MIDDLE_EASTERN_CUNEIFORM" ime:scriptValue="REGION_MIDDLE_EASTERN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="MIDDLE_EASTERN_HEBREW" ime:scriptValue="REGION_MIDDLE_EASTERN | L6 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_LYCIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="MIDDLE_EASTERN_LYDIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L8 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_MANDAIC" ime:scriptValue="REGION_MIDDLE_EASTERN | L9 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_OLD_SOUTH_ARABIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L10 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_PAHLAVI" ime:scriptValue="REGION_MIDDLE_EASTERN | L11 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_PARTHIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L12 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_PHOENICIAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L13 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_SAMARITAN" ime:scriptValue="REGION_MIDDLE_EASTERN | L14 | DIRECT_R2L" />
+    <entry ime:scriptName="MIDDLE_EASTERN_SYRIAC" ime:scriptValue="REGION_MIDDLE_EASTERN | L15 | DIRECT_R2L" />
+    <entry ime:scriptName="CENTRAL_ASIAN_MONGOLIAN" ime:scriptValue="REGION_CENTRAL_ASIAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="CENTRAL_ASIAN_OLD_TURKIC" ime:scriptValue="REGION_CENTRAL_ASIAN | L2 | DIRECT_R2L" />
+    <entry ime:scriptName="CENTRAL_ASIAN_PHAGS_PA" ime:scriptValue="REGION_CENTRAL_ASIAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="CENTRAL_ASIAN_TIBETAN" ime:scriptValue="REGION_CENTRAL_ASIAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_BENGALI" ime:scriptValue="REGION_SOUTH_ASIAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_BRAHMI" ime:scriptValue="REGION_SOUTH_ASIAN | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_DEVANAGARI" ime:scriptValue="REGION_SOUTH_ASIAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_GUJARATI" ime:scriptValue="REGION_SOUTH_ASIAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_GURMUKHI" ime:scriptValue="REGION_SOUTH_ASIAN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_KAITHI" ime:scriptValue="REGION_SOUTH_ASIAN | L6 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_KANNADA" ime:scriptValue="REGION_SOUTH_ASIAN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_KHAROSHTHI" ime:scriptValue="REGION_SOUTH_ASIAN | L8 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_LEPCHA" ime:scriptValue="REGION_SOUTH_ASIAN | L9 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_LIMBU" ime:scriptValue="REGION_SOUTH_ASIAN | L10 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_MALAYALAM" ime:scriptValue="REGION_SOUTH_ASIAN | L11 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_MEETEI_MAYEK" ime:scriptValue="REGION_SOUTH_ASIAN | L12 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_OL_CHIKI" ime:scriptValue="REGION_SOUTH_ASIAN | L13 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_ORIYA" ime:scriptValue="REGION_SOUTH_ASIAN | L14 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_SAURSHTRA" ime:scriptValue="REGION_SOUTH_ASIAN | L15 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_SINHALA" ime:scriptValue="REGION_SOUTH_ASIAN | L16 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_SYLOTI_NAGRI" ime:scriptValue="REGION_SOUTH_ASIAN | L17 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_TAMIL" ime:scriptValue="REGION_SOUTH_ASIAN | L18 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_TELUGU" ime:scriptValue="REGION_SOUTH_ASIAN | L19 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_THAANA" ime:scriptValue="REGION_SOUTH_ASIAN | L20 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTH_ASIAN_VEDIC_EXTENSIONS" ime:scriptValue="REGION_SOUTH_ASIAN | L21 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_BATAK" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_BALINESE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_BULGINESE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_CHAM" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_JAVANESE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_KAYAH_LI" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L6 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_KHMER" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_LAO" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L8 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_MYANMAR" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L9 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_NEW_TAI_LUE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L10 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_REJANG" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L11 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_SUNDANESE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L12 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_TAI_LE" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L13 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_TAI_THAM" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L14 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_TAI_VIET" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L15 | DIRECT_L2R" />
+    <entry ime:scriptName="SOUTHEAST_ASIAN_THAI" ime:scriptValue="REGION_SOUTHEAST_ASIAN | L16 | DIRECT_L2R" />
+    <entry ime:scriptName="PHILIPPINE_BUHID" ime:scriptValue="REGION_PHILIPPINE | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="PHILIPPINE_HANUNOO" ime:scriptValue="REGION_PHILIPPINE | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="PHILIPPINE_TAGALOG" ime:scriptValue="REGION_PHILIPPINE | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="PHILIPPINE_TAGBANWA" ime:scriptValue="REGION_PHILIPPINE | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_BOPOMOFO" ime:scriptValue="REGION_EAST_ASIAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_CJK_HAN" ime:scriptValue="REGION_EAST_ASIAN | L2 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_CJK_RADICALS" ime:scriptValue="REGION_EAST_ASIAN | L3 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_HANGUL" ime:scriptValue="REGION_EAST_ASIAN | L4 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_HIRAGANA" ime:scriptValue="REGION_EAST_ASIAN | L5 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_KATAKANA" ime:scriptValue="REGION_EAST_ASIAN | L6 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_KANBUN" ime:scriptValue="REGION_EAST_ASIAN | L7 | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_CHINESE" ime:scriptValue="REGION_EAST_ASIAN | (L1 + L2 + L3) | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_KOREAN" ime:scriptValue="REGION_EAST_ASIAN | (L2 + L4) | DIRECT_L2R" />
+    <entry ime:scriptName="EAST_ASIAN_JAPANESE" ime:scriptValue="REGION_EAST_ASIAN | (L2 + L5 + L6) | DIRECT_L2R" />
+    <entry ime:scriptName="AMERICAN_CHEROKEE" ime:scriptValue="REGION_AMERICAN | L1 | DIRECT_L2R" />
+    <entry ime:scriptName="AMERICAN_DESERET" ime:scriptValue="REGION_AMERICAN |L2 | DIRECT_L2R" />
+</ScriptMatTable>

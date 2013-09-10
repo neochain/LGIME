@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sp_chinese_option_category_NORMAL" android:key="key_chinese_option_category">
+        <com.lgx.ime.setting.FuzzyPinyinPreference android:persistent="true" android:title="@string/sp_chinese_option_fuzzy_pinyin_NORMAL" android:key="boolean_fuzzy_pinyin_enabled" android:summary="@string/sp_chinese_option_fuzzy_pinyin_summary_NORMAL" android:defaultValue="@bool/pref_defval_fuzzy_pinyin_enabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

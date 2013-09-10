@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_key_left_edge_hitbox" formatted="false">top=13%,left=10%,bottom=10%</string>
+    <string name="define_key_right_edge_hitbox" formatted="false">top=13%,right=10%,bottom=10%</string>
+    <string name="define_key_bottom_edge_hitbox" formatted="false">top=10%,left=2.5%,right=2.5%,bottom=0.5dip</string>
+    <string name="define_key_left_bottom_edge_hitbox" formatted="false">top=10%,left=10%,right=3%,bottom=1dip</string>
+    <string name="define_key_right_bottom_edge_hitbox" formatted="false">top=10%,left=3%,right=10%,bottom=1dip</string>
+    <string name="define_key_2nd_row_left_edge_hitbox" formatted="false">top=10%,left=60%,bottom=10%</string>
+    <string name="define_key_2nd_row_right_edge_hitbox" formatted="false">top=10%,right=60%,bottom=10%</string>
+    <string name="define_for_left_shift_hitbox" formatted="false">top=10%,left=10%,right=15%,bottom=10%</string>
+    <string name="define_for_right_back_key_hitbox" formatted="false">top=10%,left=11%,right=10%,bottom=10%</string>
+    <string name="define_for_extendrow_qwerty_key_left_emoticons_hitbox" formatted="false">top=13%,left=5%,bottom=10%</string>
+    <string name="define_for_extendrow_qwerty_key_right_emoticons_hitbox" formatted="false">top=13%,right=5%,bottom=10%</string>
+</resources>

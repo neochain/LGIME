@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_priority_promotion">zh_CN,zh_TW,zh_HK</string>
+    <string name="korean_input_mode_naratgul">Naratgul</string>
+    <string name="korean_input_mode_chunjiin">Chunjiin</string>
+    <string name="qwerty_symbol1_label">@string/qwerty_symbol1_label_for_korean</string>
+    <string name="default_functionkey">@string/primary_functionkey_is_settings</string>
+    <string name="domestic_number_zero_label">0+</string>
+</resources>

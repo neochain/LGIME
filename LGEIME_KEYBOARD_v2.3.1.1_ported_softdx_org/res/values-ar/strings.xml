@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="number2_unshifted_label">ب‌ت‌ة‌ث</string>
+    <string name="number2_unshifted_popup_character">ب|ت|ة|ث|٢|2</string>
+    <string name="number3_unshifted_label">ا‌آ‌ء</string>
+    <string name="number3_unshifted_popup_character">ا|أ|إ|آ|ى|ؤ|ئ|ء|٣|3</string>
+    <string name="number4_unshifted_label">س‌ش‌ص‌ض</string>
+    <string name="number4_unshifted_popup_character">س|ش|ص|ض|٤|4</string>
+    <string name="number5_unshifted_label">د‌ذ‌ر‌ز</string>
+    <string name="number5_unshifted_popup_character">د|ذ|ر|ز|٥|5</string>
+    <string name="number6_unshifted_label">ج‌ح‌خ</string>
+    <string name="number6_unshifted_popup_character">ج|ح|خ|٦|6</string>
+    <string name="number7_unshifted_label">ن‌ه‌و‌ي</string>
+    <string name="number7_unshifted_popup_character">ن|ه|و|ي|٧|7</string>
+    <string name="number8_unshifted_label">ف‌ق‌ك‌ل‌م</string>
+    <string name="number8_unshifted_popup_character">ف|ق|ك|ل|م|٨|8</string>
+    <string name="number9_unshifted_label">ط‌ظ‌ع‌غ</string>
+    <string name="number9_unshifted_popup_character">ط|ظ|ع|غ|٩|9</string>
+    <string name="number0_unshifted_popup_character">␣|0|٠</string>
+    <string name="number0_unshifted_multitap_sequence">" |0|٠"</string>
+    <string name="star_unshifted_codes">@integer/keycode_multitap_toggle</string>
+    <string name="star_unshifted_label">( )</string>
+    <string name="star_unshifted_popup_character">)|(</string>
+    <string name="star_unshifted_multitap_sequence">(|)</string>
+    <string name="star_unshifted_secondary_label" />
+    <string name="pound_unshifted_codes">@integer/keycode_multitap_toggle</string>
+    <string name="pound_unshifted_label">_ -</string>
+    <string name="pound_unshifted_popup_character">-|_</string>
+    <string name="pound_unshifted_multitap_sequence">@string/pound_unshifted_popup_character</string>
+    <string name="pound_unshifted_secondary_label" />
+    <string name="row1_col1_unshifted_codes">ص</string>
+    <string name="row1_col1_unshifted_popup_character">ص</string>
+    <string name="row1_col2_unshifted_codes">ث</string>
+    <string name="row1_col2_unshifted_popup_character">ث</string>
+    <string name="row1_col3_unshifted_codes">ق</string>
+    <string name="row1_col3_unshifted_popup_character">ق</string>
+    <string name="row1_col4_unshifted_codes">ف</string>
+    <string name="row1_col4_unshifted_popup_character">ف</string>
+    <string name="row1_col5_unshifted_codes">غ</string>
+    <string name="row1_col5_unshifted_popup_character">غ</string>
+    <string name="row1_col6_unshifted_codes">ع</string>
+    <string name="row1_col6_unshifted_popup_character">ع</string>
+    <string name="row1_col7_unshifted_codes">ه</string>
+    <string name="row1_col7_unshifted_popup_character">ه|ة</string>
+    <string name="row1_col8_unshifted_codes">خ</string>
+    <string name="row1_col8_unshifted_popup_character">خ</string>
+    <string name="row1_col9_unshifted_codes">ح</string>
+    <string name="row1_col9_unshifted_popup_character">ح</string>
+    <string name="row1_col10_unshifted_codes">ج</string>
+    <string name="row1_col10_unshifted_popup_character">ج</string>
+    <string name="row2_col1_unshifted_codes">ش</string>
+    <string name="row2_col1_unshifted_popup_character">@string/row2_col1_unshifted_codes</string>
+    <string name="row2_col2_unshifted_codes">س</string>
+    <string name="row2_col2_unshifted_popup_character">@string/row2_col2_unshifted_codes</string>
+    <string name="row2_col3_unshifted_codes">ي</string>
+    <string name="row2_col3_unshifted_popup_character">@string/row2_col3_unshifted_codes</string>
+    <string name="row2_col4_unshifted_codes">ب</string>
+    <string name="row2_col4_unshifted_popup_character">@string/row2_col4_unshifted_codes</string>
+    <string name="row2_col5_unshifted_codes">ل</string>
+    <string name="row2_col5_unshifted_popup_character">ل|لا|لأ|لإ|لآ</string>
+    <string name="row2_col6_unshifted_codes">ا</string>
+    <string name="row2_col6_unshifted_popup_character">ا|أ|إ|آ|ء</string>
+    <string name="row2_col7_unshifted_codes">ت</string>
+    <string name="row2_col7_unshifted_popup_character">ت|ة</string>
+    <string name="row2_col8_unshifted_codes">ن</string>
+    <string name="row2_col8_unshifted_popup_character">@string/row2_col8_unshifted_codes</string>
+    <string name="row2_col9_unshifted_codes">م</string>
+    <string name="row2_col9_unshifted_popup_character">@string/row2_col9_unshifted_codes</string>
+    <string name="row3_col1_unshifted_codes">د</string>
+    <string name="row3_col1_unshifted_popup_character">@string/row3_col1_unshifted_codes</string>
+    <string name="row3_col2_unshifted_codes">ر</string>
+    <string name="row3_col2_unshifted_popup_character">@string/row3_col2_unshifted_codes</string>
+    <string name="row3_col3_unshifted_codes">ى</string>
+    <string name="row3_col3_unshifted_popup_character">ى|ئ</string>
+    <string name="row3_col4_unshifted_codes">ة</string>
+    <string name="row3_col4_unshifted_popup_character">ة|ه</string>
+    <string name="row3_col5_unshifted_codes">و</string>
+    <string name="row3_col5_unshifted_popup_character">و|ؤ</string>
+    <string name="row3_col6_unshifted_codes">ز</string>
+    <string name="row3_col6_unshifted_popup_character">@string/row3_col6_unshifted_codes</string>
+    <string name="row3_col7_unshifted_codes">ظ</string>
+    <string name="row3_col7_unshifted_popup_character">@string/row3_col7_unshifted_codes</string>
+    <string name="row2_col10_unshifted_codes">ك</string>
+    <string name="row2_col10_unshifted_popup_character">@string/row2_col10_unshifted_codes</string>
+    <string name="row3_col8_unshifted_codes">ط</string>
+    <string name="row3_col8_unshifted_popup_character">@string/row3_col8_unshifted_codes</string>
+    <string name="row4_col1_unshifted_codes">ذ</string>
+    <string name="row4_col1_unshifted_popup_character">@string/row4_col1_unshifted_codes</string>
+    <string name="row4_col2_unshifted_codes">ض</string>
+    <string name="row4_col2_unshifted_popup_character">@string/row4_col2_unshifted_codes</string>
+    <string name="row1_col1_shifted_codes">~</string>
+    <string name="row1_col1_shifted_popup_character">~</string>
+    <string name="row1_col2_shifted_codes">ّ</string>
+    <string name="row1_col2_shifted_popup_character">ّ</string>
+    <string name="row1_col3_shifted_codes">-</string>
+    <string name="row1_col3_shifted_popup_character">-</string>
+    <string name="row1_col4_shifted_codes">@integer/put_word_via_insert_symbol</string>
+    <string name="row1_col4_shifted_label">لإ</string>
+    <string name="row1_col4_shifted_popup_character">لإ</string>
+    <string name="row1_col5_shifted_codes">إ</string>
+    <string name="row1_col5_shifted_popup_character">إ</string>
+    <string name="row1_col6_shifted_codes">÷</string>
+    <string name="row1_col6_shifted_popup_character">÷</string>
+    <string name="row1_col7_shifted_codes">×</string>
+    <string name="row1_col7_shifted_popup_character">×</string>
+    <string name="row1_col8_shifted_codes">+</string>
+    <string name="row1_col8_shifted_popup_character">+</string>
+    <string name="row1_col9_shifted_codes">@string/symbol_parenthesis_codes_left</string>
+    <string name="row1_col9_shifted_label">@string/symbol_parenthesis_label_left</string>
+    <string name="row1_col9_shifted_popup_character">(|{|[|&lt;</string>
+    <string name="row1_col10_shifted_codes">@string/symbol_parenthesis_codes_right</string>
+    <string name="row1_col10_shifted_label">@string/symbol_parenthesis_label_right</string>
+    <string name="row1_col10_shifted_popup_character">)|}|]|></string>
+    <string name="row2_col1_shifted_codes">؛</string>
+    <string name="row2_col1_shifted_popup_character">@string/row2_col1_shifted_codes</string>
+    <string name="row2_col2_shifted_codes">ِ</string>
+    <string name="row2_col2_shifted_popup_character">ِ|ٍ</string>
+    <string name="row2_col3_shifted_codes">َ</string>
+    <string name="row2_col3_shifted_popup_character">َ|ً</string>
+    <string name="row2_col4_shifted_codes">ُ</string>
+    <string name="row2_col4_shifted_popup_character">ُ|ٌ</string>
+    <string name="row2_col5_shifted_codes">@integer/put_word_via_insert_symbol</string>
+    <string name="row2_col5_shifted_label">لأ</string>
+    <string name="row2_col5_shifted_popup_character">لأ</string>
+    <string name="row2_col6_shifted_codes">أ</string>
+    <string name="row2_col6_shifted_popup_character">@string/row2_col6_shifted_codes</string>
+    <string name="row2_col7_shifted_codes">ـ</string>
+    <string name="row2_col7_shifted_popup_character">@string/row2_col7_shifted_codes</string>
+    <string name="row2_col8_shifted_codes">:</string>
+    <string name="row2_col8_shifted_popup_character">@string/row2_col8_shifted_codes</string>
+    <string name="row2_col9_shifted_codes">”</string>
+    <string name="row2_col9_shifted_popup_character">”|“</string>
+    <string name="row2_col10_shifted_codes">؟</string>
+    <string name="row2_col10_shifted_popup_character">؟|!</string>
+    <string name="row3_col1_shifted_codes">@integer/put_word_via_insert_symbol</string>
+    <string name="row3_col1_shifted_label">ء</string>
+    <string name="row3_col1_shifted_popup_character">ء</string>
+    <string name="row3_col2_shifted_codes">ئ</string>
+    <string name="row3_col2_shifted_popup_character">@string/row3_col2_shifted_codes</string>
+    <string name="row3_col3_shifted_codes">@integer/put_word_via_insert_symbol</string>
+    <string name="row3_col3_shifted_label">لآ</string>
+    <string name="row3_col3_shifted_popup_character">لآ</string>
+    <string name="row3_col4_shifted_codes">@integer/put_word_via_insert_symbol</string>
+    <string name="row3_col4_shifted_label">لا</string>
+    <string name="row3_col4_shifted_popup_character">لا</string>
+    <string name="row3_col5_shifted_codes">آ</string>
+    <string name="row3_col5_shifted_popup_character">@string/row3_col5_shifted_codes</string>
+    <string name="row3_col6_shifted_codes">ؤ</string>
+    <string name="row3_col6_shifted_popup_character">@string/row3_col6_shifted_codes</string>
+    <string name="row3_col7_shifted_codes">’</string>
+    <string name="row3_col7_shifted_popup_character">@string/row3_col7_shifted_codes</string>
+    <string name="row3_col8_shifted_codes">/</string>
+    <string name="row3_col8_shifted_popup_character">/|:|@</string>
+    <string name="row4_col1_shifted_codes">،</string>
+    <string name="row4_col1_shifted_popup_character">@string/row4_col1_shifted_codes</string>
+    <string name="row4_col2_shifted_codes">.</string>
+    <string name="row4_col2_shifted_popup_character">@string/row4_col2_shifted_codes</string>
+    <string name="row4_col1_third_label" />
+    <string name="row4_col2_third_label" />
+    <string name="third_label_global">@string/third_label_number_only</string>
+    <string name="symbol_qwerty_global">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+\\
+~
+^
+&amp;
+*
++
+=
+[
+]
+&lt;
+>
+$
+€
+£
+¥
+₹
+៛
+¤
+₪
+ฯ
+฿
+{
+}
+°
+¿
+¡
+§
+μ
+¬
+Г
+ͺ
+͵
+´
+·
+?
+©
+|"</string>
+    <string name="symbol_phonepad_global">"\@
+؟
+!
+.
+,
+-
+`
+/
+#
+(
+)
+\"
+'
+~
+:
+;
+^
+%
+&amp;
+*
++
+=
+\\
+_
+[
+]
+°
+&lt;
+>
+{
+}
+$
+€
+£
+¥
+₪
+ฯ
+฿
+₹
+·
+͵
+´
+¿
+¡
+¤
+៛
+§
+μ
+¬
+Г
+ͺ
+?
+©
+|"</string>
+    <string name="symbol_handwriting_global">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+\\
+~
+^
+&amp;
+*
++
+=
+[
+]
+&lt;
+>
+$
+€
+£
+¥
+₹
+៛
+¤
+₪
+ฯ
+฿
+{
+}
+°
+¿
+¡
+§
+μ
+¬
+Г
+ͺ
+͵
+´
+·
+?
+©
+|"</string>
+    <string name="symbol_global">@string/symbol_global_for_arabic</string>
+    <string name="symbol_qwerty_america">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+\\
+~
+^
+&amp;
+*
++
+=
+[
+]
+&lt;
+>
+$
+€
+£
+¥
+¤
+{
+}
+°
+¿
+¡
+§
+μ
+¬
+Г
+ͺ
+͵
+´
+·
+?
+©
+|"</string>
+    <string name="symbol_phonepad_america">"\@
+؟
+!
+.
+,
+-
+`
+/
+#
+(
+)
+\"
+'
+~
+:
+;
+^
+%
+&amp;
+*
++
+=
+\\
+_
+[
+]
+°
+&lt;
+>
+{
+}
+$
+€
+£
+¥
+͵
+ʹ
+¿
+¡
+·
+¤
+§
+μ
+¬
+Г
+ͺ
+?
+|"</string>
+    <string name="symbol_handwriting_america">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+\\
+~
+^
+&amp;
+*
++
+=
+[
+]
+&lt;
+>
+$
+€
+£
+¥
+¤
+{
+}
+°
+¿
+¡
+§
+μ
+¬
+Г
+ͺ
+͵
+´
+·
+?
+©
+|"</string>
+    <string name="symbol_america">@string/symbol_america_for_arabic</string>
+    <string name="symbol_extend_qwerty_america">@string/symbol_extend_qwerty_america_for_arabic</string>
+    <string name="symbol_extend_america">@string/symbol_extend_america_for_arabic</string>
+    <string name="third_label_america_vzw_and_canada">@string/third_label_number_only</string>
+    <string name="third_label_korea">@string/third_label_global</string>
+    <string name="symbol_qwerty_korea">@string/symbol_qwerty_korea_for_arabic</string>
+    <string name="symbol_korea">@string/symbol_korea_for_arabic</string>
+    <string name="qwerty_symbol1_label_for_korean">؟</string>
+    <string name="symbol_emoticon_extend_korea">@string/symbol_emoticon_extend_korea_for_arabic</string>
+    <string name="symbol_qwerty_china">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+.
+~
+¥
+$
+€
+£
+*
+^
+&amp;
++
+=
+&lt;
+>
+《
+》
+[
+]
+{
+}
+×
+÷
+♡
+♥
+☆
+|
+2\u0009…
+…
+♠
+◆
+♣
+△
+▽
+□
+Λ
+Ψ
+♀
+♂
+↗
+↖
+↘
+↙
+→
+←
+↔
+?
+¿
+¡
+♬
+♩
+Ω
+Σ
+Г
+Ф"</string>
+    <string name="symbol_handwriting_china">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+2\u0009…
+…
+.
+~
+¥
+$
+€
+£
+*
+^
+&amp;
++
+=
+&lt;
+>
+《
+》
+[
+]
+{
+}
+×
+÷
+♡
+♥
+☆
+♬
+♩
+|
+♀
+♂
+♠
+◆
+♣
+△
+▽
+□
+Λ
+Ψ
+Ω
+Σ
+↗
+↖
+↘
+↙
+→
+←
+↔
+?
+¿
+¡
+Г
+Ф"</string>
+    <string name="symbol_phonepad_china">"~
+@
+(
+)
+:
+;
+!
+؟
+/
+,
+.
+。
+^
+=
+*
+#
+&amp;
+%
+'
+\"
+-
+_
+2\u0009…
+…
++
+×
+÷
+\\
+&lt;
+>
+《
+》
+[
+]
+{
+}
+¥
+$
+€
+£
+♥
+♠
+◆
+♣
+♡
+□
+△
+▽
+↗
+↖
+?
+¿
+→
+←
+↔
+|
+↘
+↙
+☆
+¡
+♀
+♂
+♬
+♩
+Г
+Λ
+§
+Ф
+Ω
+Π
+Σ
+`"</string>
+    <string name="symbol_china">@string/symbol_china_for_arabic</string>
+    <string name="symbol_extend_qwerty_china">@string/symbol_extend_qwerty_china_for_arabic</string>
+    <string name="symbol_emoticon_extend_china">@string/symbol_emoticon_extend_china_for_arabic</string>
+    <string name="symbol_qwerty_hongkong">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+.
+~
+&amp;
+*
+^
+{
+}
+[
+]
++
+=
+$
+€
+£
+¥
+&lt;
+>
+《
+》
+×
+÷
+§
+¿
+¡
+©
+|
+\\
+♡
+♥
+☆
+♠
+◆
+♣
+△
+▽
+□
+Λ
+↗
+↖
+↘
+↙
+→
+←
+°
+·
+¤
+…
+ʹ
+¬
+Г
+.
+͵
+?"</string>
+    <string name="symbol_handwriting_hongkong">"1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+`
+@
+#
+%
+(
+)
+-
+_
+:
+;
+\"
+'
+!
+؟
+/
+|
+\\
+.
+~
+&amp;
+*
+^
+{
+}
+[
+]
++
+=
+$
+€
+￡
+￥
+&lt;
+>
+《
+》
+×
+÷
+§
+¿
+¡
+ⓒ
+°
+·
+¤
+…
+♡
+♥
+☆
+♠
+◆
+♣
+△
+▽
+□
+Λ
+↗
+↖
+↘
+↙
+→
+←
+ʹ
+￢
+Г
+ͺ
+͵
+?"</string>
+    <string name="symbol_phonepad_hongkong">"\@
+؟
+!
+.
+,
+-
+_
+/
+#
+(
+)
+\"
+'
+~
+:
+;
+%
+^
+&amp;
+*
++
+=
+\\
+`
+[
+]
+°
+&lt;
+>
+{
+}
+《
+》
+×
+÷
+$
+€
+£
+¥
+·
+§
+¿
+¡
+©
+ʹ
+.
+͵
+|
+…
+Г
+¤
+?
+☆
+♡
+♥
+△
+▽
+♠
+◆
+♣
+□
+→
+←
+↗
+↘"</string>
+    <string name="symbol_hongkong">@string/symbol_hongkong_for_arabic</string>
+    <string name="symbol_taiwan">@string/symbol_taiwan_for_arabic</string>
+    <string name="symbol_israel">@string/symbol_taiwan_for_arabic</string>
+    <string name="symbol_extend_qwerty_hongkong">@string/symbol_extend_qwerty_hongkong_for_arabic</string>
+    <string name="symbol_emoticon_extend_hongkong">@string/symbol_emoticon_extend_hongkong_for_arabic</string>
+    <string name="symbol_emoticon_extend_taiwan">@string/symbol_emoticon_extend_taiwan_for_arabic</string>
+    <string name="symbol_emoticon_extend_israel">@string/symbol_emoticon_extend_taiwan_for_arabic</string>
+    <string name="chinese_displayname_format" formatted="false">%s (‏%s)</string>
+    <string name="label_current_language">AR</string>
+    <string name="btn_str_abc">أ‌ب‌ت</string>
+    <string name="symbol_parenthesis_codes_left">@string/symbol_parenthesis_r2l_open</string>
+    <string name="symbol_parenthesis_codes_right">@string/symbol_parenthesis_r2l_close</string>
+    <string name="symbol_curlybrace_codes_left">@string/symbol_curlybrace_r2l_open</string>
+    <string name="symbol_curlybrace_codes_right">@string/symbol_curlybrace_r2l_close</string>
+    <string name="symbol_bracket_codes_left">@string/symbol_bracket_r2l_open</string>
+    <string name="symbol_bracket_codes_right">@string/symbol_bracket_r2l_close</string>
+    <string name="symbol_lt_codes">@string/symbol_r2l_lt</string>
+    <string name="symbol_gt_codes">@string/symbol_r2l_gt</string>
+    <string name="phone_key_fun_left1_mode_url">@string/phone_key_fun_left1_mode_normal</string>
+    <string name="phone_key_fun_left1_mode_email">@string/phone_key_fun_left1_mode_normal</string>
+    <string name="phone_key_fun_left1_mode_normal">؟!</string>
+    <string name="phone_key_fun_left1_mode_url_popup">@string/phone_key_fun_left1_mode_normal_popup</string>
+    <string name="phone_key_fun_left1_mode_email_popup">@string/phone_key_fun_left1_mode_normal_popup</string>
+    <string name="phone_key_fun_left1_mode_normal_popup">؟|!</string>
+    <string name="phone_key_fun_left1_mode_normal_multitap_char">@string/phone_key_fun_left1_mode_normal_popup</string>
+    <string name="phone_key1_value">، .</string>
+    <string name="phone_key1_popup">.|،|؛|\"|@|:|١|1</string>
+    <string name="phone_key1_multitap">@string/phone_key1_popup</string>
+    <string name="ime_name">‏لوحة مفاتيح LG</string>
+    <string name="sp_handwriting_input_NORMAL">‏كتابة يدوية</string>
+    <string name="sp_pref_keyboard_layout_names_handwriting_NORMAL">‏ضوابط الكتابة اليدوية</string>
+    <string name="sp_pref_keyboard_layout_names_handwriting_f_NORMAL">‏الكتابة باليد ممتلئة</string>
+    <string name="sp_auto_correction_NORMAL">‏التصحيح التلقائي</string>
+    <string name="sp_auto_spell_correct_NORMAL">‏التصحيح الإملائي تلقائيًا عند النقر فوق زر المسافة</string>
+    <string name="sp_go_NORMAL">‏اذهب</string>
+    <string name="sp_next_NORMAL">‏التالي</string>
+    <string name="sp_done_NORMAL">‏تم</string>
+    <string name="sp_send_NORMAL">‏إرسال</string>
+    <string name="sp_about_NORMAL">‏حول</string>
+    <string name="sp_software_version_NORMAL">"‏إصدار برنامج لوحة المفاتيح "</string>
+    <string name="voice_audio_error">‏مشكلة في الصوت</string>
+    <string name="pref_auto_punctuation">‏وضع علامات الترقيم تلقائيًا</string>
+    <string name="cancel">‏إلغاء</string>
+    <string name="voice_network_error">‏تعذّر الاتصال</string>
+    <string name="voice_too_much_speech">‏حدث خطأ، يوجد الكثير من الكلام.</string>
+    <string name="voice_error">‏حدث خطأ. يرجى المحاولة من جديد.</string>
+    <string name="pref_keyboard_layout">‏تخطيطات لوحة المفاتيح</string>
+    <string name="option_item_settings">‏لوحة مفاتيح LG</string>
+    <string name="voice_no_match">‏لم يتم العثور على تطابقات</string>
+    <string name="voice_speech_timeout">‏لم يُسمع أي كلام</string>
+    <string name="sp_alert_dialog_ok_NORMAL">‏موافق</string>
+    <string name="voice_server_error">‏خطأ بالخادم</string>
+    <string name="pref_sound_on_keypress">‏صوت استخدام لوحة المفاتيح</string>
+    <string name="voice_listening">‏التكلم الآن</string>
+    <string name="pref_category_title_touch_feedback">"‏تأثير اللمس
+"</string>
+    <string name="pref_vibrate_on_keypress">‏الاهتزاز عند استخدام لوحة المفاتيح</string>
+    <string name="voice_not_installed">‏لم يتم تثبيت البحث الصوتي</string>
+    <string name="pref_word_suggestion">‏الكلمات المقترحة</string>
+    <string name="voice_working">‏قيد التشغيل</string>
+    <string name="voice_hint_dialog_message">‏لاستخدام مدخل الصوت، اضغط على زر الميكروفون.</string>
+    <string name="voice_warning_how_to_turn_off">‏لإيقاف تشغيل إدخال الصوت، انتقل إلى ضوابط لوحة المفاتيح.</string>
+    <string name="voice_warning_title">‏إدخال صوت</string>
+    <string name="voice_warning_may_not_understand">‏إدخال الصوت هو ميزة تجريبية تستخدم التعرف على الكلام من خلال شبكة Google.</string>
+    <string name="voice_warning_locale_not_supported">‏إدخال الصوت غير معتمد حالياً في لغتك، ولكنه يعمل في اللغة الإنكليزية.</string>
+    <string name="sp_pref_suggestion_summary_NORMAL">‏عرض الكلمات المقترحة أثناء الكتابة</string>
+    <string name="option_item_inputMethods">‏تغيير طريقة الإدخال</string>
+    <string name="sp_prediction_NORMAL">‏تنبؤ</string>
+    <string name="sp_prediction_script_NORMAL">‏لا توفر اللهجات الكورية نارجوال، وتشونجين VEGAاقتراحات للكلمات.</string>
+    <string name="sp_key_preview_NORMAL">‏ مفتاح المعاينة</string>
+    <string name="sp_pref_key_preview_summary_NORMAL">‏يظهر نافذة منبثقة عند الضغط على مفتاح</string>
+    <string name="sp_pref_voice_typing_key_summary_NORMAL">‏يظهر مفتاح الكتابة الصوتية على لوحة المفاتيح.</string>
+    <string name="sp_pref_handwriting_summary_NORMAL">‏ضبط شكل الكتابة باليد</string>
+    <string name="sp_pref_auto_punctuation_summary_NORMAL">‏إدرج نقطة عند الضغط مرتين على مفتاح المسافة</string>
+    <string name="sp_pref_word_suggestion_setting_title_NORMAL">‏إعدادات الكلمات المقترحة</string>
+    <string name="sp_pref_touch_feedback_setting_title_NORMAL">‏إعدادات التعليق عند اللمس</string>
+    <string name="sp_pref_voice_input_NORMAL">‏مفتاح الكتابة الصوتية</string>
+    <string name="sp_pen_width_NORMAL">‏عرض القلم</string>
+    <string name="sp_handwriting_pen_color_NORMAL">‏لون القلم</string>
+    <string name="sp_handwriting_delay_time_NORMAL">‏مهلة التأخير</string>
+    <string name="sp_handwriting_area_transparency_NORMAL">‏شفافية الناحية</string>
+    <string name="sp_handwriting_transparency_summary_NORMAL">‏ضبط مستوى الشفافية لإعدادات الكتابة اليدوية</string>
+    <string name="sp_input_language_and_keyboard_layout_NORMAL">‏لغة الإدخال وتخطيط لوحة المفاتيح</string>
+    <string name="sp_auto_capitalize_NORMAL">‏الكتابة بحروف كبيرة تلقائيًا</string>
+    <string name="sp_setlayout_NORMAL">‏ضبط</string>
+    <string name="sp_input_language_NORMAL">‏لغات الإدخال</string>
+    <string name="sp_input_language_and_type_NORMAL">‏لغة الكتابة و النوع</string>
+    <string name="sp_common_settings_SHORT">‏إعدادات عامة</string>
+    <string name="sp_input_lauguage_and_type_description_NORMAL">‏تعيين لغة الإدخال ونوع لوحة مفاتيح LG</string>
+    <string name="sp_word_suggestion_description_NORMAL">‏إدخال النص بسهولة عن طريق استخدام التنبؤ بالنص</string>
+    <string name="sp_auto_capitalize_summary_NORMAL">‏سيتم إدخال الحرف الأول من الكلمة كحرف كبير تلقائيًا</string>
+    <string name="sp_touch_feedback_summary_NORMAL">‏ضبط الصوت، والاهتزاز، والمعاينة الرئيسية</string>
+    <string name="sp_touch_feedback_summary_novibraction_NORMAL">‏تعيين الصوت ومعاينه المفتاح</string>
+    <string name="sp_hide_keyboard_NORMAL">‏إخفاء لوحة المفاتيح</string>
+    <string name="sp_hide_keyboard_summary_NORMAL">‏الضغط على لوحة المفاتيح إلى أسفل للإخفاء.</string>
+    <string name="sp_pref_extend_keyboard_NORMAL">‏تمديد لوحة المفاتيح</string>
+    <string name="sp_pref_extend_keyboard_summary_NORMAL">‏إضافة صف مفاتيح أرقام في الجزء العلوي من لوحة مفاتيح QWERTY</string>
+    <string name="sp_advanced_settings_SHORT">‏إعدادات متقدمة</string>
+    <string name="sp_touch_again_to_save_NORMAL">‏ألمس مرة أخرى للحفظ</string>
+    <string name="sp_saved_NORMAL">‏تم الحفظ</string>
+    <string name="sp_swipe_guide_NORMAL">‏لن يعمل تمرير البطاقة لإخفاء الوظيفة في وضع الكتابة اليدوية.</string>
+    <string name="sp_keyboard_swipe_SHORT">‏إخفاء لوحة المفاتيح</string>
+    <string name="sp_chinese_option_category_NORMAL">‏الصينية</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_NORMAL">‏pinyin غامض</string>
+    <string name="sp_chinese_option_fuzzy_pinyin_summary_NORMAL">‏تصحيح أخطاء نظام بينيين تلقائيًا.</string>
+    <string name="sp_storage_full_NORMAL">‏الذاكرة ممتلئة</string>
+    <string name="sp_storage_full_ime_NORMAL">"‏لا يوجد مساحة كافية في الذاكرة الداخلية. بعض الأفعال محدودة. يرجى حذف الملفات غير المستخدمة  لإخلاء بعض المساحة."</string>
+    <string name="sp_pref_keyboard_names_phone_keyboard_NORMAL">‏لوحة مفاتيح الهاتف</string>
+    <string name="sp_pref_keyboard_names_qwerty_keyboard_NORMAL">‏لوحة مفاتيح QWERTY</string>
+    <string name="sp_pref_one_hand_keyboard_NORMAL">‏لوحة مفاتيح تعمل بيد واحدة</string>
+    <string name="sp_pref_one_hand_keyboard_summary_NORMAL">‏انقر لوحة المفاتيح أو اضغط على السهم لضبط وضع لوحة مفاتيح LG يسارًا أو يمينًا</string>
+    <string name="sp_pref_split_keyboard_NORMAL">‏تقسيم لوحة المفاتيح</string>
+    <string name="sp_pref_split_keyboard_summary_NORMAL">‏تقسيم لوحة المفاتيح إلى جانبين للاستخدام على طريقة العرض الأفقي</string>
+    <string name="ime_guide_desc_hide_keyboard2">‏لإخفاء لوحة المفاتيح، مرر من أعلى لأسفل أو ألمس مفتاح العودة للبرنامج.</string>
+    <string name="ime_guide_desc_shape_writer">‏لإدخال كلمة، ارسم مسارا بين كل حروف الكلمة. يتم إدراج مسافة تلقائيًا بعد كل كلمة.</string>
+    <string name="keyboard_type">‏نوع لوحة المفاتيح</string>
+    <string name="sp_clear_predictoin_prediction_title_NORMAL">‏مسح سجل التوقع</string>
+    <string name="sp_clear_prediction_summary_NORMAL">‏إعادة تعيين سجل إدخال المستخدم</string>
+    <string name="clear_prediction_history_dialog_title">‏مسح</string>
+    <string name="sp_clear_prediction_dialog_title_NORMAL">"‏سيتم حذف جميع  سجلات التنبؤ . المتابعة؟"</string>
+    <string name="sp_pref_keyboard_layout_names_path_keyboard_NORMAL">‏ لوحة مفاتيح المسار</string>
+    <string name="sp_pref_keyboard_layout_names_path_keyboard_summary_NORMAL">‏أدخل كلمة عن طريق رسم مسار بين كافة الحروف في الكلمة</string>
+    <string name="onehand_keyboard_popup_string01">‏يمكنك استخدام لوحة المفاتيح One hand keyboard لسهولة الكتابة والإمساك بالهاتف باليد الأخرى.</string>
+    <string name="onehand_keyboard_popup_string02">‏ما عليك سوى التمرير إلى جانب الشاشة أو اضغط على زر السهم المجاور للوحة المفاتيح للانتقال يمينًا أو يسارًا.</string>
+    <string name="sp_do_not_show_this_again_NORMAL">‏لا تُظهر هذا مرة أخرى</string>
+    <string name="sp_handwriting_pen_type_NORMAL">‏نوع القلم</string>
+    <string name="pref_keyboard_skin">"‏أسطح لوحة المفاتيح "</string>
+    <string name="pref_keyboard_theme">‏موضوع لوحة المفاتيح</string>
+    <string name="sp_next_word_prediction_title_NORMAL">‏اقتراح كلمة جديدة</string>
+    <string name="sp_next_word_prediction_summary_NORMAL">‏اقتراح كلمة تالية بعد كتابة الكلمة</string>
+    <string name="sp_grave_accent">"‏العلامة النطقية جراف "</string>
+    <string name="sp_at">‏على</string>
+    <string name="sp_pound">‏رطل</string>
+    <string name="sp_percent">‏في المئة</string>
+    <string name="sp_left_paren">‏قوس أيسر</string>
+    <string name="sp_right_paren">‏قوس أيمن</string>
+    <string name="sp_dash">"‏شرطة "</string>
+    <string name="sp_underscore">‏تسطير</string>
+    <string name="sp_colon">‏علامة النقطتين</string>
+    <string name="sp_semi_colon">‏فاصلة منقوطة</string>
+    <string name="sp_single_quote">‏علامة اقتباس مفردة</string>
+    <string name="sp_quote">"‏اقتباس "</string>
+    <string name="sp_exclamation_mark">‏علامة تعجب</string>
+    <string name="sp_question_mark">‏علامة استفهام</string>
+    <string name="sp_slash">"‏شرطة مائلة "</string>
+    <string name="sp_back_slash">"‏شرطة مائلة للخلف "</string>
+    <string name="sp_caret">"‏إقحام "</string>
+    <string name="sp_ampersand">"‏علامة العطف "</string>
+    <string name="sp_asterisk">"‏علامة نّجميّة "</string>
+    <string name="sp_left_square_bracket">"‏قوس المربع الأيسر "</string>
+    <string name="sp_right_square_bracket">"‏قوس المربع الأيمن "</string>
+    <string name="sp_left_angle_bracket">"‏قوس الزاوية الأيسر "</string>
+    <string name="sp_right_angle_bracket">"‏قوس الزاوية الأيمن "</string>
+    <string name="sp_dollar_sign">"‏علامة الدولار "</string>
+    <string name="sp_euro">‏يورو</string>
+    <string name="sp_pound_sterling">"‏جنية إسترليني "</string>
+    <string name="sp_left_curly_bracket">"‏القوس المعقوص الأيسر "</string>
+    <string name="sp_right_curly_bracket">"‏القوس المعقوص الأيمن "</string>
+    <string name="sp_degree">‏درجة</string>
+    <string name="sp_capital">"‏حرف كبير "</string>
+    <string name="sp_copy_right">‏حقوق النشر</string>
+    <string name="sp_vertical_bar">"‏شريط عمودي "</string>
+    <string name="sp_period">‏فترة</string>
+    <string name="sp_comma">‏فاصلة</string>
+    <string name="sp_tilde">"‏تلدة "</string>
+    <string name="sp_setting">‏ضبط</string>
+    <string name="sp_black_heart">‏رمز القلب الأسود</string>
+    <string name="sp_white_heart">‏رمز القلب الأبيض</string>
+    <string name="sp_horizontal_ellipsis">‏علامة حذف أفقية</string>
+    <string name="sp_left_corner_bracket">‏رمز قوس الزاوية اليسرى</string>
+    <string name="sp_right_corner_bracket">‏رمز قوس الزاوية اليمنى</string>
+    <string name="sp_black_star">‏رمز النجمة السوداء</string>
+    <string name="sp_reference_mark">‏رمز علامة المرجع ※</string>
+    <string name="sp_black_telephone">‏رمز الهاتف الأسود</string>
+    <string name="sp_white_circle">‏رمز الدائرة البيضاء</string>
+    <string name="sp_black_circle">‏الدائرة السوداء</string>
+    <string name="sp_bulls_eye">‏رمز ◎</string>
+    <string name="sp_left_pointing_index">‏رمز فهرس يشير إلى اليسار</string>
+    <string name="sp_right_pointing_index">‏رمز فهرس يشير إلى اليمين</string>
+    <string name="sp_solar_symbol">‏رمز شمسي</string>
+    <string name="sp_circle_with_left_half_black">‏رمز دائرة نصفها الأيسر أسود</string>
+    <string name="sp_circle_with_right_half_black">‏رمز دائرة نصفها الأيمن أسود</string>
+    <string name="sp_white_square">‏رمز المربع الأبيض</string>
+    <string name="sp_black_square">‏رمز المربع الأسود</string>
+    <string name="sp_up_pointing_triangle">‏رمز مثلث يشير إلى أعلى</string>
+    <string name="sp_down_pointing_triangle">‏رمز المثلث الذي يشير إلى أسفل</string>
+    <string name="sp_left_pointing_triangle">‏رمز مثلث يشير إلى اليسار</string>
+    <string name="sp_right_pointing_triangle">‏رمز مثلث يشير إلى اليمين</string>
+    <string name="sp_white_diamond">‏رمز المعين الأبيض</string>
+    <string name="sp_black_diamond">‏رمز المعين الأسود</string>
+    <string name="sp_white_spade_suit">‏رمز مجموعة البستوني الأبيض</string>
+    <string name="sp_black_spade_suit">‏رمز مجموعة البستوني السوداء</string>
+    <string name="sp_white_club_suit">‏رمز ♧</string>
+    <string name="sp_black_club_suit">‏رمز ♣</string>
+    <string name="sp_quarter_note">‏رمز ملاحظة ♩</string>
+    <string name="sp_eighth_note">‏رمز ♪</string>
+    <string name="sp_beamed_sixteenth_notes">‏رمز ♬</string>
+    <string name="sp_music_flat_sign">‏رمز العلامة الموسيقية ♭</string>
+    <string name="sp_cent">‏رمز السنت</string>
+    <string name="sp_hot_springs">‏الينابيع الساخنة</string>
+    <string name="sp_female_sign">‏رمز علامة الأنثى</string>
+    <string name="sp_male_sign">‏رمز علامة الذكر</string>
+    <string name="sp_rightwards_arrow">‏رمز سهم يتجه إلى اليمين</string>
+    <string name="sp_leftward_arrow">‏رمز سهم متجه إلى اليسار</string>
+    <string name="sp_upward_arrow">‏رمز سهم يشير إلى أعلى</string>
+    <string name="sp_downward_arrow">‏رمز سهم متجه لأسفل</string>
+    <string name="sp_left_right_arrow">‏سهم ذو اتجاهين</string>
+    <string name="sp_plus_minus_sign">‏رمز علامة زائد ناقص</string>
+    <string name="sp_no_equal_to">‏رمز غير مساوٍ ≠</string>
+    <string name="sp_approximately_equal_to">‏رمز تقريبًا مساوٍ لـ ≒</string>
+    <string name="sp_integral">‏رمز ∫</string>
+    <string name="sp_liter">"‏رمز لتر "</string>
+    <string name="sp_celsius">‏مئوي</string>
+    <string name="sp_fahrenheit">‏فهرنهايت</string>
+    <string name="sp_left_black_lenticular_bracket">‏رمز القوس عدسي الشكل يساره أسود</string>
+    <string name="sp_right_black_lenticular_bracket">‏رمز القوس عدسي الشكل يمينه أسود</string>
+    <string name="sp_left_white_corner_bracket">‏رمز قوس الزاوية البيضاء اليسرى</string>
+    <string name="sp_right_white_corner_bracket">‏رمز قوس الزاوية البيضاء اليمنى</string>
+    <string name="sp_white_star">‏رمز النجمة البيضاء</string>
+    <string name="sp_handwriting_guide_title">"‏اكتب هنا "</string>
+    <string name="sp_dot">‏نقطة</string>
+    <string name="sp_regional_correction">"‏اقتراح كلمة متقدم "</string>
+    <string name="sp_regional_correction_summary">‏فكر في المفاتيح المجاورة لاقتراح كلمة.</string>
+    <string name="ime_guide_description_input_language_and_keyboard_type">‏اضبط لغة الإدخال في إعداد \"لغة الإدخال ونوع لوحة المفاتيح\". اختر نوع لوحة المفاتيح الخاصة بك (لوحات مفاتيح QWERTY، وQWERTZ، وAZERTY ولوحة مفاتيح الهاتف) باستخدام الزر الموجود على الجانب الأيمن من كل قائمة لغة.</string>
+    <string name="ime_guide_description_open_close">"‏اضغط على أي حقل نص لعرض لوحة المفاتيح. لإخفاء لوحة المفاتيح، مرر لأسفل أو اضغط على مفتاح السابق. "</string>
+    <string name="ime_guide_description_touch_and_hold">‏المس مفتاح النص واستمر في لمسه لاستخدام أصابعك لسحب الأحرف الأخرى أو الأرقام أو الرموز واختيارها.</string>
+    <string name="ime_guide_description_path_keyboard">‏لإدخال كلمة، ارسم مسارًا بين جميع الحروف. سيتم إدراج مسافة بعد كل كلمة تلقائيًا.</string>
+    <string name="ime_guide_description_onehand_keyboard">"‏لاستخدام لوحة مفاتيح تعمل بيد واحدة، مرر لوحة المفاتيح لليسار/اليمين أو المس زر السهم. "</string>
+    <string name="ime_guide_description_split_keyboard">"‏اقسم لوحة المفاتيح إلى لوحتين باستخدام أصابعك في الوضع الأفقي. ينسحب كل نصف إلى يسار الشاشة ويمينها. "</string>
+    <string name="ime_guide_description_type_mode01">‏اضغط على %s لتكبير الحروف. للاحتفاظ بوضع الحروف الكبيرة، اضغط مرتين أو المس الزر واستمر في لمسه.</string>
+    <string name="ime_guide_description_type_mode02">"‏اضغط على %s لإدخال الأرقام أو الرموز. "</string>
+    <string name="ime_guide_title_keyboard_type">"‏لغة الإدخال ونوع لوحة المفاتيح "</string>
+    <string name="ime_guide_title_type_mode">"‏وضع الكتابة "</string>
+    <string name="ime_guide_title_open_close_keyboard">"‏حركة لوحة المفاتيح
+- عرض/إخفاء لوحة المفاتيح"</string>
+    <string name="ime_guide_title_touch_and_hold">"‏المس واستمر في اللمس "</string>
+    <string name="ime_guide_title_path_keyboard">"‏إدخال المسار "</string>
+    <string name="ime_guide_title_onahand_keyboard">"‏حركة لوحة المفاتيح
+- لوحة مفاتيح تعمل بيد واحدة"</string>
+    <string name="ime_guide_title_split_keyboard">"‏حركة لوحة المفاتيح
+- تقسيم لوحة المفاتيح"</string>
+    <string name="ime_guide_previous_NOMAL">‏السابق</string>
+    <string name="ime_guide_next_NOMAL">‏التالي</string>
+    <string name="lg_keyboard_guide">‏دليل لوحة مفاتيح LG</string>
+    <string name="help">‏مساعدة</string>
+    <string name="ime_lg_keyboard_guide_init_title">‏دليل لوحة مفاتيح LG</string>
+    <string name="ime_hide_keyboard_title">‏إخفاء لوحة المفاتيح</string>
+    <string name="ime_path_keyboard_title">"‏إدخال المسار "</string>
+    <string name="ime_guide_desc_hide_keyboard_init">"‏لإخفاء لوحة المفاتيح، مرر لأسفل أو اضغط على مفتاح السابق. "</string>
+    <string name="ime_guide_desc_shape_writer_init">‏أدخل كلمة عن طريق رسم مسار بين جميع الحروف. يتم إدراج مسافة بعد كل كلمة تلقائيًا. انتقل إلى إعدادات لوحة مفاتيح LG لتشغيلها أو إيقاف تشغيلها.</string>
+    <string name="ime_lge_keyboard_settings">"‏إعدادات لوحة مفاتيح LG "</string>
+    <string name="sp_same_as_home_theme">‏مثل الموضوع الرئيسي</string>
+    <string name="sp_back">"‏نيو دلهي "</string>
+    <string name="sp_add_vowel">Vowel stroke add</string>
+    <string name="sp_one_stroke_add">One stroke add</string>
+    <string name="sp_two_stroke_add">Two stroke add</string>
+</resources>

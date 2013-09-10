@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lgx.ime.inputview.LgeHandWritingPopupViewImpl android:orientation="vertical" android:id="@id/handwritingPopupFullView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="top|right|center" android:layout_gravity="right" android:id="@id/handwritingFullToPartialButtonLayout" android:paddingTop="@dimen/handwriting_mode_change_button_padding_top" android:paddingRight="@dimen/handwriting_mode_change_button_padding_right" android:layout_width="@dimen/handwriting_mode_change_button_width" android:layout_height="@dimen/handwriting_mode_change_button_height">
+        <ImageButton android:id="@id/handwritingFullToPartialImageButton" android:background="@color/candidate_background" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ime_keypad_icon_handwriting" />
+    </LinearLayout>
+</FrameLayout>

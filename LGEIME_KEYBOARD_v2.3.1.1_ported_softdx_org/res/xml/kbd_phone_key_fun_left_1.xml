@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyboardMode="@id/mode_url">
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_function_key_width" ime:labelPositionY="50" ime:keyWidthRelative="@fraction/relative_phone_left_key1_width" ime:horizontalGapRelative="@fraction/relative_phone_left_key1_horizontal_gap" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="@string/phone_key_fun_left1_mode_url_popup_char" ime:keyEdgeFlags="left" ime:keyLabel="@string/phone_key_fun_left1_mode_url_label" ime:multitabSequence="@string/phone_key_fun_left1_mode_url_popup_char" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_email">
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_function_key_width" ime:labelPositionY="50" ime:keyWidthRelative="@fraction/relative_phone_left_key1_width" ime:horizontalGapRelative="@fraction/relative_phone_left_key1_horizontal_gap" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="@string/phone_key_fun_left1_mode_email_popup_char" ime:keyEdgeFlags="left" ime:keyLabel="@string/phone_key_fun_left1_mode_email_label" ime:multitabSequence="@string/phone_key_fun_left1_mode_email_popup_char" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <Key ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_function_key_width" ime:labelPositionY="50" ime:keyWidthRelative="@fraction/relative_phone_left_key1_width" ime:horizontalGapRelative="@fraction/relative_phone_left_key1_horizontal_gap" ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="@string/phone_key_fun_left1_mode_normal_popup_char" ime:keyEdgeFlags="left" ime:keyLabel="@string/phone_key_fun_left1_mode_normal_label" ime:multitabSequence="@string/phone_key_fun_left1_mode_normal_multitap_char" ime:hitBox="@string/define_phonepad_key_left_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

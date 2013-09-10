@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/option_item_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/sp_input_language_and_type_NORMAL" android:key="stringarray_writing_language" android:summary="@string/sp_input_lauguage_and_type_description_NORMAL" android:fragment="com.lgx.ime.setting.LgeInputLanguageAndKeyboardLayoutSettings" />
+    <PreferenceCategory android:title="@string/sp_common_settings_SHORT" android:key="general_settings">
+        <PreferenceScreen android:title="@string/pref_word_suggestion" android:key="stringarray_word_suggestion" android:summary="@string/sp_word_suggestion_description_NORMAL" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_auto_capitalize_NORMAL" android:key="boolean_auto_capitalization" android:summary="@string/sp_auto_capitalize_summary_NORMAL" android:defaultValue="@bool/pref_auto_cap" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_auto_punctuation" android:key="boolean_auto_punctuation" android:summary="@string/sp_pref_auto_punctuation_summary_NORMAL" android:defaultValue="@bool/pref_auto_punctuation" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_pref_voice_input_NORMAL" android:key="boolean_voice_input" android:summary="@string/sp_pref_voice_typing_key_summary_NORMAL" android:defaultValue="@bool/pref_voice_input" />
+        <PreferenceScreen android:title="@string/pref_category_title_touch_feedback" android:key="touch_feedback" android:summary="@string/sp_touch_feedback_summary_NORMAL">
+            <intent android:action="com.lgx.ime.setting.LgeTouchFeedbackSettings" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sp_advanced_settings_SHORT" android:key="advanced_settings">
+        <PreferenceScreen android:persistent="true" android:title="@string/pref_keyboard_theme" android:key="string_skin">
+            <intent android:action="com.lgx.ime.setting.LgeThemeSettings" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_hide_keyboard_NORMAL" android:key="boolean_swipe_to_hide_keyboard" android:summary="@string/sp_hide_keyboard_summary_NORMAL" android:defaultValue="@bool/pref_defval_swipe_to_hide_keyboard" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_pref_one_hand_keyboard_NORMAL" android:key="boolean_one_hand_keyboard" android:summary="@string/sp_pref_one_hand_keyboard_summary_NORMAL" android:defaultValue="@bool/pref_defval_one_hand_keyboard" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_pref_split_keyboard_NORMAL" android:key="boolean_split_keyboard" android:summary="@string/sp_pref_split_keyboard_summary_NORMAL" android:defaultValue="@bool/pref_defval_split_keyboard" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/sp_pref_extend_keyboard_NORMAL" android:key="boolean_extend_row_keyboard" android:summary="@string/sp_pref_extend_keyboard_summary_NORMAL" android:defaultValue="@bool/pref_defval_extend_row_keyboard" />
+    </PreferenceCategory>
+</PreferenceScreen>

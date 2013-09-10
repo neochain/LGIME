@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyboardMode="@id/mode_url">
+        <Key ime:keyWidth="@dimen/phone_function_key_width" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:codes="-14" ime:popupKeyboard="@xml/kbd_popup_domain_template" ime:popupCharacters="@string/minikeyboard_domain" ime:keyEdgeFlags="right" ime:keyLabel="@string/popular_domain_0" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_email">
+        <Key ime:keyWidth="@dimen/phone_function_key_width" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:codes="-14" ime:popupKeyboard="@xml/kbd_popup_domain_template" ime:popupCharacters="@string/minikeyboard_domain" ime:keyEdgeFlags="right" ime:keyLabel="@string/popular_domain_0" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <Key ime:keyBackground="@drawable/btn_keyboard_key_xt9" ime:keyTextSize="17.0dip" ime:keyWidth="@dimen/phone_function_key_width" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:labelPositionX="30" ime:labelPositionY="50" ime:codes="@integer/keycode_t9_toggle" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isSticky="true" ime:keyLabel="T9" ime:hitBox="@string/define_phonepad_key_right_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

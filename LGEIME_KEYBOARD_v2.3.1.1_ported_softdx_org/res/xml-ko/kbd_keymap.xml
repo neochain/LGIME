@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Keymap ime:code="@string/key_q" ime:shiftedcode="@string/key_q_shifted" ime:keycode="45" />
+    <Keymap ime:code="@string/key_w" ime:shiftedcode="@string/key_w_shifted" ime:keycode="51" />
+    <Keymap ime:code="@string/key_e" ime:shiftedcode="@string/key_e_shifted" ime:keycode="33" />
+    <Keymap ime:code="@string/key_r" ime:shiftedcode="@string/key_r_shifted" ime:keycode="46" />
+    <Keymap ime:code="@string/key_t" ime:shiftedcode="@string/key_t_shifted" ime:keycode="48" />
+    <Keymap ime:code="@string/key_y" ime:shiftedcode="@string/key_y_shifted" ime:keycode="53" />
+    <Keymap ime:code="@string/key_u" ime:shiftedcode="@string/key_u_shifted" ime:keycode="49" />
+    <Keymap ime:code="@string/key_i" ime:shiftedcode="@string/key_i_shifted" ime:keycode="37" />
+    <Keymap ime:code="@string/key_o" ime:shiftedcode="@string/key_o_shifted" ime:keycode="43" />
+    <Keymap ime:code="@string/key_p" ime:shiftedcode="@string/key_p_shifted" ime:keycode="44" />
+    <Keymap ime:code="@string/key_a" ime:shiftedcode="@string/key_a_shifted" ime:keycode="29" />
+    <Keymap ime:code="@string/key_s" ime:shiftedcode="@string/key_s_shifted" ime:keycode="47" />
+    <Keymap ime:code="@string/key_d" ime:shiftedcode="@string/key_d_shifted" ime:keycode="32" />
+    <Keymap ime:code="@string/key_f" ime:shiftedcode="@string/key_f_shifted" ime:keycode="34" />
+    <Keymap ime:code="@string/key_g" ime:shiftedcode="@string/key_g_shifted" ime:keycode="35" />
+    <Keymap ime:code="@string/key_h" ime:shiftedcode="@string/key_h_shifted" ime:keycode="36" />
+    <Keymap ime:code="@string/key_j" ime:shiftedcode="@string/key_j_shifted" ime:keycode="38" />
+    <Keymap ime:code="@string/key_k" ime:shiftedcode="@string/key_k_shifted" ime:keycode="39" />
+    <Keymap ime:code="@string/key_l" ime:shiftedcode="@string/key_l_shifted" ime:keycode="40" />
+    <Keymap ime:code="@string/key_z" ime:shiftedcode="@string/key_z_shifted" ime:keycode="54" />
+    <Keymap ime:code="@string/key_x" ime:shiftedcode="@string/key_x_shifted" ime:keycode="52" />
+    <Keymap ime:code="@string/key_c" ime:shiftedcode="@string/key_c_shifted" ime:keycode="31" />
+    <Keymap ime:code="@string/key_v" ime:shiftedcode="@string/key_v_shifted" ime:keycode="50" />
+    <Keymap ime:code="@string/key_b" ime:shiftedcode="@string/key_b_shifted" ime:keycode="30" />
+    <Keymap ime:code="@string/key_n" ime:shiftedcode="@string/key_n_shifted" ime:keycode="42" />
+    <Keymap ime:code="@string/key_m" ime:shiftedcode="@string/key_m_shifted" ime:keycode="41" />
+</LgeKeyboard>

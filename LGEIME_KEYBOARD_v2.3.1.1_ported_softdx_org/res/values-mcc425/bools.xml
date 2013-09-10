@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_defval_auto_correct">false</bool>
+    <bool name="pref_defval_sound_feedback">false</bool>
+    <bool name="pref_voice_input">false</bool>
+</resources>

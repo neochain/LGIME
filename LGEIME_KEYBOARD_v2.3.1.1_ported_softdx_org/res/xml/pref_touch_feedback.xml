@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sp_pref_touch_feedback_setting_title_NORMAL"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/sp_key_preview_NORMAL" android:key="boolean_bubble_popup_feedback" android:summary="@string/sp_pref_key_preview_summary_NORMAL" android:defaultValue="@bool/pref_defval_bubble_popup_feedback" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/pref_sound_on_keypress" android:key="boolean_sound_feedback" android:defaultValue="@bool/pref_defval_sound_feedback" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/pref_vibrate_on_keypress" android:key="boolean_vibration_feedback" android:defaultValue="@bool/pref_defval_vibration_feedback" />
+</PreferenceScreen>

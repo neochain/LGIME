@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="row1_col1_unshifted_labelPositionY">35</integer>
+    <integer name="row1_col2_unshifted_labelPositionY">35</integer>
+    <integer name="row1_col3_unshifted_labelPositionY">35</integer>
+    <item type="integer" name="row1_col4_unshifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row1_col5_unshifted_labelPositionY">40</integer>
+    <integer name="row1_col6_unshifted_labelPositionY">40</integer>
+    <integer name="row1_col7_unshifted_labelPositionY">45</integer>
+    <integer name="row1_col8_unshifted_labelPositionY">35</integer>
+    <integer name="row1_col9_unshifted_labelPositionY">35</integer>
+    <integer name="row1_col10_unshifted_labelPositionY">35</integer>
+    <integer name="row2_col1_unshifted_labelPositionY">40</integer>
+    <integer name="row2_col2_unshifted_labelPositionY">40</integer>
+    <integer name="row2_col3_unshifted_labelPositionY">40</integer>
+    <integer name="row2_col4_unshifted_labelPositionY">45</integer>
+    <integer name="row2_col5_unshifted_labelPositionY">45</integer>
+    <integer name="row2_col8_unshifted_labelPositionY">40</integer>
+    <integer name="row2_col9_unshifted_labelPositionY">40</integer>
+    <integer name="row2_col10_unshifted_labelPositionY">45</integer>
+    <integer name="row3_col4_unshifted_labelPositionY">45</integer>
+    <integer name="row3_col6_unshifted_labelPositionY">45</integer>
+    <integer name="row4_col1_unshifted_labelPositionY">45</integer>
+    <integer name="row4_col2_unshifted_labelPositionY">40</integer>
+    <item type="integer" name="row1_col1_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col2_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col3_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col4_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col5_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col6_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col7_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col8_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col9_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <item type="integer" name="row1_col10_shifted_labelPositionY">@integer/config_qwerty_default_label_position_y</item>
+    <integer name="row2_col7_shifted_labelPositionY">70</integer>
+    <integer name="qwerty_symbol1_code_for_korean">1567</integer>
+</resources>

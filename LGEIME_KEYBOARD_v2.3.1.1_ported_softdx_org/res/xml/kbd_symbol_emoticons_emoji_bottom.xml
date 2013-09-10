@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyHeightRelative="@fraction/relative_qwerty_ordinary_key_height" ime:rowEdgeFlags="bottom">
+        <Key ime:keyTextSize="@dimen/qwerty_key_settings_text_size" ime:keyWidth="@dimen/qwerty_setting_key_width" ime:horizontalGap="@dimen/qwerty_side_gap" ime:keyWidthRelative="@fraction/relative_qwerty_123_key_width" ime:codes="@integer/keycode_goto_character_page" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="@string/btn_str_abc" ime:hitBox="@string/define_qwerty_key_left_bottom_edge_hitbox" />
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="@fraction/relative_qwerty_symbol_category_horizontal_gap_symbol_emoticon_layout" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="sym" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_symbol" />
+        </Key>
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="0.0%" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="peo" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:snapToLeft="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_emoji_people" />
+        </Key>
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="0.0%" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="nat" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:snapToLeft="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_emoji_nature" />
+        </Key>
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="0.0%" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="obj" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:snapToLeft="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_emoji_object" />
+        </Key>
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="0.0%" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="pla" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:snapToLeft="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_emoji_place" />
+        </Key>
+        <Key ime:keyWidthRelative="@fraction/relative_qwerty_symbol_category_key_width_symbol_emoticon_layout" ime:horizontalGapRelative="0.0%" ime:codes="@integer/keycode_qwerty_multi_key" ime:keyLabel="esy" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" ime:snapToLeft="true">
+            <ExtraMultiKey ime:extraXml="@xml/kbd_symbol_emoticons_key_multi_action_emoji_symbol" />
+        </Key>
+        <Key ime:keyWidth="@dimen/qwerty_space_key_middle_width" ime:horizontalGapRelative="@fraction/relative_qwerty_symbol_category_horizontal_gap_symbol_emoticon_layout" ime:codes="32" ime:isRepeatable="true" ime:keyLabel="@string/label_space_key" ime:keyIcon="@drawable/ime_keypad_icon_space_small_normal" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/qwerty_symbol_key_back_width" ime:keyWidthRelative="@fraction/relative_qwerty_enter_key_width" ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/ime_keypad_icon_del" ime:hitBox="@string/define_qwerty_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

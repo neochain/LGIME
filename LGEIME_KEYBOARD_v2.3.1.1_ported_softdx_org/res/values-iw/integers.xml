@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="row3_col3_extendrow_unshifted_long_key_action">@integer/row2_col3_unshifted_long_key_action</item>
+    <item type="integer" name="row4_col1_extendrow_unshifted_long_key_action">@integer/row3_col1_unshifted_long_key_action</item>
+    <item type="integer" name="row4_col7_extendrow_unshifted_long_key_action">@integer/row3_col7_unshifted_long_key_action</item>
+    <item type="integer" name="row4_col9_extendrow_unshifted_long_key_action">@integer/row3_col9_unshifted_long_key_action</item>
+    <item type="integer" name="row2_col3_unshifted_long_key_action">@integer/long_press_for_inserting_second_label</item>
+    <item type="integer" name="row3_col1_unshifted_long_key_action">@integer/long_press_for_inserting_second_label</item>
+    <item type="integer" name="row3_col7_unshifted_long_key_action">@integer/long_press_for_inserting_second_label</item>
+    <item type="integer" name="row3_col9_unshifted_long_key_action">@integer/long_press_for_inserting_second_label</item>
+</resources>

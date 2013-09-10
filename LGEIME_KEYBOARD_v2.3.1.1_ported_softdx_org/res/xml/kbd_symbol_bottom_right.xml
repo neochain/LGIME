@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:rowEdgeFlags="bottom">
+        <Key ime:keyBackground="@drawable/btn_keyboard_key_period" ime:keyTextColor="@color/lgekeyboard_key_text_color" ime:keyTextPressedColor="@color/lgekeyboard_key_text_pressed_color" ime:keyWidth="@dimen/key_width" ime:codes="46" ime:popupKeyboard="@xml/kbd_popup_punctuation_template" ime:popupCharacters="@string/qwerty_period_symbol_sequences" ime:keyLabel="." ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/key_width" ime:codes="@integer/qwerty_symbol1_code" ime:keyLabel="@string/qwerty_symbol1_label" ime:hitBox="@string/define_qwerty_key_bottom_edge_hitbox" />
+        <Key ime:keyTextSize="@dimen/qwerty_key_function_text_size" ime:keyWidth="@dimen/qwerty_function_key_width" ime:keyWidthRelative="@fraction/relative_qwerty_enter_key_width" ime:codes="-7" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="@string/label_enter_key" ime:keyIcon="@drawable/ime_keypad_icon_enter" ime:hitBox="@string/define_qwerty_key_right_bottom_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

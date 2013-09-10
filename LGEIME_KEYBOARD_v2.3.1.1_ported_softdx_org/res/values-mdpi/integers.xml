@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="lgekeyboard_key_text_shadow_radius">1</integer>
+    <integer name="define_phone_numeric_secondary_labal_position_y">83</integer>
+</resources>

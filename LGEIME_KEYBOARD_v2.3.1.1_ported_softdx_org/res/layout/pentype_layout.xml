@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/pentype_padding_left" android:paddingTop="@dimen/pentype_padding_up" android:paddingRight="@dimen/pentype_padding_right" android:paddingBottom="@dimen/pentype_padding_down" android:layout_width="wrap_content" android:layout_height="178.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:id="@id/penPreviewBG" android:background="@drawable/popup_pen_type_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/pentype_padding_up_down">
+        <ImageView android:id="@id/penPreview" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/penTypeRadio" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/penType_ballpen" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/popup_pen_type_ballpen_normal" />
+        <ImageView android:id="@id/penType_inkpen" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/pentype_padding_button" android:src="@drawable/popup_pen_type_inkpen_normal" />
+        <ImageView android:id="@id/penType_brush" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/pentype_padding_button" android:src="@drawable/popup_pen_type_brush_normal" />
+        <ImageView android:id="@id/penType_pencil" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/pentype_padding_button" android:src="@drawable/popup_pen_type_pencil_normal" />
+    </LinearLayout>
+</LinearLayout>

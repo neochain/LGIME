@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_text_size" ime:keyWidth="@dimen/phone_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:secondaryLabelPositionX="12" ime:secondaryLabelPositionY="@integer/define_phone_secondary_labal_position_y" ime:secondaryLabelSize="@dimen/phone_key_secondary_label_size" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyWidthRelative="@fraction/relative_phone_ordinary_key_width" ime:keyHeightRelative="@fraction/relative_phone_ordinary_key_height" ime:horizontalGapRelative="@fraction/relative_phone_ordinary_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_ordinary_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_1" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key1" />
+        <Key ime:codes="@string/number2_unshifted_codes" ime:popupCharacters="@string/number2_unshifted_popup_character" ime:keyLabel="@string/number2_unshifted_label" ime:multitabSequence="@string/number2_unshifted_multitap_sequence" ime:secondaryLabel="@string/number2_unshifted_secondary_label" />
+        <Key ime:codes="@string/number3_unshifted_codes" ime:popupCharacters="@string/number3_unshifted_popup_character" ime:keyLabel="@string/number3_unshifted_label" ime:multitabSequence="@string/number3_unshifted_multitap_sequence" ime:secondaryLabel="@string/number3_unshifted_secondary_label" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2" />
+        <Key ime:codes="@string/number4_unshifted_codes" ime:popupCharacters="@string/number4_unshifted_popup_character" ime:keyLabel="@string/number4_unshifted_label" ime:multitabSequence="@string/number4_unshifted_multitap_sequence" ime:secondaryLabel="@string/number4_unshifted_secondary_label" />
+        <Key ime:codes="@string/number5_unshifted_codes" ime:popupCharacters="@string/number5_unshifted_popup_character" ime:keyLabel="@string/number5_unshifted_label" ime:multitabSequence="@string/number5_unshifted_multitap_sequence" ime:secondaryLabel="@string/number5_unshifted_secondary_label" />
+        <Key ime:codes="@string/number6_unshifted_codes" ime:popupCharacters="@string/number6_unshifted_popup_character" ime:keyLabel="@string/number6_unshifted_label" ime:multitabSequence="@string/number6_unshifted_multitap_sequence" ime:secondaryLabel="@string/number6_unshifted_secondary_label" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_2" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3" />
+        <Key ime:codes="@string/number7_unshifted_codes" ime:popupCharacters="@string/number7_unshifted_popup_character" ime:keyLabel="@string/number7_unshifted_label" ime:multitabSequence="@string/number7_unshifted_multitap_sequence" ime:secondaryLabel="@string/number7_unshifted_secondary_label" />
+        <Key ime:codes="@string/number8_unshifted_codes" ime:popupCharacters="@string/number8_unshifted_popup_character" ime:keyLabel="@string/number8_unshifted_label" ime:multitabSequence="@string/number8_unshifted_multitap_sequence" ime:secondaryLabel="@string/number8_unshifted_secondary_label" />
+        <Key ime:codes="@string/number9_unshifted_codes" ime:popupCharacters="@string/number9_unshifted_popup_character" ime:keyLabel="@string/number9_unshifted_label" ime:multitabSequence="@string/number9_unshifted_multitap_sequence" ime:secondaryLabel="@string/number9_unshifted_secondary_label" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4" />
+        <Key ime:codes="@string/star_unshifted_codes" ime:popupCharacters="@string/star_unshifted_popup_character" ime:keyLabel="@string/star_unshifted_label" ime:multitabSequence="@string/star_unshifted_multitap_sequence" ime:secondaryLabel="@string/star_unshifted_secondary_label" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key0" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_pound" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

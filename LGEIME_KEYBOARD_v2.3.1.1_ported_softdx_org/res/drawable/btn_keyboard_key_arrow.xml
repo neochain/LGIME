@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <item android:state_pressed="true" android:drawable="@drawable/editor_keypad_btn_arrow_right" ime:state_right="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/editor_keypad_btn_arrow_left" ime:state_left="true" />
+    <item android:drawable="@drawable/editor_keypad_btn_arrow" />
+</selector>

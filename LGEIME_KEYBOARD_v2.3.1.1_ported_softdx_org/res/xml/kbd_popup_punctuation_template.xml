@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextColor="@color/mini_keyboard_text_color" ime:keyTextPressedColor="@color/mini_keyboard_text_pressed_color" ime:keyWidth="@dimen/popup_punctuation_key_width" ime:keyHeight="@dimen/popup_key_height" ime:horizontalGap="0.0dip" ime:verticalGap="0.0dip"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime" />

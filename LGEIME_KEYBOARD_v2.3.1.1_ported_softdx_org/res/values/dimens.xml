@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_swipe_threshold_velocity">900.0dip</dimen>
+    <dimen name="config_keyboard_fling_threshold_velocity">100.0dip</dimen>
+    <item type="dimen" name="key_height">@dimen/qwerty_key_height_size</item>
+    <item type="dimen" name="key_width">@dimen/qwerty_key_width_size</item>
+    <item type="dimen" name="qwerty_vertical_gap">@dimen/qwerty_vertical_gap_size</item>
+    <item type="dimen" name="qwerty_horizontal_gap">@dimen/qwerty_horizontal_gap_size</item>
+    <item type="dimen" name="qwerty_side_gap">@dimen/qwerty_side_gap_size</item>
+    <item type="dimen" name="qwerty_top_gap">@dimen/qwerty_top_gap_size</item>
+    <item type="dimen" name="qwerty_bottom_gap">@dimen/qwerty_bottom_gap_size</item>
+    <item type="dimen" name="qwerty_2nd_row_gap">@dimen/qwerty_2nd_row_gap_size</item>
+    <item type="dimen" name="qwerty_shift_key_width">@dimen/qwerty_shift_key_width_size</item>
+    <item type="dimen" name="qwerty_shift_key_large_width">@dimen/qwerty_shift_key_large_width_size</item>
+    <item type="dimen" name="qwerty_3rd_row_func_gap">@dimen/qwerty_3rd_row_func_gap_size</item>
+    <item type="dimen" name="qwerty_3rd_row_wide_func_gap">@dimen/qwerty_3rd_row_wide_func_gap_size</item>
+    <item type="dimen" name="qwerty_back_key_width">@dimen/qwerty_back_key_width_size</item>
+    <item type="dimen" name="qwerty_back_key_large_width">@dimen/qwerty_back_key_large_width_size</item>
+    <item type="dimen" name="qwerty_function_key_width">@dimen/qwerty_function_key_width_size</item>
+    <item type="dimen" name="qwerty_setting_key_width">@dimen/qwerty_setting_key_width_size</item>
+    <item type="dimen" name="qwerty_language_change_key_width">@dimen/qwerty_language_change_key_width_size</item>
+    <item type="dimen" name="qwerty_space_key_small_width">@dimen/qwerty_space_key_small_width_size</item>
+    <item type="dimen" name="qwerty_space_key_middle_width">@dimen/qwerty_space_key_middle_width_size</item>
+    <item type="dimen" name="qwerty_space_key_large_width">@dimen/qwerty_space_key_large_width_size</item>
+    <item type="dimen" name="qwerty_space_key_large_bopomofo_width">@dimen/qwerty_space_key_large_bopomofo_width_size</item>
+    <item type="dimen" name="qwerty_symbol_key_back_width">@dimen/qwerty_symbol_key_back_width_size</item>
+    <item type="dimen" name="qwerty_domain_key_width">@dimen/qwerty_domain_key_width_size</item>
+    <item type="dimen" name="qwerty_emoticons_key_width">@dimen/qwerty_emoticons_key_width_size</item>
+    <item type="dimen" name="qwerty_emoticons_3rd_row_key_width">@dimen/qwerty_emoticons_3rd_row_key_width_size</item>
+    <item type="dimen" name="qwerty_setting_key_long_width">@dimen/qwerty_setting_key_long_width_size</item>
+    <item type="dimen" name="phone_key_width">@dimen/phone_key_width_size</item>
+    <item type="dimen" name="phone_key_height">@dimen/phone_key_height_size</item>
+    <item type="dimen" name="phone_vertical_gap">@dimen/phone_vertical_gap_size</item>
+    <item type="dimen" name="phone_horizontal_gap">@dimen/phone_horizontal_gap_size</item>
+    <item type="dimen" name="phone_side_gap">@dimen/phone_side_gap_size</item>
+    <item type="dimen" name="phone_top_gap">@dimen/phone_top_gap_size</item>
+    <item type="dimen" name="phone_bottom_gap">@dimen/phone_bottom_gap_size</item>
+    <item type="dimen" name="phone_function_key_width">@dimen/phone_function_key_width_size</item>
+    <item type="dimen" name="phone_symbol_key_width">@dimen/phone_symbol_key_width_size</item>
+    <item type="dimen" name="phone_symbol_small_key_gap">@dimen/phone_symbol_small_key_gap_size</item>
+    <item type="dimen" name="phone_emoticons_key_width">@dimen/phone_emoticons_key_width_size</item>
+    <item type="dimen" name="phone_emoticons_key_large_width">@dimen/phone_emoticons_key_large_width_size</item>
+    <item type="dimen" name="key_width_short">@dimen/bopomofo_key_width_size</item>
+    <item type="dimen" name="key_height_short">@dimen/bopomofo_key_height_size</item>
+    <item type="dimen" name="qwerty_bopomofo_top_gap">@dimen/bopomofo_top_gap_size</item>
+    <item type="dimen" name="qwerty_bopomofo_vertical_gap">@dimen/bopomofo_vertical_gap_size</item>
+    <item type="dimen" name="qwerty_bopomofo_horizontal_gap">@dimen/bopomofo_horizontal_gap_size</item>
+    <item type="dimen" name="bopomofo_key_width_correction">@dimen/bopomofo_key_width_correction_size</item>
+    <item type="dimen" name="bopomofo_bottom_key_height">@dimen/bopomofo_bottom_key_height_size</item>
+    <item type="dimen" name="phone_numeric_key_width">@dimen/phone_numeric_key_width_size</item>
+    <item type="dimen" name="phone_numeric_horizontal_gap">@dimen/phone_numeric_horizontal_gap_size</item>
+    <item type="dimen" name="full_handwriting_top_gap">@dimen/full_handwriting_top_gap_size</item>
+    <item type="dimen" name="qwerty_domain_popup_width">@dimen/qwerty_domain_popup_width_size</item>
+    <dimen name="popup_punctuation_key_width">24.659973dip</dimen>
+    <dimen name="popup_key_height">33.329987dip</dimen>
+    <dimen name="popup_key_width">36.0dip</dimen>
+    <dimen name="keyboard_bottom_padding">9.599976dip</dimen>
+    <dimen name="bubble_pointer_offset">22.0dip</dimen>
+    <dimen name="spacebar_vertical_correction">4.0dip</dimen>
+    <dimen name="max_height_for_fullscreen">400.0dip</dimen>
+    <dimen name="key_function_text_size">17.599976dip</dimen>
+    <dimen name="phone_key_text_size">22.399994dip</dimen>
+    <dimen name="phone_key_function_text_size">19.199982dip</dimen>
+    <item type="dimen" name="phone_key_secondary_label_size">@dimen/define_phone_key_secondary_label_size</item>
+    <dimen name="phone_key_number_text_size">32.0dip</dimen>
+    <dimen name="phone_key_numeric_text_size">28.799988dip</dimen>
+    <dimen name="phone_key_chinese_function_text_size">17.599976dip</dimen>
+    <dimen name="phone_key_chinese_bopomofo_text_size">16.0dip</dimen>
+    <dimen name="phone_key_chinese_secondary_text_size">14.399994dip</dimen>
+    <dimen name="key_preview_marginWidth">10.0dip</dimen>
+    <dimen name="key_preview_offset">10.0dip</dimen>
+    <dimen name="mini_keyboard_slide_allowance">56.47998dip</dimen>
+    <dimen name="mini_keyboard_vertical_correction">-52.0dip</dimen>
+    <dimen name="key_hysteresis_distance">8.0dip</dimen>
+    <dimen name="keyboard_vertical_correction">0.0dip</dimen>
+    <dimen name="candidate_word_min_width">30.0dip</dimen>
+    <dimen name="candidate_word_padding">7.0dip</dimen>
+    <dimen name="candidate_word_padding_rtl">11.0dip</dimen>
+    <dimen name="candidate_highlight_correction">2.6599731dip</dimen>
+    <dimen name="candidate_scroll_factor">10.0dip</dimen>
+    <dimen name="candidate_ruberband_acceleration">5.0dip</dimen>
+    <dimen name="candidate_add_to_dic_popup_margin">5.0dip</dimen>
+    <dimen name="candidate_layout_button_width">30.0dip</dimen>
+    <dimen name="candidate_layout_wordlist_view_height">38.0dip</dimen>
+    <dimen name="candidate_view_height">45.0dip</dimen>
+    <dimen name="candidate_min_touchable_width">0.30000007in</dimen>
+    <dimen name="candidate_strip_height">42.0dip</dimen>
+    <dimen name="candidate_strip_fading_edge_length">63.0dip</dimen>
+    <dimen name="AdjustX">0.0dip</dimen>
+    <dimen name="AdjustY">0.0dip</dimen>
+    <dimen name="mini_adjust_position_y">278.0dip</dimen>
+    <dimen name="key_preview_backing_height">240.0dip</dimen>
+    <dimen name="voice_input_height">169.0dip</dimen>
+    <dimen name="handwriting_mode">30.0dip</dimen>
+    <dimen name="writinglang_list_item_text_width">210.0dip</dimen>
+    <dimen name="handwriting_view_height">164.0dip</dimen>
+    <item type="dimen" name="key_size_korean_keypad">@dimen/key_text_size</item>
+    <dimen name="color_picker_padding_left">12.0dip</dimen>
+    <dimen name="color_picker_padding_right">7.3399963dip</dimen>
+    <dimen name="color_picker_padding_up_down">3.3299866dip</dimen>
+    <dimen name="color_picker_margin_button">4.659973dip</dimen>
+    <dimen name="color_picker_white_border">0.6600001dip</dimen>
+    <dimen name="color_picker_row_max_height">70.0dip</dimen>
+    <item type="dimen" name="key_text_size">@dimen/define_qwerty_key_text_size</item>
+    <item type="dimen" name="qwerty_key_secondary_label_size">@dimen/define_qwerty_key_secondary_label_size</item>
+    <item type="dimen" name="qwerty_key_Third_label_size">@dimen/define_qwerty_key_third_label_size</item>
+    <item type="dimen" name="qwerty_key_settings_text_size">@dimen/define_qwerty_key_settings_text_size</item>
+    <item type="dimen" name="qwerty_key_function_text_size">@dimen/define_qwerty_key_function_text_size</item>
+    <item type="dimen" name="qwerty_key_language_text_size">@dimen/define_qwerty_key_language_text_size</item>
+    <item type="dimen" name="qwerty_key_url_text_size">@dimen/define_qwerty_key_url_text_size</item>
+    <item type="dimen" name="qwerty_key_etc_by_space_text_size">@dimen/define_qwerty_key_etc_by_space_text_size</item>
+    <item type="dimen" name="qwerty_key_space_secondary_label_text_size">@dimen/define_qwerty_key_space_secondary_label_text_size</item>
+    <item type="dimen" name="key_language_change_item_text_size">@dimen/define_key_language_change_item_text_size</item>
+    <item type="dimen" name="minikeyboard_popup_height">@dimen/popup_key_height</item>
+    <item type="dimen" name="key_preview_height">@dimen/define_key_preview_height</item>
+    <item type="dimen" name="key_preview_width">@dimen/define_key_preview_width</item>
+    <item type="dimen" name="key_preview_text_size">@dimen/define_key_preview_text_size</item>
+    <item type="dimen" name="changjie_key_text_size">@dimen/define_changjie_key_text_size</item>
+    <item type="dimen" name="bopomofo_key_text_size">@dimen/define_bopomofo_key_text_size</item>
+    <item type="dimen" name="arabic_key_text_size">@dimen/define_arabic_key_text_size</item>
+    <item type="dimen" name="farsi_key_text_size">@dimen/define_farsi_key_text_size</item>
+    <item type="dimen" name="myanmar_key_text_size">@dimen/define_myanmar_key_text_size</item>
+    <item type="dimen" name="phone_arabic_key_text_size">@dimen/define_phone_arabic_key_text_size</item>
+    <item type="dimen" name="phone_farsi_key_text_size">@dimen/define_phone_farsi_key_text_size</item>
+    <item type="dimen" name="phone_myanmar_key_text_size">@dimen/define_phone_myanmar_key_text_size</item>
+    <item type="dimen" name="extendrow_numeric_key_text_size">@dimen/define_extendrow_numeric_key_text_size</item>
+    <dimen name="key_preview_padding_left">0.0dip</dimen>
+    <dimen name="key_preview_padding_top">0.0dip</dimen>
+    <dimen name="key_preview_padding_right">0.0dip</dimen>
+    <dimen name="key_preview_padding_bottom">20.0dip</dimen>
+    <dimen name="settings_fontsize_5">5.0sp</dimen>
+    <dimen name="settings_fontsize_6">6.0sp</dimen>
+    <dimen name="settings_fontsize_7">7.0sp</dimen>
+    <dimen name="settings_fontsize_10">10.0sp</dimen>
+    <dimen name="settings_fontsize_11_5">11.5sp</dimen>
+    <dimen name="settings_fontsize_12">12.0sp</dimen>
+    <dimen name="settings_fontsize_13">13.0sp</dimen>
+    <dimen name="settings_fontsize_14">14.0sp</dimen>
+    <dimen name="settings_fontsize_16">16.0sp</dimen>
+    <dimen name="settings_fontsize_17">17.0sp</dimen>
+    <dimen name="settings_fontsize_18">18.0sp</dimen>
+    <dimen name="settings_fontsize_20">20.0sp</dimen>
+    <dimen name="settings_fontsize_21">21.0sp</dimen>
+    <dimen name="settings_fontsize_22">22.0sp</dimen>
+    <dimen name="settings_fontsize_23">23.0sp</dimen>
+    <dimen name="settings_fontsize_24">24.0sp</dimen>
+    <dimen name="settings_fontsize_25">25.0sp</dimen>
+    <dimen name="settings_fontsize_27">27.0sp</dimen>
+    <dimen name="settings_fontsize_32">32.0sp</dimen>
+    <dimen name="shape_writer_line_width">4.0dip</dimen>
+    <item type="dimen" name="one_hand_keyboard_swipe_distance_unit">@dimen/key_width</item>
+    <item type="dimen" name="split_keyboard_pinch_distance_unit">@dimen/key_width</item>
+    <dimen name="handwriting_mode_change_button_size">60.0dip</dimen>
+    <dimen name="handwriting_mode_change_button_padding_top">8.0dip</dimen>
+    <dimen name="handwriting_mode_change_button_padding_right">8.0dip</dimen>
+    <item type="dimen" name="handwriting_mode_change_button_width">@dimen/handwriting_mode_change_button_size</item>
+    <item type="dimen" name="handwriting_mode_change_button_height">@dimen/handwriting_mode_change_button_size</item>
+    <dimen name="one_hand_keyboard_popup_text_size">16.0sp</dimen>
+    <dimen name="one_hand_keyboard_popup_title_size">21.0sp</dimen>
+    <dimen name="pentype_padding_up">12.659973dip</dimen>
+    <dimen name="pentype_padding_down">12.659973dip</dimen>
+    <dimen name="pentype_padding_left">12.659973dip</dimen>
+    <dimen name="pentype_padding_right">12.659973dip</dimen>
+    <dimen name="pentype_padding_up_down">12.659973dip</dimen>
+    <dimen name="pentype_padding_button">8.0dip</dimen>
+    <dimen name="ime_guide_title_text">21.329987sp</dimen>
+    <dimen name="ime_guide_list_text">16.0sp</dimen>
+    <dimen name="ime_guide_page_mark_left">4.0dip</dimen>
+    <dimen name="ime_guide_page_mark_right">4.0dip</dimen>
+    <dimen name="ime_guide_page_mark_top">0.0dip</dimen>
+    <dimen name="ime_guide_page_mark_bottom">20.0dip</dimen>
+    <dimen name="ime_guide_layout_padding">10.0dip</dimen>
+    <dimen name="ime_guide_layout_padding_top">10.0dip</dimen>
+    <dimen name="ime_guide_layout_padding_bottom">90.0dip</dimen>
+    <dimen name="ime_guide_layout_padding_left">10.0dip</dimen>
+    <dimen name="ime_guide_layout_padding_right">10.0dip</dimen>
+    <dimen name="ime_guide_landscape_layout_margin_top_1">3.3299866dip</dimen>
+    <dimen name="ime_guide_landscape_layout_margin_top_2">38.669983dip</dimen>
+    <dimen name="ime_guide_landscape_layout_margin_bottom_1">33.329987dip</dimen>
+    <dimen name="ime_guide_landscape_layout_margin_bottom_2">12.0dip</dimen>
+    <dimen name="ime_initial_popup_padding_top">13.329987dip</dimen>
+    <dimen name="ime_initial_popup_padding_bottom">13.329987dip</dimen>
+    <dimen name="ime_initial_popup_padding_left">24.0dip</dimen>
+    <dimen name="ime_initial_popup_padding_right">24.0dip</dimen>
+    <dimen name="ime_initial_popup_margin_top">3.3299866dip</dimen>
+    <dimen name="ime_initial_popup_margin_bottom">33.329987dip</dimen>
+    <dimen name="ime_initial_popup_line_spacing_extra">1.3299866dip</dimen>
+    <dimen name="ime_initial_popup_image_view_margin_bottom">5.3299866dip</dimen>
+    <dimen name="ime_initial_popup_swipe_and_shape_popup_title_size">21.0sp</dimen>
+    <dimen name="ime_initial_popup_swipe_and_shape_popup_text_size">16.0sp</dimen>
+    <dimen name="input_language_list_text_width">189.32999dip</dimen>
+    <dimen name="input_language_list_text_height">34.659973dip</dimen>
+    <dimen name="input_language_list_layout_margin">6.659973dip</dimen>
+    <dimen name="input_language_list_layout_margin_top">5.3299866dip</dimen>
+    <dimen name="input_language_list_layout_margin_bottom">17.329987dip</dimen>
+    <dimen name="input_language_list_text_padding">18.0dip</dimen>
+    <dimen name="input_language_list_icon_padding">4.659973dip</dimen>
+    <dimen name="input_language_list_line_width">180.68dip</dimen>
+    <dimen name="input_language_list_line_height">0.6600001dip</dimen>
+    <dimen name="input_language_list_line_margin">2.0dip</dimen>
+    <dimen name="writing_lang_list_total_height">227.25998dip</dimen>
+    <dimen name="define_qwerty_key_text_size">21.329987dip</dimen>
+    <dimen name="define_qwerty_key_secondary_label_size">10.0dip</dimen>
+    <item type="dimen" name="define_qwerty_key_third_label_size">@dimen/define_qwerty_key_secondary_label_size</item>
+    <dimen name="define_qwerty_key_settings_text_size">14.659973dip</dimen>
+    <dimen name="define_qwerty_key_function_text_size">18.659973dip</dimen>
+    <dimen name="define_qwerty_key_language_text_size">16.0dip</dimen>
+    <dimen name="define_qwerty_key_url_text_size">18.659973dip</dimen>
+    <dimen name="define_qwerty_key_etc_by_space_text_size">21.329987dip</dimen>
+    <dimen name="define_qwerty_key_space_secondary_label_text_size">13.329987dip</dimen>
+    <dimen name="define_key_language_change_item_text_size">17.329987dip</dimen>
+    <dimen name="define_key_preview_width">47.0dip</dimen>
+    <dimen name="define_key_preview_height">70.0dip</dimen>
+    <item type="dimen" name="define_key_preview_text_size">@dimen/define_qwerty_key_text_size</item>
+    <dimen name="define_phone_key_secondary_label_size">14.0dip</dimen>
+    <item type="dimen" name="define_changjie_key_text_size">@dimen/define_qwerty_key_text_size</item>
+    <item type="dimen" name="define_bopomofo_key_text_size">@dimen/define_changjie_key_text_size</item>
+    <item type="dimen" name="define_arabic_key_text_size">@dimen/define_changjie_key_text_size</item>
+    <item type="dimen" name="define_farsi_key_text_size">@dimen/define_changjie_key_text_size</item>
+    <item type="dimen" name="define_myanmar_key_text_size">@dimen/define_changjie_key_text_size</item>
+    <item type="dimen" name="define_phone_arabic_key_text_size">@dimen/define_arabic_key_text_size</item>
+    <item type="dimen" name="define_phone_farsi_key_text_size">@dimen/define_arabic_key_text_size</item>
+    <item type="dimen" name="define_phone_myanmar_key_text_size">@dimen/define_arabic_key_text_size</item>
+    <dimen name="define_extendrow_numeric_key_text_size">18.329987dip</dimen>
+    <dimen name="qwerty_key_height_size">50.0dip</dimen>
+    <dimen name="qwerty_key_width_size">30.0dip</dimen>
+    <dimen name="qwerty_vertical_gap_size">2.0dip</dimen>
+    <dimen name="qwerty_horizontal_gap_size">2.0dip</dimen>
+    <dimen name="qwerty_side_gap_size">0.0dip</dimen>
+    <dimen name="qwerty_top_gap_size">7.0dip</dimen>
+    <dimen name="qwerty_bottom_gap_size">2.0dip</dimen>
+    <dimen name="qwerty_2nd_row_gap_size">17.0dip</dimen>
+    <dimen name="qwerty_shift_key_width_size">45.0dip</dimen>
+    <dimen name="qwerty_function_key_width_size">47.0dip</dimen>
+    <dimen name="qwerty_setting_key_width_size">37.0dip</dimen>
+    <dimen name="qwerty_language_change_key_width_size">38.0dip</dimen>
+    <item type="dimen" name="qwerty_space_key_small_width_size">@dimen/qwerty_key_width_size</item>
+    <dimen name="qwerty_space_key_middle_width_size">94.0dip</dimen>
+    <dimen name="qwerty_space_key_large_width_size">150.0dip</dimen>
+    <item type="dimen" name="qwerty_emoticons_3rd_row_key_width_size">@dimen/qwerty_space_key_middle_width_size</item>
+    <dimen name="qwerty_space_key_large_bopomofo_width_size">158.0dip</dimen>
+    <dimen name="qwerty_symbol_key_back_width_size">62.0dip</dimen>
+    <item type="dimen" name="qwerty_domain_key_width_size">@dimen/qwerty_symbol_key_back_width_size</item>
+    <item type="dimen" name="qwerty_emoticons_key_width_size">@dimen/qwerty_symbol_key_back_width_size</item>
+    <dimen name="qwerty_setting_key_long_width_size">77.0dip</dimen>
+    <dimen name="phone_key_width_size">67.0dip</dimen>
+    <item type="dimen" name="phone_key_height_size">@dimen/qwerty_key_height_size</item>
+    <item type="dimen" name="phone_vertical_gap_size">@dimen/qwerty_vertical_gap_size</item>
+    <item type="dimen" name="phone_horizontal_gap_size">@dimen/qwerty_horizontal_gap_size</item>
+    <item type="dimen" name="phone_side_gap_size">@dimen/qwerty_side_gap_size</item>
+    <item type="dimen" name="phone_top_gap_size">@dimen/qwerty_top_gap_size</item>
+    <item type="dimen" name="phone_bottom_gap_size">@dimen/qwerty_bottom_gap_size</item>
+    <dimen name="phone_function_key_width_size">54.0dip</dimen>
+    <dimen name="phone_symbol_key_width_size">50.0dip</dimen>
+    <dimen name="phone_symbol_small_key_gap_size">1.0dip</dimen>
+    <dimen name="phone_emoticons_key_width_size">102.0dip</dimen>
+    <dimen name="phone_emoticons_key_large_width_size">205.0dip</dimen>
+    <dimen name="bopomofo_key_width_size">28.659973dip</dimen>
+    <dimen name="bopomofo_key_height_size">41.659973dip</dimen>
+    <dimen name="bopomofo_top_gap_size">3.6599731dip</dimen>
+    <dimen name="bopomofo_vertical_gap_size">1.0dip</dimen>
+    <dimen name="bopomofo_horizontal_gap_size">1.0dip</dimen>
+    <dimen name="bopomofo_key_width_correction_size">29.659973dip</dimen>
+    <item type="dimen" name="bopomofo_bottom_key_height_size">@dimen/bopomofo_key_height_size</item>
+    <dimen name="phone_numeric_key_width_size">77.599976dip</dimen>
+    <item type="dimen" name="phone_numeric_horizontal_gap_size">@dimen/qwerty_horizontal_gap_size</item>
+    <dimen name="full_handwriting_top_gap_size">0.0dip</dimen>
+    <dimen name="one_hand_keyboard_op_key_margin">5.0dip</dimen>
+    <item type="dimen" name="qwerty_domain_popup_width_size">@dimen/qwerty_domain_key_width</item>
+</resources>

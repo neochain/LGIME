@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="row1_col1_qwerty_emoticons_character">\#symbols_sequence[0]</string>
+    <string name="row1_col1_qwerty_emoticons_multitabSequence">"\#symbols_sequence[0] "</string>
+    <string name="row1_col2_qwerty_emoticons_character">\#symbols_sequence[1]</string>
+    <string name="row1_col2_qwerty_emoticons_multitabSequence">"\#symbols_sequence[1] "</string>
+    <string name="row1_col3_qwerty_emoticons_character">\#symbols_sequence[2]</string>
+    <string name="row1_col3_qwerty_emoticons_multitabSequence">"\#symbols_sequence[2] "</string>
+    <string name="row1_col4_qwerty_emoticons_character">\#symbols_sequence[3]</string>
+    <string name="row1_col4_qwerty_emoticons_multitabSequence">"\#symbols_sequence[3] "</string>
+    <string name="row1_col5_qwerty_emoticons_character">\#symbols_sequence[4]</string>
+    <string name="row1_col5_qwerty_emoticons_multitabSequence">"\#symbols_sequence[4] "</string>
+    <string name="row2_col1_qwerty_emoticons_character">\#symbols_sequence[5]</string>
+    <string name="row2_col1_qwerty_emoticons_multitabSequence">"\#symbols_sequence[5] "</string>
+    <string name="row2_col2_qwerty_emoticons_character">\#symbols_sequence[6]</string>
+    <string name="row2_col2_qwerty_emoticons_multitabSequence">"\#symbols_sequence[6] "</string>
+    <string name="row2_col3_qwerty_emoticons_character">\#symbols_sequence[7]</string>
+    <string name="row2_col3_qwerty_emoticons_multitabSequence">"\#symbols_sequence[7] "</string>
+    <string name="row2_col4_qwerty_emoticons_character">\#symbols_sequence[8]</string>
+    <string name="row2_col4_qwerty_emoticons_multitabSequence">"\#symbols_sequence[8] "</string>
+    <string name="row2_col5_qwerty_emoticons_character">\#symbols_sequence[9]</string>
+    <string name="row2_col5_qwerty_emoticons_multitabSequence">"\#symbols_sequence[9] "</string>
+    <string name="row3_col1_qwerty_emoticons_character">\#symbols_sequence[10]</string>
+    <string name="row3_col1_qwerty_emoticons_multitabSequence">"\#symbols_sequence[10] "</string>
+    <string name="row3_col2_qwerty_emoticons_character">\#symbols_sequence[11]</string>
+    <string name="row3_col2_qwerty_emoticons_multitabSequence">"\#symbols_sequence[11] "</string>
+    <string name="row3_col3_qwerty_emoticons_character">\#symbols_sequence[12]</string>
+    <string name="row3_col3_qwerty_emoticons_multitabSequence">"\#symbols_sequence[12] "</string>
+    <string name="row3_col4_qwerty_emoticons_character">\#symbols_sequence[13]</string>
+    <string name="row3_col4_qwerty_emoticons_multitabSequence">"\#symbols_sequence[13] "</string>
+    <string name="row3_col5_qwerty_emoticons_character">\#symbols_sequence[14]</string>
+    <string name="row3_col5_qwerty_emoticons_multitabSequence">"\#symbols_sequence[14] "</string>
+    <string name="row4_col1_qwerty_emoticons_character">\#symbols_sequence[15]</string>
+    <string name="row4_col1_qwerty_emoticons_multitabSequence">"\#symbols_sequence[15] "</string>
+    <string name="row4_col2_qwerty_emoticons_character">\#symbols_sequence[16]</string>
+    <string name="row4_col2_qwerty_emoticons_multitabSequence">"\#symbols_sequence[16] "</string>
+    <string name="row4_col3_qwerty_emoticons_character">\#symbols_sequence[17]</string>
+    <string name="row4_col3_qwerty_emoticons_multitabSequence">"\#symbols_sequence[17] "</string>
+    <string name="row4_col4_qwerty_emoticons_character">\#symbols_sequence[18]</string>
+    <string name="row4_col4_qwerty_emoticons_multitabSequence">"\#symbols_sequence[18] "</string>
+    <string name="row4_col5_qwerty_emoticons_character">\#symbols_sequence[19]</string>
+    <string name="row4_col5_qwerty_emoticons_multitabSequence">"\#symbols_sequence[19] "</string>
+</resources>

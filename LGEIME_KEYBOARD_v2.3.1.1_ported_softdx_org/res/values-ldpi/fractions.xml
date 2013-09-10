@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="define_keyboard_height_relative">45.937504%</fraction>
+    <fraction name="relative_margin_left">0.19999743%</fraction>
+    <fraction name="relative_margin_right">0.19999743%</fraction>
+    <fraction name="relative_margin_top">2.4999976%</fraction>
+    <fraction name="relative_margin_bottom">0.99999905%</fraction>
+    <fraction name="relative_qwerty_ordinary_vertical_gap">0.9600043%</fraction>
+    <item type="fraction" name="relative_phone_ordinary_vertical_gap">@fraction/relative_qwerty_ordinary_vertical_gap</item>
+</resources>

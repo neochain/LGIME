@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InputFactoryFilterTable
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <entry ime:scriptFilter="EAST_ASIAN_CHINESE" ime:driverClass="com.lgx.ime.inputs.Xt9ChineseInput" ime:layoutFilter="DEFAULT" />
+    <entry ime:scriptFilter="EAST_ASIAN_KOREAN" ime:driverClass="com.lgx.ime.inputs.KoreanInputWrapper" ime:layoutFilter="DEFAULT" />
+    <entry ime:scriptFilter="DEFAULT" ime:driverClass="com.lgx.ime.inputs.DiopenInput" ime:layoutFilter="HANDWRITING" />
+    <entry ime:scriptFilter="DEFAULT" ime:driverClass="com.lgx.ime.inputs.DiopenInput" ime:layoutFilter="HANDWRITINGFULL" />
+    <entry ime:scriptFilter="DEFAULT" ime:driverClass="com.lgx.ime.inputs.Xt9AlphaInput" ime:layoutFilter="DEFAULT" />
+    <entry ime:scriptFilter="EAST_ASIAN_KOREAN" ime:driverClass="com.lgx.ime.inputs.HardQwertyKoreanIputImpl" ime:layoutFilter="BLUETOOTH_QWERTY" />
+    <entry ime:scriptFilter="EAST_ASIAN_CHINESE" ime:driverClass="com.lgx.ime.inputs.HardQwertyXt9ChineseInputImpl" ime:layoutFilter="BLUETOOTH_QWERTY" />
+    <entry ime:scriptFilter="DEFAULT" ime:driverClass="com.lgx.ime.inputs.HardQwertyXt9AlphaIputImpl" ime:layoutFilter="BLUETOOTH_QWERTY" />
+    <entry ime:driverClass="com.lgx.ime.inputs.VietnameseInput" ime:layoutFilter="DEFAULT" ime:languageFilter="Vietnamese" />
+    <entry ime:scriptFilter="EAST_ASIAN_CHINESE" ime:driverClass="com.lgx.ime.inputs.DiopenChnInput" ime:layoutFilter="HANDWRITING" />
+    <entry ime:scriptFilter="EAST_ASIAN_KOREAN" ime:driverClass="com.lgx.ime.inputs.HardQwertyKoreanIputImpl" ime:layoutFilter="PHYSICAL_QWERTY" />
+    <entry ime:scriptFilter="EAST_ASIAN_CHINESE" ime:driverClass="com.lgx.ime.inputs.HardQwertyXt9ChineseInputImpl" ime:layoutFilter="PHYSICAL_QWERTY" />
+    <entry ime:scriptFilter="DEFAULT" ime:driverClass="com.lgx.ime.inputs.HardQwertyXt9AlphaIputImpl" ime:layoutFilter="PHYSICAL_QWERTY" />
+    <entry ime:scriptFilter="EAST_ASIAN_CHINESE" ime:driverClass="com.lgx.ime.inputs.DiopenChnInput" ime:layoutFilter="HANDWRITINGFULL" />
+</InputFactoryFilterTable>

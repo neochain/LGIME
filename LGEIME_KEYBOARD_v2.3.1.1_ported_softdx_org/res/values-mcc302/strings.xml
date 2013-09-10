@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="third_label_america">@string/third_label_america_vzw_and_canada</string>
+    <string name="symbol_qwerty_america">@string/symbol_qwerty_america_vzw_and_canada</string>
+    <string name="symbol_handwriting_america">@string/symbol_handwriting_america_vzw_and_canada</string>
+</resources>

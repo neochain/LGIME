@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_defval_trace_enabled">true</bool>
+    <bool name="pref_defval_vibration_feedback">true</bool>
+    <bool name="pref_voice_input">true</bool>
+</resources>

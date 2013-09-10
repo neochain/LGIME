@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyWidth="@dimen/key_width" ime:keyHeight="@dimen/key_height" ime:horizontalGap="@dimen/qwerty_horizontal_gap" ime:verticalGap="@dimen/qwerty_vertical_gap" ime:secondaryLabelPositionX="@integer/config_qwerty_key_position_x" ime:secondaryLabelPositionY="@integer/config_qwerty_key_position_y" ime:secondaryLabelSize="@dimen/qwerty_key_secondary_label_size" ime:sideGap="@dimen/qwerty_side_gap" ime:topGap="@dimen/qwerty_top_gap" ime:bottomGap="@dimen/qwerty_bottom_gap"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಔ|೧|1" ime:keyEdgeFlags="left" ime:keyLabel="ೌ" ime:thirdLabel="1" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಐ|೨|2" ime:keyLabel="ೈ" ime:thirdLabel="2" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಆ|೩|3" ime:keyLabel="ಾ" ime:thirdLabel="3" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಈ|೪|4" ime:keyLabel="ೀ" ime:thirdLabel="4" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಊ|ಋ|೫|5" ime:keyLabel="ೂ" ime:thirdLabel="5" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಭ|೬|6" ime:keyLabel="ಬ" ime:thirdLabel="6" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಙ|೭|7" ime:keyLabel="ಹ" ime:thirdLabel="7" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಘ|೮|8" ime:keyLabel="ಗ" ime:thirdLabel="8" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಧ|೯|9" ime:keyLabel="ದ" ime:thirdLabel="9" />
+        <Key ime:labelPositionY="@integer/config_qwerty_first_row_key_position_y" ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಝ|ಜ್ಞ|0" ime:keyEdgeFlags="right" ime:keyLabel="ಜ" ime:thirdLabel="10" />
+    </Row>
+    <Row>
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ೊ|ಒ|ಓ" ime:keyEdgeFlags="left" ime:keyLabel="ೋ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಏ" ime:keyLabel="ೇ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಅ" ime:keyLabel="್" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಇ" ime:keyLabel="ಿ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಉ" ime:keyLabel="ು" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಫ" ime:keyLabel="ಪ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ೃ|್ರ|ಱ" ime:keyLabel="ರ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಖ" ime:keyLabel="ಕ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಥ|ತ್ರ" ime:keyLabel="ತ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಛ" ime:keyEdgeFlags="right" ime:keyLabel="ಚ" />
+    </Row>
+    <Row>
+        <Key ime:codes="@integer/keycode_shift" ime:keyEdgeFlags="left" ime:isModifier="true" ime:isSticky="true" ime:keyLabel="Shift" ime:keyIcon="@drawable/ime_btn_func_shift_small" ime:longKeyAction="@integer/long_press_for_caps_lock" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಎ" ime:keyLabel="ೆ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಃ" ime:keyLabel="ಂ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಣ" ime:keyLabel="ಮ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಞ" ime:keyLabel="ನ" />
+        <Key ime:keyLabel="ವ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಳ" ime:keyLabel="ಲ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಶ|ಷ|ಶ್ರ" ime:keyLabel="ಸ" />
+        <Key ime:popupKeyboard="@xml/kbd_popup_template" ime:popupCharacters="ಠ" ime:keyLabel="ಟ" />
+        <Key ime:codes="-8" ime:keyEdgeFlags="right" ime:isModifier="true" ime:isRepeatable="true" ime:keyLabel="Back" ime:keyIcon="@drawable/editor_keypad_icon_del_narrow" />
+    </Row>
+    <ExtraRow ime:extraXml="@xml/kbd_qwerty_bottom" />
+</LgeKeyboard>

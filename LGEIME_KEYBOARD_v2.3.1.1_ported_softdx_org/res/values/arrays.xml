@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keyboard_layout_item_values">
+        <item>@string/keyboard_layout_values_qwerty</item>
+        <item>@string/keyboard_layout_values_phonepad</item>
+        <item>@string/keyboard_layout_values_handwriting</item>
+        <item>@string/keyboard_layout_values_handwriting_full</item>
+    </string-array>
+    <string-array name="keyboard_layout_item">
+        <item>@string/sp_pref_keyboard_names_qwerty_keyboard_NORMAL</item>
+        <item>@string/sp_pref_keyboard_names_phone_keyboard_NORMAL</item>
+        <item>@string/sp_pref_keyboard_layout_names_handwriting_NORMAL</item>
+        <item>@string/sp_pref_keyboard_layout_names_handwriting_f_NORMAL</item>
+    </string-array>
+    <string-array name="setting_simple_popup_item">
+        <item>@string/option_item_settings</item>
+        <item>@string/option_item_inputMethods</item>
+    </string-array>
+    <array name="setting_simple_popup_item_values">
+        <item>@integer/setting_simple_popup_item_goto_settings</item>
+        <item>@integer/setting_simple_popup_item_goto_change_input_method</item>
+    </array>
+    <array name="transparent_keyboard_optimized_opacity_values">
+        <item>@integer/optimized_completely_transparent</item>
+        <item>@integer/optimized_low_opacuty_value</item>
+        <item>@integer/optimized_middle_opacity_value</item>
+        <item>@integer/optimized_high_opacity_value</item>
+        <item>@integer/optimized_completely_opaque</item>
+    </array>
+    <string-array name="handwriting_transparency_name">
+        <item>@string/pref_handwrite_transparency_item_0</item>
+        <item>@string/pref_handwrite_transparency_item_1</item>
+        <item>@string/pref_handwrite_transparency_item_2</item>
+        <item>@string/pref_handwrite_transparency_item_3</item>
+    </string-array>
+    <string-array name="handwriting_transparency_value">
+        <item>@string/pref_handwriting_transparency_value_0</item>
+        <item>@string/pref_handwriting_transparency_value_1</item>
+        <item>@string/pref_handwriting_transparency_value_2</item>
+        <item>@string/pref_handwriting_transparency_value_3</item>
+    </string-array>
+    <string-array name="handwriting_delay_time_name">
+        <item>@string/pref_handwriting_delay_time_item_0</item>
+        <item>@string/pref_handwriting_delay_time_item_1</item>
+        <item>@string/pref_handwriting_delay_time_item_2</item>
+        <item>@string/pref_handwriting_delay_time_item_3</item>
+        <item>@string/pref_handwriting_delay_time_item_4</item>
+    </string-array>
+    <string-array name="handwriting_delay_time_value">
+        <item>@string/pref_handwriting_delay_time_value_0</item>
+        <item>@string/pref_handwriting_delay_time_value_1</item>
+        <item>@string/pref_handwriting_delay_time_value_2</item>
+        <item>@string/pref_handwriting_delay_time_value_3</item>
+        <item>@string/pref_handwriting_delay_time_value_4</item>
+    </string-array>
+    <string-array name="handwriting_pen_width_name">
+        <item>@string/pref_handwriting_pen_width_item_0</item>
+        <item>@string/pref_handwriting_pen_width_item_1</item>
+        <item>@string/pref_handwriting_pen_width_item_2</item>
+        <item>@string/pref_handwriting_pen_width_item_3</item>
+        <item>@string/pref_handwriting_pen_width_item_4</item>
+        <item>@string/pref_handwriting_pen_width_item_5</item>
+    </string-array>
+    <string-array name="handwriting_pen_width_value">
+        <item>@string/pref_handwriting_pen_width_value_0</item>
+        <item>@string/pref_handwriting_pen_width_value_1</item>
+        <item>@string/pref_handwriting_pen_width_value_2</item>
+        <item>@string/pref_handwriting_pen_width_value_3</item>
+        <item>@string/pref_handwriting_pen_width_value_4</item>
+        <item>@string/pref_handwriting_pen_width_value_5</item>
+    </string-array>
+    <string-array name="pref_line_of_candidate_area_entry">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="handwriting_pentype_list">
+        <item>@string/penType_ballpen</item>
+        <item>@string/penType_inkpen</item>
+        <item>@string/penType_brush</item>
+        <item>@string/penType_pencil</item>
+    </string-array>
+    <string-array name="keyboard_guide_popup_list">
+        <item>@string/ime_keypad_help_input_language</item>
+        <item>@string/ime_keypad_help_type_mode</item>
+        <item>@string/ime_keypad_help_touch_and_hold</item>
+        <item>@string/ime_keypad_help_keyboad_sweeping</item>
+        <item>@string/ime_keypad_help_split_keypad</item>
+        <item>@string/ime_keypad_help_one_handoperation</item>
+        <item>@string/ime_keypad_help_shape_writer</item>
+    </string-array>
+    <string-array name="keyboard_guide_popup_desc">
+        <item>@string/ime_guide_description_input_language_and_keyboard_type</item>
+        <item>@string/ime_guide_description_type_mode01</item>
+        <item>@string/ime_guide_description_touch_and_hold</item>
+        <item>@string/ime_guide_description_open_close</item>
+        <item>@string/ime_guide_description_split_keyboard</item>
+        <item>@string/ime_guide_description_onehand_keyboard</item>
+        <item>@string/ime_guide_description_path_keyboard</item>
+    </string-array>
+    <string-array name="keyboard_guide_popup_title">
+        <item>@string/ime_guide_title_keyboard_type</item>
+        <item>@string/ime_guide_title_type_mode</item>
+        <item>@string/ime_guide_title_touch_and_hold</item>
+        <item>@string/ime_guide_title_open_close_keyboard</item>
+        <item>@string/ime_guide_title_split_keyboard</item>
+        <item>@string/ime_guide_title_onahand_keyboard</item>
+        <item>@string/ime_guide_title_path_keyboard</item>
+    </string-array>
+    <string-array name="primary_functionkey_list">
+        <item>@string/primary_functionkey_is_voicetyping</item>
+        <item>@string/primary_functionkey_is_handwriting</item>
+        <item>@string/primary_functionkey_is_handwriting_status_on</item>
+        <item>@string/primary_functionkey_is_modechage</item>
+        <item>@string/primary_functionkey_is_cliptray</item>
+        <item>@string/primary_functionkey_is_settings</item>
+    </string-array>
+    <string-array name="writing_language_list">
+        <item>ar</item>
+        <item>eu</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>nl_BE</item>
+        <item>en</item>
+        <item>en_FR</item>
+        <item>en_AT</item>
+        <item>et</item>
+        <item>fa</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>fr_CH</item>
+        <item>fr_CA</item>
+        <item>gl</item>
+        <item>de</item>
+        <item>el</item>
+        <item>iw</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>in</item>
+        <item>it</item>
+        <item>it_CH</item>
+        <item>kk</item>
+        <item>ko</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>mk</item>
+        <item>ms</item>
+        <item>no</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>sr_RS</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>tr</item>
+        <item>th</item>
+        <item>uk</item>
+        <item>vi</item>
+        <item>bn</item>
+        <item>km</item>
+        <item>my</item>
+        <item>uz_UZ</item>
+    </string-array>
+    <array name="touch_position_correction_data_empty" />
+    <string-array name="touch_position_correction_data_gingerbread">
+        <item>0.0091285</item>
+        <item>0.1193203</item>
+        <item>0.1622607</item>
+        <item>-0.0233128</item>
+        <item>0.1379798</item>
+        <item>0.1585229</item>
+        <item>-0.0080185</item>
+        <item>0.1911477</item>
+        <item>0.1570948</item>
+    </string-array>
+    <string-array name="touch_position_correction_data_ice_cream_sandwich">
+        <item>0.0038756</item>
+        <item>-0.0005677</item>
+        <item>0.1577026</item>
+        <item>-0.0236678</item>
+        <item>0.0381731</item>
+        <item>0.1529972</item>
+        <item>-0.0086827</item>
+        <item>0.0880847</item>
+        <item>0.1522819</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:keyboardMode="@id/mode_navi">
+        <Key ime:codes="-44" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="UP" ime:keyIcon="@drawable/editor_keypad_icon_chin_up" ime:hitBox="@string/define_qwerty_key_left_edge_hitbox" />
+    </Row>
+    <Row ime:keyboardMode="@id/mode_normal">
+        <Key ime:keyTextSize="@dimen/phone_key_chinese_function_text_size" ime:keyWidth="@dimen/phone_function_key_width" ime:labelPositionY="50" ime:codes="-2" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="@string/bopomofo" ime:hitBox="@string/define_qwerty_key_left_edge_hitbox" />
+    </Row>
+</LgeKeyboard>

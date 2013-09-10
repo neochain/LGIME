@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtraMultiKey
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="0" ime:keyLabel="peo" ime:condition="no_emoji" ime:visibility="merged_to_space" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_symbol" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoticon" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center_active" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoji_people" ime:visibility="untouchable" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoji_nature" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoji_object" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoji_place" />
+    <MultiKey ime:keyIconName="btn_keyboard_key_icon_emoji_people" ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_center" ime:codes="@integer/keycode_goto_emoji_people_page" ime:keyLabel="peo" ime:condition="symmode_emoji_symbol" />
+</ExtraMultiKey>

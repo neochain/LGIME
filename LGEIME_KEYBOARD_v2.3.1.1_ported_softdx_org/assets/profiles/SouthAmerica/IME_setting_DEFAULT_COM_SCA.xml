@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+
+
+<!-- 
+Atomatically generated with EURD PCMS XML generator for Android
+For More information, please contact Thomas Berger <thomas.berger@lge.com>
+
+Content : Provider settings Data
+
+!!!!!  WARNING !!!!! 
+This file should be currently used only for test only.
+Please continue to use Exported Excel files as trusted source of information
+
+/*
+** This file has been generated for P760 - Base - Open  (internal LGEMF Tesbed id=8312).
+** Country Listed : Albania, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech, Denmark, Estonia, Finland, Former Yugoslav Republic of Macedonia, France, France Caraibes, France Reunion, Germany, Greece, Greenland, Hungary, Iceland, Ireland, Italy, Luxembourg, Malta, Montenegro, Netherland, Norway, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Swiss, UK, Latvia, Lithuania,  
+** 
+** /!\ Please use it only for this project  /!\
+*/
+
+-->
+
+<profiles>
+	<commonprofile>
+		<item name='T9_DEFAULT'>Yes</item>
+		<item name='KEYBOARD_LAYOUT'>QWERTY</item>
+		<item name='DEFAULT_LANGUAGE'>pt_BR</item>
+		<item name='ALTERNATIVE_LANGUAGE'>en</item>
+	</commonprofile>
+
+	<profile>
+		<siminfo mcc="370" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_DO"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="370" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_DO"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="370" mnc="020"  />
+			<item name='DEFAULT_LANGUAGE'>es_DO"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="370" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_DO"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="704" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_GT"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="704" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_GT"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="704" mnc="03"  />
+			<item name='DEFAULT_LANGUAGE'>es_GT"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="704" mnc="030"  />
+			<item name='DEFAULT_LANGUAGE'>es_GT"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="706" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_SV"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="706" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_SV"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="706" mnc="03"  />
+			<item name='DEFAULT_LANGUAGE'>es_SV"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="706" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_SV"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="706" mnc="040"  />
+			<item name='DEFAULT_LANGUAGE'>es_SV"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="00"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="001"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="020"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="708" mnc="040"  />
+			<item name='DEFAULT_LANGUAGE'>es_HN"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="710" mnc="21"  />
+			<item name='DEFAULT_LANGUAGE'>es_NI"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="710" mnc="30"  />
+			<item name='DEFAULT_LANGUAGE'>es_NI"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="710" mnc="300"  />
+			<item name='DEFAULT_LANGUAGE'>es_NI"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="710" mnc="73"  />
+			<item name='DEFAULT_LANGUAGE'>es_NI"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="710" mnc="730"  />
+			<item name='DEFAULT_LANGUAGE'>es_NI"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="712" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_CR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="712" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_CR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="712" mnc="03"  />
+			<item name='DEFAULT_LANGUAGE'>es_CR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="712" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_CR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="714" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_PA"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="714" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_PA"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="714" mnc="020"  />
+			<item name='DEFAULT_LANGUAGE'>es_PA"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="714" mnc="03"  />
+			<item name='DEFAULT_LANGUAGE'>es_PA"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="714" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_PA"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="722" mnc="07"  />
+			<item name='DEFAULT_LANGUAGE'>es_AR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="722" mnc="310"  />
+			<item name='DEFAULT_LANGUAGE'>es_AR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="722" mnc="34"  />
+			<item name='DEFAULT_LANGUAGE'>es_AR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="03"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="05"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="06"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="10"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="11"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="15"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="16"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="23"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="24"  />
+			<item name='DEFAULT_LANGUAGE'>es_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="31"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="32"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="33"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="724" mnc="34"  />
+			<item name='DEFAULT_LANGUAGE'>pt_BR"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="734" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_VE"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="734" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_VE"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="734" mnc="06"  />
+			<item name='DEFAULT_LANGUAGE'>es_VE"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="740" mnc="00"  />
+			<item name='DEFAULT_LANGUAGE'>es_EC"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="740" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_EC"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="740" mnc="010"  />
+			<item name='DEFAULT_LANGUAGE'>es_EC"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="740" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_EC"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="744" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_PY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="744" mnc="02"  />
+			<item name='DEFAULT_LANGUAGE'>es_PY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="744" mnc="04"  />
+			<item name='DEFAULT_LANGUAGE'>es_PY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="744" mnc="05"  />
+			<item name='DEFAULT_LANGUAGE'>es_PY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="748" mnc="01"  />
+			<item name='DEFAULT_LANGUAGE'>es_UY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="748" mnc="07"  />
+			<item name='DEFAULT_LANGUAGE'>es_UY"</item>
+	</profile>
+	<profile>
+		<siminfo mcc="748" mnc="10"  />
+			<item name='DEFAULT_LANGUAGE'>es_UY"</item>
+	</profile>
+	
+</profiles>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stroke_num6_label">通</string>
+    <string name="stroke_num6_popup_characters">通|6</string>
+</resources>

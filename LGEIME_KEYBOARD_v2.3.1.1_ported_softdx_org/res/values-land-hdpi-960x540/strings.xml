@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_key_left_edge_hitbox" formatted="false">top=12%,left=10%,bottom=10%</string>
+    <string name="define_key_right_edge_hitbox" formatted="false">top=12%,right=10%,bottom=10%</string>
+    <string name="define_key_bottom_edge_hitbox">top=12%,bottom=1dip</string>
+    <string name="define_key_left_bottom_edge_hitbox" formatted="false">top=12%,left=12%,bottom=1dip</string>
+    <string name="define_key_right_bottom_edge_hitbox" formatted="false">top=12%,right=10%,bottom=1dip</string>
+    <string name="define_key_2nd_row_left_edge_hitbox" formatted="false">top=12%,left=60%,bottom=9%</string>
+    <string name="define_key_2nd_row_right_edge_hitbox" formatted="false">top=12%,right=60%,bottom=9%</string>
+    <string name="define_for_left_shift_hitbox" formatted="false">top=12%,left=10%,right=13%,bottom=10%</string>
+    <string name="define_for_right_back_key_hitbox" formatted="false">top=12%,left=13%,right=10%,bottom=10%</string>
+</resources>

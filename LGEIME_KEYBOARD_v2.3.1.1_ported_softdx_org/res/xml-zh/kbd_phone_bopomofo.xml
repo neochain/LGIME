@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyTextSize="@dimen/phone_key_chinese_bopomofo_text_size" ime:keyWidth="@dimen/phone_key_width" ime:keyHeight="@dimen/phone_key_height" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:verticalGap="@dimen/phone_vertical_gap" ime:secondaryLabelPositionX="12" ime:secondaryLabelPositionY="@integer/define_phone_secondary_labal_position_y" ime:secondaryLabelSize="@dimen/phone_key_secondary_label_size" ime:showPopupPreview="false" ime:sideGap="@dimen/phone_side_gap" ime:topGap="@dimen/phone_top_gap" ime:bottomGap="@dimen/phone_bottom_gap" ime:keyWidthRelative="@fraction/relative_phone_ordinary_key_width" ime:keyHeightRelative="@fraction/relative_phone_ordinary_key_height" ime:horizontalGapRelative="@fraction/relative_phone_ordinary_horizontal_gap" ime:verticalGapRelative="@fraction/relative_phone_ordinary_vertical_gap" ime:marginLeft="@fraction/relative_margin_left" ime:marginRight="@fraction/relative_margin_right" ime:marginTop="@fraction/relative_margin_top" ime:marginBottom="@fraction/relative_margin_bottom" ime:alignment="vertical_fit|horizontal_fit"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_1" />
+        <Key ime:codes="49" ime:popupCharacters="ㄅ|ㄉ|ㄚ|1" ime:keyLabel="ㄅㄉㄚ" ime:secondaryLabel="1" />
+        <Key ime:codes="50" ime:popupCharacters="ㄍ|ㄐ|ㄞ|ㄧ|2" ime:keyLabel="ㄍㄐㄞㄧ" ime:secondaryLabel="2" />
+        <Key ime:codes="51" ime:popupCharacters="ㄓ|ㄗ|ㄢ|ㄦ|3" ime:keyLabel="ㄓㄗㄢㄦ" ime:secondaryLabel="3" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_1" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_2" />
+        <Key ime:codes="52" ime:popupCharacters="ㄆ|ㄊ|ㄛ|4" ime:keyLabel="ㄆㄊㄛ" ime:secondaryLabel="4" />
+        <Key ime:codes="53" ime:popupCharacters="ㄎ|ㄑ|ㄟ|ㄨ|5" ime:keyLabel="ㄎㄑㄟㄨ" ime:secondaryLabel="5" />
+        <Key ime:codes="54" ime:popupCharacters="ㄔ|ㄘ|ㄣ|6" ime:keyLabel="ㄔㄘㄣ" ime:secondaryLabel="6" />
+        <Key ime:keyWidth="@dimen/phone_function_key_width" ime:horizontalGap="@dimen/phone_horizontal_gap" ime:labelPositionY="50" ime:keyWidthRelative="@fraction/relative_phone_right_key2_width" ime:horizontalGapRelative="@fraction/relative_phone_right_key2_horizontal_gap" ime:codes="@integer/keycode_chinese_cycle_tone" ime:keyEdgeFlags="right" ime:isModifier="true" ime:keyLabel="@string/label_trad_chinese_cycle_tone" ime:hitBox="@string/define_qwerty_key_right_edge_hitbox" />
+    </Row>
+    <Row>
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_3" />
+        <Key ime:codes="55" ime:popupCharacters="ㄇ|ㄋ|ㄜ|ㄝ|7" ime:keyLabel="ㄇㄋㄜㄝ" ime:secondaryLabel="7" />
+        <Key ime:codes="56" ime:popupCharacters="ㄏ|ㄒ|ㄠ|ㄩ|8" ime:keyLabel="ㄏㄒㄠㄩ" ime:secondaryLabel="8" />
+        <Key ime:codes="57" ime:popupCharacters="ㄕ|ㄙ|ㄤ|ㄥ|9" ime:keyLabel="ㄕㄙㄤㄥ" ime:secondaryLabel="9" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_3" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_left_4" />
+        <Key ime:codes="1" ime:popupCharacters="ㄈ|ㄌ|ㄡ|ㄖ" ime:keyLabel="ㄈㄌㄡㄖ" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="@integer/keycode_chinese_space" ime:popupCharacters="␣|0" ime:keyLabel="SpaceBar" ime:keyIcon="@drawable/ime_keypad_icon_space_large_normal" ime:multitabSequence=" |0" ime:secondaryLabel="0" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <Key ime:codes="@integer/keycode_multitap_toggle" ime:popupCharacters="。|,|'|&quot;|-|(|)|@|/|:|_|~" ime:keyLabel="。," ime:secondaryLabel="" ime:hitBox="@string/define_phonepad_key_bottom_edge_hitbox" />
+        <ExtraRow ime:extraXml="@xml/kbd_phone_key_fun_right_4" />
+    </Row>
+</LgeKeyboard>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="bias_keyboard_def_scale_size">@fraction/bias_keyboard_WXGA_scale_size</item>
+    <item type="fraction" name="bias_keyboard_keysize_def_scale_size">@fraction/bias_keyboard_keysize_WXGA_scale_size</item>
+    <fraction name="define_keyboard_height_relative">38.600002%</fraction>
+    <fraction name="relative_margin_left">0.99999905%</fraction>
+    <fraction name="relative_margin_right">0.99999905%</fraction>
+    <fraction name="relative_margin_top">2.4999976%</fraction>
+    <fraction name="relative_margin_bottom">0.99999905%</fraction>
+</resources>

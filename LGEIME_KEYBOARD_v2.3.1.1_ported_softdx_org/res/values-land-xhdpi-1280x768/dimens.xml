@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="define_qwerty_key_text_size">24.0dip</dimen>
+    <dimen name="define_qwerty_key_secondary_label_size">10.0dip</dimen>
+    <dimen name="define_key_preview_text_size">18.0dip</dimen>
+    <dimen name="phone_numeric_key_width_size">157.5dip</dimen>
+</resources>

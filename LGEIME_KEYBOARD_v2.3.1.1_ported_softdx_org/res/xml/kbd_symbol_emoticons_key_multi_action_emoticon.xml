@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtraMultiKey
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_symbol" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right_active" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoticon" ime:visibility="untouchable" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoji_people" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoji_nature" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoji_object" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoji_place" />
+    <MultiKey ime:keyBackgroundName="btn_keyboard_key_symbol_emoticon_category_right" ime:codes="@integer/keycode_goto_emoticon_page" ime:keyLabel="emo" ime:condition="symmode_emoji_symbol" />
+</ExtraMultiKey>

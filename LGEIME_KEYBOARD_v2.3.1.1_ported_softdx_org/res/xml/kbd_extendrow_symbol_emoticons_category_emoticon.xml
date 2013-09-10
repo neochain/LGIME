@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LgeKeyboard ime:keyWidth="@dimen/key_width" ime:keyHeight="@dimen/key_height" ime:horizontalGap="@dimen/qwerty_horizontal_gap" ime:verticalGap="@dimen/qwerty_vertical_gap" ime:sideGap="@dimen/qwerty_side_gap" ime:topGap="@dimen/qwerty_top_gap" ime:bottomGap="@dimen/qwerty_bottom_gap" ime:keyboardType="@string/keyboard_type_extendrow_emoticon_qwerty" ime:keyWidthRelative="@fraction/relative_qwerty_ordinary_key_width_symbol_emoticon_layout" ime:keyHeightRelative="@fraction/relative_qwerty_ordinary_key_height_symbol_emoticon_layout" ime:horizontalGapRelative="@fraction/relative_qwerty_ordinary_key_horizontal_gap_symbol_emoticon_layout" ime:verticalGapRelative="@fraction/relative_qwerty_ordinary_key_vertical_gap_symbol_emoticon_layout" ime:marginLeft="@fraction/relative_margin_left_symbol_emoticon_layout" ime:marginRight="@fraction/relative_margin_right_symbol_emoticon_layout" ime:marginTop="@fraction/relative_margin_top_symbol_emoticon_layout" ime:marginBottom="@fraction/relative_margin_bottom_symbol_emoticon_layout" ime:alignment="vertical_fit|horizontal_fit" ime:flickablePage="false"
+  xmlns:ime="http://schemas.android.com/apk/res/com.lgx.ime">
+    <Row ime:marginal="north">
+        <Key ime:keyBackground="@drawable/btn_keyboard_key_emoji" ime:keyWidth="100.0%" ime:horizontalGap="0.0dip" ime:keyWidthRelative="100.0%" ime:codes="0" ime:isModifier="true" ime:keyLabel="@string/keyboard_symbol_page_numbers" ime:keyXRelative="0.0%" ime:isPageIndicator="true" />
+    </Row>
+    <Row ime:keyWidthRelative="@fraction/relative_qwerty_ordinary_key_width_emoticon_layout" ime:flickable="true">
+        <Key ime:codes="-14" ime:keyEdgeFlags="left" ime:keyLabel="@string/row1_col1_qwerty_emoticons_character" ime:multitabSequence="@string/row1_col1_qwerty_emoticons_multitabSequence" ime:hitBox="@string/define_qwerty_key_left_edge_hitbox" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row1_col2_qwerty_emoticons_character" ime:multitabSequence="@string/row1_col2_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row1_col3_qwerty_emoticons_character" ime:multitabSequence="@string/row1_col3_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row1_col4_qwerty_emoticons_character" ime:multitabSequence="@string/row1_col4_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyEdgeFlags="right" ime:keyLabel="@string/row1_col5_qwerty_emoticons_character" ime:multitabSequence="@string/row1_col5_qwerty_emoticons_multitabSequence" ime:hitBox="@string/define_qwerty_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:keyWidthRelative="@fraction/relative_qwerty_ordinary_key_width_emoticon_layout" ime:flickable="true">
+        <Key ime:codes="-14" ime:keyEdgeFlags="left" ime:keyLabel="@string/row2_col1_qwerty_emoticons_character" ime:multitabSequence="@string/row2_col1_qwerty_emoticons_multitabSequence" ime:hitBox="@string/define_qwerty_key_left_edge_hitbox" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row2_col2_qwerty_emoticons_character" ime:multitabSequence="@string/row2_col2_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row2_col3_qwerty_emoticons_character" ime:multitabSequence="@string/row2_col3_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyLabel="@string/row2_col4_qwerty_emoticons_character" ime:multitabSequence="@string/row2_col4_qwerty_emoticons_multitabSequence" />
+        <Key ime:codes="-14" ime:keyEdgeFlags="right" ime:keyLabel="@string/row2_col5_qwerty_emoticons_character" ime:multitabSequence="@string/row2_col5_qwerty_emoticons_multitabSequence" ime:hitBox="@string/define_qwerty_key_right_bottom_edge_hitbox" />
+    </Row>
+    <Row ime:flickable="true">
+        <Key ime:keyWidth="@dimen/key_width" ime:codes="-41" ime:keyEdgeFlags="left" ime:isModifier="true" ime:keyLabel="left" ime:keyIcon="@drawable/ime_keypad_icon_back_normal" ime:hitBox="@string/define_qwerty_key_left_edge_hitbox" />
+        <Key ime:keyWidth="@dimen/key_width" ime:codes="-42" ime:isModifier="true" ime:keyLabel="right" ime:keyIcon="@drawable/ime_keypad_icon_next_normal" />
+        <Key ime:keyWidth="@dimen/qwerty_emoticons_3rd_row_key_width" ime:keyWidthRelative="@fraction/relative_qwerty_large_key_width_emoticon_layout" ime:codes="-14" ime:keyLabel="@string/row3_col1_qwerty_emoticons_character" ime:multitabSequence="@string/row3_col1_qwerty_emoticons_multitabSequence" />
+        <Key ime:keyWidth="@dimen/qwerty_emoticons_3rd_row_key_width" ime:keyWidthRelative="@fraction/relative_qwerty_large_key_width_emoticon_layout" ime:codes="-14" ime:keyLabel="@string/row3_col2_qwerty_emoticons_character" ime:multitabSequence="@string/row3_col2_qwerty_emoticons_multitabSequence" />
+        <ExtraRow ime:extraXml="@xml/kbd_qwerty_symbol_key_back" />
+    </Row>
+    <Row ime:rowEdgeFlags="bottom">
+        <ExtraRow ime:extraXml="@xml/kbd_symbol_emoticons_bottom" />
+    </Row>
+</LgeKeyboard>

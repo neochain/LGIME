@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="korean_input_mode_naratgul">나랏글</string>
+    <string name="korean_input_mode_chunjiin">천지인</string>
+</resources>

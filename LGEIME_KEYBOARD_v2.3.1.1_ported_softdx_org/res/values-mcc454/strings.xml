@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_functionkey">@string/primary_functionkey_is_handwriting</string>
+</resources>

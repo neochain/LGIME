@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/pref_keyboard_skin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="0.1" />
+    <ViewFlipper android:id="@id/viewflipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="0.1" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout_button" android:background="@drawable/btn_command_pressed_holo_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:id="@id/button_ok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
