@@ -177,7 +177,7 @@
     <string name="label_current_language">한</string>
     <string name="btn_str_abc">ㄱㄴㄷ</string>
     <string name="label_symbol">기호</string>
-    <string name="ime_name">LG 키보드(S)</string>
+    <string name="ime_name">LG 키보드</string>
     <string name="sp_handwriting_input_NORMAL">필기 입력</string>
     <string name="sp_pref_keyboard_layout_names_handwriting_NORMAL">필기 입력 설정</string>
     <string name="sp_pref_keyboard_layout_names_handwriting_f_NORMAL">스크린 입력</string>

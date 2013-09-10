@@ -2,7 +2,7 @@
 <resources>
     <bool name="enable_autocorrect">true</bool>
     <bool name="im_is_default">false</bool>
-    <bool name="voice_input_default">false</bool>
+    <bool name="voice_input_default">true</bool>
     <bool name="config_swipeDisambiguation">true</bool>
     <bool name="default_popup_preview">true</bool>
     <bool name="default_recorrection_enabled">true</bool>
@@ -30,10 +30,10 @@
     <bool name="common_input_default_auto_space">true</bool>
     <bool name="common_input_default_punctuation_list">true</bool>
     <bool name="pref_keyboard_sweeping">false</bool>
-    <bool name="ime_feature_reselection_after_clear_key">false</bool>
-    <bool name="ime_feature_handwriting_full">false</bool>
+    <bool name="ime_feature_reselection_after_clear_key">true</bool>
+    <bool name="ime_feature_handwriting_full">true</bool>
     <bool name="ime_feature_show_guide_popup">true</bool>
-    <bool name="ime_feature_show_one_hand_keyboard_vzw_popup">false</bool>
+    <bool name="ime_feature_show_one_hand_keyboard_vzw_popup">true</bool>
     <bool name="ime_feature_trace_transparent">true</bool>
     <bool name="pref_defval_trace_enabled">false</bool>
     <bool name="pref_defval_prediction">true</bool>
@@ -49,7 +49,7 @@
     <item type="bool" name="pref_defval_keypad_auto_correct">@bool/pref_defval_auto_correct</item>
     <item type="bool" name="pref_defval_qwerty_spell_correct">@bool/pref_defval_spell_correct</item>
     <item type="bool" name="pref_defval_qwerty_auto_correct">@bool/pref_defval_auto_correct</item>
-    <bool name="pref_auto_punctuation">false</bool>
+    <bool name="pref_auto_punctuation">true</bool>
     <bool name="pref_auto_cap">true</bool>
     <bool name="pref_voice_input">false</bool>
     <item type="bool" name="pref_handwriting_input">@bool/pref_defval_handwriting_option</item>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <fraction name="bias_keyboard_icon_padding_width">10.000002%</fraction>
-    <fraction name="define_keyboard_height_relative">37.5%</fraction>
+    <fraction name="define_keyboard_height_relative">32.000004%</fraction>
+    <fraction name="define_extend_keyboard_height_relative">37.0%</fraction>
 </resources>

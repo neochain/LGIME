@@ -29,11 +29,11 @@
     <fraction name="ExtendedMode_Keyboard_AspectRatio_Value">76.0%</fraction>
     <fraction name="NormalMode_Keyboard_AspectRatio_Value">68.00001%</fraction>
     <fraction name="define_minikeyboard_position_y_offset">200.0%</fraction>
-    <fraction name="define_keyboard_height_relative">37.600006%</fraction>
-    <fraction name="define_extend_keyboard_height_relative">47.000004%</fraction>
+    <fraction name="define_keyboard_height_relative">36.0%</fraction>
+    <fraction name="define_extend_keyboard_height_relative">39.999996%</fraction>
     <fraction name="relative_margin_left">0.99999905%</fraction>
     <fraction name="relative_margin_right">0.99999905%</fraction>
-    <fraction name="relative_margin_top">5.4999948%</fraction>
+    <fraction name="relative_margin_top">1.9999981%</fraction>
     <fraction name="relative_margin_bottom">0.99999905%</fraction>
     <fraction name="relative_qwerty_ordinary_key_width">9.700001%</fraction>
     <fraction name="relative_qwerty_ordinary_horizontal_gap">0.3000021%</fraction>
@@ -50,7 +50,7 @@
     <fraction name="relative_qwerty_enter_key_width">14.8%</fraction>
     <fraction name="relative_qwerty_dotcom_key_width">12.933004%</fraction>
     <fraction name="relative_qwerty_ordinary_key_height">22.060001%</fraction>
-    <fraction name="relative_qwerty_ordinary_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_qwerty_ordinary_vertical_gap">0.059998035%</fraction>
     <fraction name="relative_qwerty_key_x_2_1">5.2999973%</fraction>
     <fraction name="relative_qwerty_key_x_3_1">15.299999%</fraction>
     <fraction name="relative_qwerty_ordinary_key_width_for_alt_bottom">9.487497%</fraction>
@@ -87,7 +87,7 @@
     <fraction name="relative_phone_ordinary_key_width">21.903002%</fraction>
     <fraction name="relative_phone_ordinary_horizontal_gap">0.34999847%</fraction>
     <fraction name="relative_phone_ordinary_key_height">22.500002%</fraction>
-    <fraction name="relative_phone_ordinary_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_ordinary_vertical_gap">0.059998035%</fraction>
     <fraction name="relative_phone_left_key1_width">17.429996%</fraction>
     <item type="fraction" name="relative_phone_left_key2_width">@fraction/relative_phone_left_key1_width</item>
     <item type="fraction" name="relative_phone_left_key3_width">@fraction/relative_phone_left_key1_width</item>
@@ -107,7 +107,7 @@
     <fraction name="relative_phone_symbol_key_width">16.427004%</fraction>
     <fraction name="relative_phone_symbol_horizontal_gap">0.34999847%</fraction>
     <fraction name="relative_phone_symbol_key_height">22.500002%</fraction>
-    <fraction name="relative_phone_symbol_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_symbol_vertical_gap">0.059998035%</fraction>
     <fraction name="relative_phone_symbol_left_key1_width">17.429996%</fraction>
     <item type="fraction" name="relative_phone_symbol_left_key2_width">@fraction/relative_phone_symbol_left_key1_width</item>
     <item type="fraction" name="relative_phone_symbol_left_key3_width">@fraction/relative_phone_symbol_left_key1_width</item>
@@ -127,7 +127,7 @@
     <fraction name="relative_phone_numeric_key_width">23.699999%</fraction>
     <fraction name="relative_phone_numeric_horizontal_gap">0.31000376%</fraction>
     <fraction name="relative_phone_numeric_key_height">23.699999%</fraction>
-    <fraction name="relative_phone_numeric_vertical_gap">2.9600024%</fraction>
+    <fraction name="relative_phone_numeric_vertical_gap">0.059998035%</fraction>
     <fraction name="relative_phone_emoticons_key_width">33.203995%</fraction>
     <item type="fraction" name="relative_phone_emoticons_horizontal_gap">@fraction/relative_phone_symbol_horizontal_gap</item>
     <item type="fraction" name="relative_phone_emoticons_key_height">@fraction/relative_phone_symbol_key_height</item>
@@ -137,7 +137,7 @@
     <fraction name="relative_handwriting_ordinary_key_width">9.722221%</fraction>
     <fraction name="relative_handwriting_ordinary_horizontal_gap">0.2777815%</fraction>
     <fraction name="relative_handwriting_ordinary_key_height">22.807014%</fraction>
-    <fraction name="relative_handwriting_ordinary_vertical_gap">2.968967%</fraction>
+    <fraction name="relative_handwriting_ordinary_vertical_gap">0.068962574%</fraction>
     <fraction name="relative_handwriting_123_key_width">12.2222185%</fraction>
     <fraction name="relative_handwriting_language_key_width">12.31482%</fraction>
     <fraction name="relative_handwriting_emoticon_key_width">12.31482%</fraction>
